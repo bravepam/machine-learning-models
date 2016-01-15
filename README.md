@@ -1,4 +1,4 @@
- # The repository contains the simple implementation in C++ & Python of 12 machine learning models when I start to study machine learning
+<strong> The repository contains the simple implementation in C++ & Python of 12 machine learning models when I start to study machine learning </strong>
 
 * OS: Windows 8.1
 * Language: C++ & Python(3.4.3)
