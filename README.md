@@ -9,7 +9,7 @@
   * [k-nearest-neighbors] (/K-Nearest-Neighbor)
   * [Naive-Bayes] (/NaiveBayes)
   * [Decision Tree] (/DecisionTree)
-  * [Adaboost] (/Adaboost)
+  * [AdaBoost] (/AdaBoost)
   * [Gaussian Mixture Model] (/GMM_ExpectationMaximization)
   * [Hidden Markov Model] (/HiddenMarkovModel)
   * [FP-Growth] (/FPGrowth)
