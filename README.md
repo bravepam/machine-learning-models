@@ -6,7 +6,7 @@
 * OS: Windows 8.1
 * Language: C++ & Python(3.4.3)
 
-# Contents (C++)
+# Contents
  1.C++
   * [Perceptron] (/Perceptron)
   * [k-nearest-neighbors] (/K-Nearest-Neighbor)
