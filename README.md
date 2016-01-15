@@ -16,8 +16,8 @@
   * [Gaussian Mixture Model] (/GMM_ExpectationMaximization)
   * [Hidden Markov Model] (/HiddenMarkovModel)
   * [FP-Growth] (/FPGrowth)
-
- 2.Python
+  
+2.Python
   * [Logistic] (/Logistic)
   * [Support Vector Machine] (/SVM)
   * [KMeans] (/KMeans)
