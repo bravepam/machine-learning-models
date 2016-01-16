@@ -1,5 +1,11 @@
 ﻿# -*- coding:utf-8 -*-
 
+###########################################
+ # Author: bravepam
+ #
+ # E-mail:1372120340@qq.com
+###########################################
+ 
 from numpy import *
 import matplotlib.pyplot as plt
 

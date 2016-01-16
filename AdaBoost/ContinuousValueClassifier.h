@@ -1,3 +1,12 @@
+
+/*******************************************
+* Author: bravepam
+*
+* E-mail:1372120340@qq.com
+*******************************************
+*/
+
+
 #ifndef CONTINUOUSVALUECLASSIFIER_H
 #define CONTINUOUSVALUECLASSIFIER_H
 

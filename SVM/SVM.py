@@ -1,4 +1,11 @@
-# -*-coding:utf-8 -*-
+
+###########################################
+ # Author: bravepam
+ #
+ # E-mail:1372120340@qq.com
+###########################################
+ 
+ # -*-coding:utf-8 -*-
 
 from numpy import *
 import random

@@ -1,3 +1,12 @@
+
+/*******************************************
+* Author: bravepam
+*
+* E-mail:1372120340@qq.com
+*******************************************
+*/
+
+
 //#include<iostream>
 //#include<fstream>
 //#include<vector>
