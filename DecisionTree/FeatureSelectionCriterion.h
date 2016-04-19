@@ -1,14 +1,14 @@
 /**************************************************************************************
- *¸ÃÍ·ÎÄ¼ş°üº¬µÄÖ÷Òª¶¼ÊÇ¾ö²ßÊ÷ÌØÕ÷Ñ¡ÔñµÄ×¼Ôò£¬ÓĞËÄÖÖ£¬½á¹¹ÈçÏÂ£º
- *1¡¢criterionÊÇ°üº¬Èı¸ö¹«¹²Êı¾İµÄ»ùÀà£¬×÷ÎªÆäËû×¼ÔòÀàµÄ¸¸ÀàÊ¹ÓÃ£»
- *2¡¢InfoGain£º»ùÓÚĞÅÏ¢ÔöÒæÀ´Ñ¡ÔñÌØÕ÷£¬¼Ì³ĞÓÚcriterion¡£¶¨ÒåÁËÒ»Ğ©Ö÷ÒªµÄº¯Êı£¬
- *   °üÀ¨Èı¸öĞéº¯Êı
- *3¡¢InfoGainRatio£º»ùÓÚĞÅÏ¢ÔöÒæ±ÈÀ´Ñ¡ÔñÌØÕ÷£¬¼Ì³ĞÓÚInfoGain£¬ÓĞÒ»¸ö×Ô¼º
- *   µÄË½ÓĞº¯Êı£¬ÖØ¶¨ÒåÁËselectĞéº¯Êı£»
- *4¡¢Gini£ºÓĞÁ½ÖÖ£¬¶àÔª·Ö¸îºÍ¶şÔª·Ö¸î£¬»ùÓÚ»ùÄáÖ¸ÊıÀ´Ñ¡ÔñÌØÕ÷£¬¾ù¼Ì³ĞÓÚInfoGain£»
- *   Çø±ğÊÇÇ°Õß¸ù¾İ×îÓÅÌØÕ÷µÄÈ¡Öµ¸öÊıÉú³ÉÊı¾İ¼¯£¬ºÍÇ°Á½¸öÌØÕ÷Ñ¡Ôñ×¼ÔòÀàËÆ£»ºóÕßÔò»¹
- *   Òª´Ó×îÓÅÌØÕ÷ÖĞÑ¡³ö×îÓÅÈ¡Öµ£¬»ùÓÚµÈÓÚ»òÕß²»µÈÓÚ¸ÃÖµÉú³ÉÁ½¸öÊı¾İ¼¯
- *5¡¢LeastSquareError£º»ùÓÚ×îĞ¡Æ½·½ºÍÀ´Ñ¡ÔñÌØÕ÷£¬ÓÃÓÚÉú³É»Ø¹éÊ÷µÄÌØÕ÷Ñ¡Ôñ£¬ÎŞ»ùÀà
+ *è¯¥å¤´æ–‡ä»¶åŒ…å«çš„ä¸»è¦éƒ½æ˜¯å†³ç­–æ ‘ç‰¹å¾é€‰æ‹©çš„å‡†åˆ™ï¼Œæœ‰å››ç§ï¼Œç»“æ„å¦‚ä¸‹ï¼š
+ *1ã€criterionæ˜¯åŒ…å«ä¸‰ä¸ªå…¬å…±æ•°æ®çš„åŸºç±»ï¼Œä½œä¸ºå…¶ä»–å‡†åˆ™ç±»çš„çˆ¶ç±»ä½¿ç”¨ï¼›
+ *2ã€InfoGainï¼šåŸºäºä¿¡æ¯å¢ç›Šæ¥é€‰æ‹©ç‰¹å¾ï¼Œç»§æ‰¿äºcriterionã€‚å®šä¹‰äº†ä¸€äº›ä¸»è¦çš„å‡½æ•°ï¼Œ
+ *   åŒ…æ‹¬ä¸‰ä¸ªè™šå‡½æ•°
+ *3ã€InfoGainRatioï¼šåŸºäºä¿¡æ¯å¢ç›Šæ¯”æ¥é€‰æ‹©ç‰¹å¾ï¼Œç»§æ‰¿äºInfoGainï¼Œæœ‰ä¸€ä¸ªè‡ªå·±
+ *   çš„ç§æœ‰å‡½æ•°ï¼Œé‡å®šä¹‰äº†selectè™šå‡½æ•°ï¼›
+ *4ã€Giniï¼šæœ‰ä¸¤ç§ï¼Œå¤šå…ƒåˆ†å‰²å’ŒäºŒå…ƒåˆ†å‰²ï¼ŒåŸºäºåŸºå°¼æŒ‡æ•°æ¥é€‰æ‹©ç‰¹å¾ï¼Œå‡ç»§æ‰¿äºInfoGainï¼›
+ *   åŒºåˆ«æ˜¯å‰è€…æ ¹æ®æœ€ä¼˜ç‰¹å¾çš„å–å€¼ä¸ªæ•°ç”Ÿæˆæ•°æ®é›†ï¼Œå’Œå‰ä¸¤ä¸ªç‰¹å¾é€‰æ‹©å‡†åˆ™ç±»ä¼¼ï¼›åè€…åˆ™è¿˜
+ *   è¦ä»æœ€ä¼˜ç‰¹å¾ä¸­é€‰å‡ºæœ€ä¼˜å–å€¼ï¼ŒåŸºäºç­‰äºæˆ–è€…ä¸ç­‰äºè¯¥å€¼ç”Ÿæˆä¸¤ä¸ªæ•°æ®é›†
+ *5ã€LeastSquareErrorï¼šåŸºäºæœ€å°å¹³æ–¹å’Œæ¥é€‰æ‹©ç‰¹å¾ï¼Œç”¨äºç”Ÿæˆå›å½’æ ‘çš„ç‰¹å¾é€‰æ‹©ï¼Œæ— åŸºç±»
  **************************************************************************************/
 
 
@@ -23,9 +23,9 @@ using namespace std;
 
 template<typename T>
 struct sample
-{//Ñù±¾
-	vector<T> x;//Ñù±¾µã£¬¼´ÌØÕ÷
-	T y;//ÌØÕ÷È¡Öµ£¬¼´ËùÊôÀà±ğ
+{//æ ·æœ¬
+	vector<T> x;//æ ·æœ¬ç‚¹ï¼Œå³ç‰¹å¾
+	T y;//ç‰¹å¾å–å€¼ï¼Œå³æ‰€å±ç±»åˆ«
 	sample(vector<T> &_x, T _y) :x(move(_x)), y(_y){}
 	void print()const
 	{
@@ -42,31 +42,31 @@ struct sample
 
 //-------------------------------------------------------------------------------------------------------
 class criterion
-{//ÌØÕ÷Ñ¡Ôñ×¼ÔòĞé»ùÀà
+{//ç‰¹å¾é€‰æ‹©å‡†åˆ™åŸºç±»
 protected:
-	const vector<sample<int>> samples;//Ñù±¾¼¯ºÏ
-	vector<int> feature_values;//Ã¿¸öÌØÕ÷ËùÄÜÈ¡µÄÌØÕ÷ÖµµÄ¸öÊı
-	const int cls_num;//Àà±ğ¸öÊı
+	const vector<sample<int>> samples;//æ ·æœ¬é›†åˆ
+	vector<int> feature_values;//æ¯ä¸ªç‰¹å¾æ‰€èƒ½å–çš„ç‰¹å¾å€¼çš„ä¸ªæ•°
+	const int cls_num;//ç±»åˆ«ä¸ªæ•°
 
 protected:
-	//ÊÜ±£»¤µÄ¹¹Ôìº¯Êı£¬Ö»ÔÊĞí¼Ì³Ğ£¬²»ÔÊĞíÍâ²¿Ê¹ÓÃ
+	//å—ä¿æŠ¤çš„æ„é€ å‡½æ•°ï¼Œåªå…è®¸ç»§æ‰¿ï¼Œä¸å…è®¸å¤–éƒ¨ä½¿ç”¨
 	criterion(const vector<sample<int>> &d, const vector<int> &fv, int cn) :
 		samples(move(d)), feature_values(move(fv)), cls_num(cn){}
 };
 
 //-------------------------------------------------------------------------------------------------------
 class InfoGain :public criterion
-{//»ùÓÚĞÅÏ¢ÔöÒæµÄÌØÕ÷Ñ¡Ôñ£¬¼Ì³ĞÓÚ×¼Ôò»ùÀà
-	//½«ÊµÏÖËùÓĞµÄĞéº¯Êı
+{//åŸºäºä¿¡æ¯å¢ç›Šçš„ç‰¹å¾é€‰æ‹©ï¼Œç»§æ‰¿äºå‡†åˆ™åŸºç±»
+	//å°†å®ç°æ‰€æœ‰çš„è™šå‡½æ•°
 protected:
 	vector<int> countingClass(const vector<int>&, int)const;
 public:
 	InfoGain(const vector<sample<int>> &d, const vector<int> &fv, int cn) :criterion(d, fv, cn){}
 
-	//¼ì²éµ±Ç°Êı¾İ¼¯ÊÇ·ñÊÇÍ¬Ò»Àà±ğ£¬Èç¹ûÊÇ£¬Ôò·µ»ØtrueºÍÀà±ğÖµ£»
-	//Èç¹û²»ÊÇ£¬Ôò·µ»ØfalseºÍÕ¼¶àÊıµÄÀà±ğÖµ
+	//æ£€æŸ¥å½“å‰æ•°æ®é›†æ˜¯å¦æ˜¯åŒä¸€ç±»åˆ«ï¼Œå¦‚æœæ˜¯ï¼Œåˆ™è¿”å›trueå’Œç±»åˆ«å€¼ï¼›
+	//å¦‚æœä¸æ˜¯ï¼Œåˆ™è¿”å›falseå’Œå å¤šæ•°çš„ç±»åˆ«å€¼
 	pair<bool, int> checkData(const vector<int>&, vector<int>&)const;
-	inline bool hasFeature()const;//ÊÇ·ñ»¹ÓĞ¿ÉÓÃÌØÕ÷
+	inline bool hasFeature()const;//æ˜¯å¦è¿˜æœ‰å¯ç”¨ç‰¹å¾
 	int getSpecificFeatureValues(int fte_id)const
 	{
 		return feature_values[fte_id];
@@ -75,14 +75,14 @@ public:
 	{
 		feature_values[fte_id] = 0;
 	}
-	//¸¨Öú¼ÆËãìØÖµ£¬ÔÚ¼ÆËã¶àÂ··Ö¸îµÄginiÖ¸ÊıÊ±ÖØ¶¨Òå
+	//è¾…åŠ©è®¡ç®—ç†µå€¼ï¼Œåœ¨è®¡ç®—å¤šè·¯åˆ†å‰²çš„giniæŒ‡æ•°æ—¶é‡å®šä¹‰
 	virtual double entropyAux(int, const vector<int>&)const;
 
-	//¼ÆËãÊı¾İ¼¯Ïà¶ÔÓÚÀà±ğµÄìØ
+	//è®¡ç®—æ•°æ®é›†ç›¸å¯¹äºç±»åˆ«çš„ç†µ
 	double entropy(const vector<int>&, int)const;
-	//¼ÆËãÊı¾İ¼¯Ïà¶ÔÓÚÄ³Ò»ÌØÕ÷µÄÌõ¼şìØ
+	//è®¡ç®—æ•°æ®é›†ç›¸å¯¹äºæŸä¸€ç‰¹å¾çš„æ¡ä»¶ç†µ
 	double conditionalEntropy(const vector<int>&, int, vector<vector<int>>&)const;
-	//Ñ¡Ôñ×îÓÅ·Ö¸îÌØÕ÷
+	//é€‰æ‹©æœ€ä¼˜åˆ†å‰²ç‰¹å¾
 	virtual pair<double, int> select(const vector<int>&, vector<vector<int>>&)const;
 	virtual ~InfoGain(){}
 };
@@ -90,9 +90,9 @@ public:
 vector<int> InfoGain::countingClass(const vector<int> &samples_id,int fte_id)const
 {
 	int value_num = (fte_id == -1 ? cls_num : feature_values[fte_id]);
-	vector<int> specific_fte_value_count(value_num, 0);//¸÷ÌØÕ÷ÖµµÄËùÕ¼Ñù±¾Êı
+	vector<int> specific_fte_value_count(value_num, 0);//å„ç‰¹å¾å€¼çš„æ‰€å æ ·æœ¬æ•°
 	for (int i = 0; i != samples_id.size(); ++i)
-	{//Í³¼Æ¸÷ÌØÕ÷ÖµµÄÑù±¾Êı
+	{//ç»Ÿè®¡å„ç‰¹å¾å€¼çš„æ ·æœ¬æ•°
 		if (fte_id == -1)
 			++specific_fte_value_count[samples[samples_id[i]].y];
 		else
@@ -105,9 +105,9 @@ double InfoGain::entropyAux(int size,const vector<int> &specific_fte_value_count
 {
 	double epy = 0.0, prob = 0.0;
 	for (int k = 0; k != specific_fte_value_count.size(); ++k)
-	{//¼ÆËãìØ
+	{//è®¡ç®—ç†µ
 		if (specific_fte_value_count[k] > 0)
-		{//Êı¾İ×Ó¼¯±ØĞë´óÓÚ0
+		{//æ•°æ®å­é›†å¿…é¡»å¤§äº0
 			prob = specific_fte_value_count[k] * 1.0 / size;
 			epy += -prob * log2(prob);
 		}
@@ -116,13 +116,13 @@ double InfoGain::entropyAux(int size,const vector<int> &specific_fte_value_count
 }
 
 pair<bool, int> InfoGain::checkData(const vector<int> &samples_id, vector<int> &cls_count)const
-{//¼ì²éÊı¾İ¼¯
-	cls_count = countingClass(samples_id, -1);//Í³¼Æ¸÷ÀàÊıÄ¿
+{//æ£€æŸ¥æ•°æ®é›†
+	cls_count = countingClass(samples_id, -1);//ç»Ÿè®¡å„ç±»æ•°ç›®
 	int count = 0, cls_value = -1;
 	for (int k = 0; k != cls_count.size(); ++k)
 	{
 		if (cls_count[k] > count)
-		{//¼ÇÏÂÕ¼¶àÊıµÄÀà±ğ
+		{//è®°ä¸‹å å¤šæ•°çš„ç±»åˆ«
 			count = cls_count[k];
 			cls_value = k;
 		}
@@ -131,126 +131,126 @@ pair<bool, int> InfoGain::checkData(const vector<int> &samples_id, vector<int> &
 }
 
 bool InfoGain::hasFeature()const
-{//¼ì²éÊÇ·ñ»¹ÓĞÌØÕ÷¿ÉÓÃ
+{//æ£€æŸ¥æ˜¯å¦è¿˜æœ‰ç‰¹å¾å¯ç”¨
 	for (int i = 0; i != feature_values.size(); ++i)
 	{
-		//Èç¹ûÌØÕ÷È¡Öµ¸öÊı²»Îª0£¬ÔòËµÃ÷¿ÉÓÃ
+		//å¦‚æœç‰¹å¾å–å€¼ä¸ªæ•°ä¸ä¸º0ï¼Œåˆ™è¯´æ˜å¯ç”¨
 		if (feature_values[i] != 0) return true;
 	}
 	return false;
 }
 
-//fte_id¼´ÎªÌØÕ÷ID
+//fte_idå³ä¸ºç‰¹å¾ID
 double InfoGain::entropy(const vector<int> &samples_id, int fte_id)const
 {
 	vector<int> specific_fte_value_count = countingClass(samples_id, fte_id);
 	return entropyAux(samples_id.size(), specific_fte_value_count);
 }
 
-/*¼ÆËãÔÚÄ³Ò»ÌØÕ÷ÏÂµÄÌõ¼şìØ
-*fte_idÊÇ¸ÃÌØÕ÷ID£¬splited_data_idÊÇ·Ö¸îºóµÄ×ÓÊı¾İ¼¯¼¯ºÏ
+/*è®¡ç®—åœ¨æŸä¸€ç‰¹å¾ä¸‹çš„æ¡ä»¶ç†µ
+*fte_idæ˜¯è¯¥ç‰¹å¾IDï¼Œsplited_data_idæ˜¯åˆ†å‰²åçš„å­æ•°æ®é›†é›†åˆ
 */
 double InfoGain::conditionalEntropy(const vector<int> &samples_id, int fte_id, vector<vector<int>> &splited_data_id)const
 {
 	for (int i = 0; i != samples_id.size(); ++i)
 	{
-		//¸ù¾İÌØÕ÷fte_idµÄ¸÷¸öÈ¡Öµ·Ö¸îÊı¾İ¼¯
+		//æ ¹æ®ç‰¹å¾fte_idçš„å„ä¸ªå–å€¼åˆ†å‰²æ•°æ®é›†
 		splited_data_id[samples[samples_id[i]].x[fte_id]].push_back(samples_id[i]);
 	}
 	double cdl_epy = 0.0, prob = 0.0;
 	for (int k = 0; k != splited_data_id.size(); ++k)
-	{//¼ÆËãÌõ¼şìØ
+	{//è®¡ç®—æ¡ä»¶ç†µ
 		if (!splited_data_id[k].empty())
 		{
-			prob = splited_data_id[k].size() * 1.0 / samples_id.size();//¸ÃÊı¾İ×Ó¼¯ËùÕ¼×ÜÊı¾İ¼¯µÄÆµÂÊ
-			cdl_epy += prob * entropy(splited_data_id[k], -1);//Ìõ¼şìØ
+			prob = splited_data_id[k].size() * 1.0 / samples_id.size();//è¯¥æ•°æ®å­é›†æ‰€å æ€»æ•°æ®é›†çš„é¢‘ç‡
+			cdl_epy += prob * entropy(splited_data_id[k], -1);//æ¡ä»¶ç†µ
 		}
 	}
 	return cdl_epy;
 }
 
-/*Ñ¡Ôñ×îÓÅµÄ·Ö¸îÌØÕ÷
-*splited_data_idÊÇ×îÓÅ·Ö¸îºóµÄ×ÓÊı¾İ¼¯¼¯ºÏ
+/*é€‰æ‹©æœ€ä¼˜çš„åˆ†å‰²ç‰¹å¾
+*splited_data_idæ˜¯æœ€ä¼˜åˆ†å‰²åçš„å­æ•°æ®é›†é›†åˆ
 */
 pair<double, int> InfoGain::select(const vector<int> &samples_id, vector<vector<int>> &splited_data_id)const
 {
-	int split_fte_id = -1;//·Ö¸î±äÁ¿£¨ÌØÕ÷£©
-	//Ïà¶ÔÓÚÀà±ğµÄìØ
+	int split_fte_id = -1;//åˆ†å‰²å˜é‡ï¼ˆç‰¹å¾ï¼‰
+	//ç›¸å¯¹äºç±»åˆ«çš„ç†µ
 	double cls_epy = entropy(samples_id, -1), min_cdl_epy = INT_MAX;
 	for (int j = 0; j != feature_values.size(); ++j)
-	{//¶ÔÃ¿Ò»¸öÌØÕ÷
-		if (feature_values[j] == 0) continue;//±íÊ¾¸ÃÌØÕ÷ÒÑ¾­±»ÓÃ¹ıÁË
+	{//å¯¹æ¯ä¸€ä¸ªç‰¹å¾
+		if (feature_values[j] == 0) continue;//è¡¨ç¤ºè¯¥ç‰¹å¾å·²ç»è¢«ç”¨è¿‡äº†
 		vector<vector<int>> temp_splited_data(feature_values[j]);
-		//¶¼¼ÆËãËüµÄÌõ¼şìØ
+		//éƒ½è®¡ç®—å®ƒçš„æ¡ä»¶ç†µ
 		double ret = conditionalEntropy(samples_id, j, temp_splited_data);
 		if (ret < min_cdl_epy)
-		{//ÒÔÕÒ³öÆäÖĞ×îĞ¡µÄÌõ¼şìØ
+		{//ä»¥æ‰¾å‡ºå…¶ä¸­æœ€å°çš„æ¡ä»¶ç†µ
 			min_cdl_epy = ret;
-			split_fte_id = j;//¼ÇÏÂµ±Ç°×îÓÅ·Ö¸îÌØÕ÷
-			splited_data_id.swap(temp_splited_data);//ÒÔ¼°·Ö¸î×ÓÊı¾İ¼¯¼¯ºÏ
+			split_fte_id = j;//è®°ä¸‹å½“å‰æœ€ä¼˜åˆ†å‰²ç‰¹å¾
+			splited_data_id.swap(temp_splited_data);//ä»¥åŠåˆ†å‰²å­æ•°æ®é›†é›†åˆ
 		}
 	}
-	return pair<double, int>(cls_epy - min_cdl_epy, split_fte_id);//·µ»Ø×î´óĞÅÏ¢ÔöÒæºÍ·Ö¸îÌØÕ÷
+	return pair<double, int>(cls_epy - min_cdl_epy, split_fte_id);//è¿”å›æœ€å¤§ä¿¡æ¯å¢ç›Šå’Œåˆ†å‰²ç‰¹å¾
 }
 
 //-------------------------------------------------------------------------------------------------------
 class InfoGainRatio :public InfoGain
-{//»ùÓÚĞÅÏ¢ÔöÒæ±ÈµÄÌØÕ÷Ñ¡Ôñ£¬¼Ì³ĞÓÚĞÅÏ¢ÔöÒæ×¼Ôò
+{//åŸºäºä¿¡æ¯å¢ç›Šæ¯”çš„ç‰¹å¾é€‰æ‹©ï¼Œç»§æ‰¿äºä¿¡æ¯å¢ç›Šå‡†åˆ™
 private:
-	//×Ô¶¨ÒåµÄË½ÓĞ³ÉÔ±º¯Êı
+	//è‡ªå®šä¹‰çš„ç§æœ‰æˆå‘˜å‡½æ•°
 	double infoGainRatio(const double&, const vector<int>&, int, vector<vector<int>>&)const;
 public:
 	InfoGainRatio(const vector<sample<int>> &d, const vector<int> &fv, int cn) :
 		InfoGain(d, fv, cn){}
 	
-	//ÖØĞ´×îÓÅ·Ö¸îÌØÕ÷Ñ¡Ôñº¯Êı
+	//é‡å†™æœ€ä¼˜åˆ†å‰²ç‰¹å¾é€‰æ‹©å‡½æ•°
 	pair<double, int> select(const vector<int>&, vector<vector<int>>&)const;
 	virtual ~InfoGainRatio(){}
 };
 
-/*¼ÆËãĞÅÏ¢ÔöÒæ±È
-*fte_idÌØÕ÷ID
-*splited_data_idÎª·Ö¸îºóµÄ×ÓÊı¾İ¼¯¼¯ºÏ
+/*è®¡ç®—ä¿¡æ¯å¢ç›Šæ¯”
+*fte_idç‰¹å¾ID
+*splited_data_idä¸ºåˆ†å‰²åçš„å­æ•°æ®é›†é›†åˆ
 */
 double InfoGainRatio::infoGainRatio(const double &cls_epy, const vector<int> &samples_id, int fte_id, vector<vector<int>> &splited_data_id)const
 {
-	//Í¬Ñù£¬Ê¹ÓÃ»ùÀà³ÉÔ±¼ÆËãÔÚfte_idÌØÕ÷ÏÂµÄÌõ¼şìØ
+	//åŒæ ·ï¼Œä½¿ç”¨åŸºç±»æˆå‘˜è®¡ç®—åœ¨fte_idç‰¹å¾ä¸‹çš„æ¡ä»¶ç†µ
 	double ret = conditionalEntropy(samples_id, fte_id, splited_data_id);
-	double info_gain = cls_epy - ret;//µÃµ½ĞÅÏ¢ÔöÒæ
-	double fte_id_epy = entropy(samples_id, fte_id);//¼ÆËãÏà¶ÔÓÚfte_idÌØÕ÷µÄìØ
-	return info_gain / fte_id_epy;//µÃµ½ĞÅÏ¢ÔöÒæ±È
+	double info_gain = cls_epy - ret;//å¾—åˆ°ä¿¡æ¯å¢ç›Š
+	double fte_id_epy = entropy(samples_id, fte_id);//è®¡ç®—ç›¸å¯¹äºfte_idç‰¹å¾çš„ç†µ
+	return info_gain / fte_id_epy;//å¾—åˆ°ä¿¡æ¯å¢ç›Šæ¯”
 }
 
-/*Ñ¡Ôñ×îÓÅµÄ·Ö¸îÌØÕ÷
-*splited_data_idÊÇ×îÓÅ·Ö¸îºóµÄ×ÓÊı¾İ¼¯¼¯ºÏ
+/*é€‰æ‹©æœ€ä¼˜çš„åˆ†å‰²ç‰¹å¾
+*splited_data_idæ˜¯æœ€ä¼˜åˆ†å‰²åçš„å­æ•°æ®é›†é›†åˆ
 */
 pair<double, int> InfoGainRatio::select(const vector<int> &samples_id, vector<vector<int>> &splited_data_id)const
 {
 	double max_info_gain_ratio = 0.0, cls_epy = entropy(samples_id, -1);
-	int split_fte_id = -1;//·Ö¸îÌØÕ÷
+	int split_fte_id = -1;//åˆ†å‰²ç‰¹å¾
 	for (int j = 0; j != feature_values.size(); ++j)
-	{//¶ÔÃ¿Ò»¸öÌØÕ÷
-		if (feature_values[j] == 0) continue;//±íÊ¾¸ÃÌØÕ÷ÒÑ¾­±»ÓÃ¹ıÁË
+	{//å¯¹æ¯ä¸€ä¸ªç‰¹å¾
+		if (feature_values[j] == 0) continue;//è¡¨ç¤ºè¯¥ç‰¹å¾å·²ç»è¢«ç”¨è¿‡äº†
 		vector<vector<int>> temp_splited_data(feature_values[j]);
-		//¼ÆËã³öÔöÒæ±È
+		//è®¡ç®—å‡ºå¢ç›Šæ¯”
 		double info_gain_ratio = infoGainRatio(cls_epy, samples_id, j, temp_splited_data);
 		if (info_gain_ratio > max_info_gain_ratio)
-		{//ÒÔµÃµ½×î´óÔöÒæ±È
+		{//ä»¥å¾—åˆ°æœ€å¤§å¢ç›Šæ¯”
 			max_info_gain_ratio = info_gain_ratio;
-			split_fte_id = j;//¼ÇÏÂµ±Ç°×îÓÅ·Ö¸îÌØÕ÷
-			splited_data_id.swap(temp_splited_data);//ºÍ·Ö¸îÊı¾İ¼¯
+			split_fte_id = j;//è®°ä¸‹å½“å‰æœ€ä¼˜åˆ†å‰²ç‰¹å¾
+			splited_data_id.swap(temp_splited_data);//å’Œåˆ†å‰²æ•°æ®é›†
 		}
 	}
-	return pair<double, int>(max_info_gain_ratio, split_fte_id);//·µ»Ø×î´óÔöÒæ±ÈºÍ·Ö¸îÌØÕ÷
+	return pair<double, int>(max_info_gain_ratio, split_fte_id);//è¿”å›æœ€å¤§å¢ç›Šæ¯”å’Œåˆ†å‰²ç‰¹å¾
 }
 
 /*
 //-------------------------------------------------------------------------------------------------------
-//¶àÂ··Ö¸îµÄGiniÖ¸ÊıÌØÕ÷Ñ¡Ôñ×¼Ôò£¬ºÍÉÏÊöÁ½Õß·Ç³£ÀàËÆ¡£ÔÚID3ºÍC4.5Ëã·¨ÖĞ£¬Ö»Òª½«ÌØÕ÷Ñ¡Ôñ×¼Ôò³õÊ¼»¯Îª
-//Gini¼´¿ÉÊ¹ÓÃ£¬²»¹ıÎÒÃÇÊµÏÖÁËÁíÍâÒ»¸ö¶şÔª·Ö¸îµÄGiniÖ¸ÊıÌØÕ÷Ñ¡Ôñ×¼Ôò£¬ÒÔÓÃÓÚÊµÏÖ·ÖÀà»Ø¹éÊ÷£¨CART£©
+//å¤šè·¯åˆ†å‰²çš„GiniæŒ‡æ•°ç‰¹å¾é€‰æ‹©å‡†åˆ™ï¼Œå’Œä¸Šè¿°ä¸¤è€…éå¸¸ç±»ä¼¼ã€‚åœ¨ID3å’ŒC4.5ç®—æ³•ä¸­ï¼Œåªè¦å°†ç‰¹å¾é€‰æ‹©å‡†åˆ™åˆå§‹åŒ–ä¸º
+//Giniå³å¯ä½¿ç”¨ï¼Œä¸è¿‡æˆ‘ä»¬å®ç°äº†å¦å¤–ä¸€ä¸ªäºŒå…ƒåˆ†å‰²çš„GiniæŒ‡æ•°ç‰¹å¾é€‰æ‹©å‡†åˆ™ï¼Œä»¥ç”¨äºå®ç°åˆ†ç±»å›å½’æ ‘ï¼ˆCARTï¼‰
 
 class Gini :public InfoGain
-{//»ùÓÚ»ùÄáÖ¸ÊıµÄÌØÕ÷Ñ¡Ôñ×¼Ôò£¬¼Ì³ĞÓÚInfoGain
+{//åŸºäºåŸºå°¼æŒ‡æ•°çš„ç‰¹å¾é€‰æ‹©å‡†åˆ™ï¼Œç»§æ‰¿äºInfoGain
 public:
 	Gini(const vector<sample<int>> &d, const vector<int> &fv, int cn) :
 		InfoGain(d, fv, cn){}
@@ -260,32 +260,32 @@ public:
 	virtual ~Gini(){}
 };
 
-//Ñ¡Ôñ×îÓÅµÄ·Ö¸îÌØÕ÷
-//splited_data_idÊÇ×îÓÅ·Ö¸îºóµÄ×ÓÊı¾İ¼¯¼¯ºÏ
+//é€‰æ‹©æœ€ä¼˜çš„åˆ†å‰²ç‰¹å¾
+//splited_data_idæ˜¯æœ€ä¼˜åˆ†å‰²åçš„å­æ•°æ®é›†é›†åˆ
 //
 pair<double, int> Gini::select(const vector<int> &samples_id, vector<vector<int>> &splited_data_id)const
 {
 	double min_gini_index = INT_MAX;
 	int split_fte_id = -1;
 	for (int j = 0; j != feature_values.size(); ++j)
-	{//¶ÔÃ¿Ò»¸öÌØÕ÷
-		if (feature_values[j] == 0) continue;//±íÊ¾¸ÃÌØÕ÷ÒÑ¾­±»ÓÃ¹ıÁË
+	{//å¯¹æ¯ä¸€ä¸ªç‰¹å¾
+		if (feature_values[j] == 0) continue;//è¡¨ç¤ºè¯¥ç‰¹å¾å·²ç»è¢«ç”¨è¿‡äº†
 		vector<vector<int>> temp_splited_data(feature_values[j]);
-		//¼ÆËãËüµÄ×îĞ¡»ùÄáÖ¸ÊıºÍÏàÓ¦µÄÌØÕ÷È¡Öµ
+		//è®¡ç®—å®ƒçš„æœ€å°åŸºå°¼æŒ‡æ•°å’Œç›¸åº”çš„ç‰¹å¾å–å€¼
 		double ret = conditionalEntropy(samples_id, j, temp_splited_data);
 		if (ret < min_gini_index)
-		{//ÒÑÈ¡µÃ×îĞ¡»ùÄáÖ¸Êı
+		{//å·²å–å¾—æœ€å°åŸºå°¼æŒ‡æ•°
 			min_gini_index = ret;
-			split_fte_id = j;//¼ÇÏÂµ±Ç°·Ö¸îÌØÕ÷
-			splited_data_id.swap(temp_splited_data);//ÒÔ¼°·Ö¸îµÄ×ÓÊı¾İ¼¯¼¯ºÏ
+			split_fte_id = j;//è®°ä¸‹å½“å‰åˆ†å‰²ç‰¹å¾
+			splited_data_id.swap(temp_splited_data);//ä»¥åŠåˆ†å‰²çš„å­æ•°æ®é›†é›†åˆ
 		}
 	}
-	//ºÍInfoGainÏà±È£¬Gini²î±ğÖ»ÔÚµÚÒ»¸ö·µ»ØÖµ£¬Ç°ÕßÊÇĞÅÏ¢ÔöÒæ£¬ºóÕßÊÇ»ùÄáÖ¸Êı£¬Èç¹ûÒª·µ»ØµÄÊÇ»ùÄáÖ¸Êı²î£¬
-	//Ôò¸Ãº¯Êı¿É¸´ÓÃInfoGainµÄ
-	return pair<double, int>(min_gini_index,split_fte_id);//·µ»ØÈ«¾Ö×îĞ¡µÄ»ùÄáÖ¸ÊıºÍ×îÓÅ·Ö¸îÌØÕ÷
+	//å’ŒInfoGainç›¸æ¯”ï¼ŒGiniå·®åˆ«åªåœ¨ç¬¬ä¸€ä¸ªè¿”å›å€¼ï¼Œå‰è€…æ˜¯ä¿¡æ¯å¢ç›Šï¼Œåè€…æ˜¯åŸºå°¼æŒ‡æ•°ï¼Œå¦‚æœè¦è¿”å›çš„æ˜¯åŸºå°¼æŒ‡æ•°å·®ï¼Œ
+	//åˆ™è¯¥å‡½æ•°å¯å¤ç”¨InfoGainçš„
+	return pair<double, int>(min_gini_index,split_fte_id);//è¿”å›å…¨å±€æœ€å°çš„åŸºå°¼æŒ‡æ•°å’Œæœ€ä¼˜åˆ†å‰²ç‰¹å¾
 }
 
-//¼ÆËã»ùÄáÖ¸Êı£¬²»ÔÙÊÇìØÁË£¬´ËÊ±fte_idÖ»¿ÉÄÜÊÇ-1£¬¼´Àà±ğ
+//è®¡ç®—åŸºå°¼æŒ‡æ•°ï¼Œä¸å†æ˜¯ç†µäº†ï¼Œæ­¤æ—¶fte_idåªå¯èƒ½æ˜¯-1ï¼Œå³ç±»åˆ«
 double Gini::entropyAux(int size, const vector<int> &specific_fte_value_count)const
 {
 	double gini_index = 1.0, temp = 0.0;
@@ -300,7 +300,7 @@ double Gini::entropyAux(int size, const vector<int> &specific_fte_value_count)co
 
 //----------------------------------------------------------------------------------------------
 class Gini :public InfoGain
-{//»ùÓÚ»ùÄáÖ¸ÊıµÄÌØÕ÷Ñ¡Ôñ×¼Ôò£¬¼Ì³ĞÓÚInfoGain
+{//åŸºäºåŸºå°¼æŒ‡æ•°çš„ç‰¹å¾é€‰æ‹©å‡†åˆ™ï¼Œç»§æ‰¿äºInfoGain
 private:
 	pair<double, int> conditionalEntropy(const vector<int>&, int, vector<vector<int>>&)const;
 public:
@@ -310,66 +310,66 @@ public:
 	virtual ~Gini(){}
 };
 
-/*Ñ¡Ôñ×îÓÅµÄ·Ö¸îÌØÕ÷
-*splited_data_idÊÇ×îÓÅ·Ö¸îºóµÄ×ÓÊı¾İ¼¯¼¯ºÏ
+/*é€‰æ‹©æœ€ä¼˜çš„åˆ†å‰²ç‰¹å¾
+*splited_data_idæ˜¯æœ€ä¼˜åˆ†å‰²åçš„å­æ•°æ®é›†é›†åˆ
 */
 pair<double, int> Gini::select(const vector<int> &samples_id, vector<vector<int>> &splited_data_id)const
 {
 	double min_gini_index = INT_MAX;
-	//·Ö¸îÌØÕ÷ºÍ·Ö¸îÌØÕ÷µÄÈ¡Öµ 
+	//åˆ†å‰²ç‰¹å¾å’Œåˆ†å‰²ç‰¹å¾çš„å–å€¼ 
 	int split_fte_id = -1, split_fte_value = -1;
 	for (int j = 0; j != feature_values.size(); ++j)
-	{//¶ÔÃ¿Ò»¸öÌØÕ÷ 
-		if (feature_values[j] == 0) continue;//±íÊ¾¸ÃÌØÕ÷ÒÑ¾­±»ÓÃ¹ıÁË 
+	{//å¯¹æ¯ä¸€ä¸ªç‰¹å¾ 
+		if (feature_values[j] == 0) continue;//è¡¨ç¤ºè¯¥ç‰¹å¾å·²ç»è¢«ç”¨è¿‡äº† 
 		vector<vector<int>> temp_splited_data(2);
-		//¼ÆËãËüµÄ×îĞ¡»ùÄáÖ¸ÊıºÍÏàÓ¦µÄÌØÕ÷È¡Öµ 
+		//è®¡ç®—å®ƒçš„æœ€å°åŸºå°¼æŒ‡æ•°å’Œç›¸åº”çš„ç‰¹å¾å–å€¼ 
 		pair<double, int> ret = conditionalEntropy(samples_id, j, temp_splited_data);
 		if (ret.first < min_gini_index)
-		{//ÒÑÈ¡µÃÈ«¾Ö×îĞ¡µÄ»ùÄáÖ¸Êı 
+		{//å·²å–å¾—å…¨å±€æœ€å°çš„åŸºå°¼æŒ‡æ•° 
 			min_gini_index = ret.first;
-			split_fte_id = j;//¼ÇÏÂµ±Ç°·Ö¸îÌØÕ÷ 
-			split_fte_value = ret.second;//ºÍÌØÕ÷È¡Öµ 
-			splited_data_id.swap(temp_splited_data);//ÒÔ¼°·Ö¸îµÄ×ÓÊı¾İ¼¯¼¯ºÏ 
+			split_fte_id = j;//è®°ä¸‹å½“å‰åˆ†å‰²ç‰¹å¾ 
+			split_fte_value = ret.second;//å’Œç‰¹å¾å–å€¼ 
+			splited_data_id.swap(temp_splited_data);//ä»¥åŠåˆ†å‰²çš„å­æ•°æ®é›†é›†åˆ 
 		}
 	}
-	return pair<double, int>(split_fte_id, split_fte_value);//·µ»Ø×îÓÅ·Ö¸îÌØÕ÷ºÍÌØÕ÷È¡Öµ 
+	return pair<double, int>(split_fte_id, split_fte_value);//è¿”å›æœ€ä¼˜åˆ†å‰²ç‰¹å¾å’Œç‰¹å¾å–å€¼ 
 }
 
-//¼ÆËãÏÂÌØÕ÷fte_id·Ö¸îÏÂµÄ»ùÄáÖ¸Êı 
+//è®¡ç®—ä¸‹ç‰¹å¾fte_idåˆ†å‰²ä¸‹çš„åŸºå°¼æŒ‡æ•° 
 pair<double, int> Gini::conditionalEntropy(const vector<int> &samples_id, int fte_id,
 	vector<vector<int>> &splited_data_id)const
 {
 	vector<int> yes, no;
 	double min_gini_index = INT_MAX, gini_index = 0.0;
-	int split_value = -1;//·Ö¸îÌØÕ÷µÄÈ¡Öµ 
+	int split_value = -1;//åˆ†å‰²ç‰¹å¾çš„å–å€¼ 
 	for (int j = 0; j != feature_values[fte_id]; ++j)
-	{//¶ÔÃ¿Ò»¸öÌØÕ÷È¡Öµ 
+	{//å¯¹æ¯ä¸€ä¸ªç‰¹å¾å–å€¼ 
 		for (int i = 0; i != samples_id.size(); ++i)
-		{//Í³¼ÆµÈÓÚºÍ²»µÈÓÚ¸ÃÖµµÃÑù±¾Êı 
+		{//ç»Ÿè®¡ç­‰äºå’Œä¸ç­‰äºè¯¥å€¼å¾—æ ·æœ¬æ•° 
 			if (samples[samples_id[i]].x[fte_id] == j)
 				yes.push_back(samples_id[i]);
 			else no.push_back(samples_id[i]);
 		}
 		gini_index = (yes.size() * 1.0 / samples_id.size()) * entropy(yes, -1)
-			+ (no.size() * 1.0 / samples_id.size()) * entropy(no, -1);//ÒÔµÃµ½»ùÄáÖ¸Êı 
+			+ (no.size() * 1.0 / samples_id.size()) * entropy(no, -1);//ä»¥å¾—åˆ°åŸºå°¼æŒ‡æ•° 
 		if (gini_index < min_gini_index)
-		{//´Ó¶ø»ñµÃ¸ÃÌØÕ÷ÏÂ×îĞ¡µÄ»ùÄáÖ¸Êı 
+		{//ä»è€Œè·å¾—è¯¥ç‰¹å¾ä¸‹æœ€å°çš„åŸºå°¼æŒ‡æ•° 
 			min_gini_index = gini_index;
-			split_value = j;//¼ÇÏÂ 
-			splited_data_id[0].swap(yes);//·Ö¸îµÄ×ÓÊı¾İ¼¯Ö»ÓĞÁ½Àà 
+			split_value = j;//è®°ä¸‹ 
+			splited_data_id[0].swap(yes);//åˆ†å‰²çš„å­æ•°æ®é›†åªæœ‰ä¸¤ç±» 
 			splited_data_id[1].swap(no);
 		}
 		yes.clear();
 		no.clear();
 	}
-	return pair<double, int>(min_gini_index, split_value);//·µ»Ø¸ÃÌØÕ÷ÏÂ×îÓÅÌØÕ÷È¡ÖµºÍÏàÓ¦µÄ»ùÄáÖ¸Êı 
+	return pair<double, int>(min_gini_index, split_value);//è¿”å›è¯¥ç‰¹å¾ä¸‹æœ€ä¼˜ç‰¹å¾å–å€¼å’Œç›¸åº”çš„åŸºå°¼æŒ‡æ•° 
 }
 
 //-------------------------------------------------------------------------------------------------------
 class LeastSquareError
-{//×îĞ¡¶ş³ËÌØÕ÷Ñ¡Ôñ×¼Ôò£¬ÓÃÓÚ»Ø¹éÊ÷£¬Òò¶øÊı¾İµã¶¼ÊÇ¸¡µãÊı
+{//æœ€å°äºŒä¹˜ç‰¹å¾é€‰æ‹©å‡†åˆ™ï¼Œç”¨äºå›å½’æ ‘ï¼Œå› è€Œæ•°æ®ç‚¹éƒ½æ˜¯æµ®ç‚¹æ•°
 private:
-	vector<sample<double>> samples;//Êı¾İÑù±¾
+	vector<sample<double>> samples;//æ•°æ®æ ·æœ¬
 private:
 	double squareError(vector<int>&, int, double);
 	pair<double, double> specificFeatureMinSquareError(vector<int>&, int, vector<vector<int>>&);
@@ -385,9 +385,9 @@ public:
 	}
 };
 
-/*¼ÆËãÌØÕ÷jÏÂµÄÆ½·½²îÖ®ºÍ
-*jÊÇÌØÕ÷ID
-*avgÊÇ¸ÃÌØÕ÷ÏÂµÄÆ½¾ùÖµ
+/*è®¡ç®—ç‰¹å¾jä¸‹çš„å¹³æ–¹å·®ä¹‹å’Œ
+*jæ˜¯ç‰¹å¾ID
+*avgæ˜¯è¯¥ç‰¹å¾ä¸‹çš„å¹³å‡å€¼
 */
 double LeastSquareError::squareError(vector<int> &samples_id, int j, double avg)
 {
@@ -397,8 +397,8 @@ double LeastSquareError::squareError(vector<int> &samples_id, int j, double avg)
 	return se;
 }
 
-/*Ñ°ÕÒ×ÖÌØÕ÷jÏÂ×îÓÅµÄ·Ö¸îµã
-*splited_data_idÊÇ×îÓÅ·Ö¸îºóµÄ×ÓÊı¾İ¼¯¼¯ºÏ
+/*å¯»æ‰¾å­—ç‰¹å¾jä¸‹æœ€ä¼˜çš„åˆ†å‰²ç‚¹
+*splited_data_idæ˜¯æœ€ä¼˜åˆ†å‰²åçš„å­æ•°æ®é›†é›†åˆ
 */
 pair<double, double> LeastSquareError::specificFeatureMinSquareError(vector<int> &samples_id, int j,
 	vector<vector<int>> &splited_data_id)
@@ -406,57 +406,57 @@ pair<double, double> LeastSquareError::specificFeatureMinSquareError(vector<int>
 	double min_se = INT_MAX, min_split_value = INT_MAX;
 	vector<int> L, R;
 	for (int i = 0; i != samples_id.size(); ++i)
-	{//¶ÔÃ¿Ò»¸öÌØÕ÷jµÄÈ¡Öµ
-		//split_value¼ÇÏÂ¸ÃÖµ
+	{//å¯¹æ¯ä¸€ä¸ªç‰¹å¾jçš„å–å€¼
+		//split_valueè®°ä¸‹è¯¥å€¼
 		double split_value = samples[samples_id[i]].x[j], left_avg = 0.0, right_avg = 0.0;
 		for (int k = 0; k != samples_id.size(); ++k)
 		{
 			if (samples[samples_id[k]].x[j] <= split_value)
-			{//Í³¼Æ²»´óÓÚ¸ÃÖµµÄÑù±¾
+			{//ç»Ÿè®¡ä¸å¤§äºè¯¥å€¼çš„æ ·æœ¬
 				L.push_back(samples_id[k]);
 				left_avg += samples[samples_id[k]].x[j];
 			}
 			else
-			{//ÒÔ¼°´óÓÚ¸ÃÖµµÄÑù±¾
+			{//ä»¥åŠå¤§äºè¯¥å€¼çš„æ ·æœ¬
 				R.push_back(samples_id[k]);
 				right_avg += samples[samples_id[k]].x[j];
 			}
 		}
 		if (L.empty() || R.empty()) continue;
-		left_avg /= L.size();//¼ÆËã¾ùÖµ
+		left_avg /= L.size();//è®¡ç®—å‡å€¼
 		right_avg /= R.size();
-		double se = squareError(L, j, left_avg) + squareError(R, j, right_avg);//»ñµÃÆ½·½²îÖ®ºÍ
+		double se = squareError(L, j, left_avg) + squareError(R, j, right_avg);//è·å¾—å¹³æ–¹å·®ä¹‹å’Œ
 		if (se < min_se)
-		{//Èç¹ûÊÇµ±Ç°×îĞ¡µÄÆ½·½²î
+		{//å¦‚æœæ˜¯å½“å‰æœ€å°çš„å¹³æ–¹å·®
 			min_se = se;
-			min_split_value = split_value;//Ôò¼ÇÏÂ·Ö¸îÖµ
-			splited_data_id[0].swap(L);//ÒÔ¼°·Ö¸î×Ó¼¯
+			min_split_value = split_value;//åˆ™è®°ä¸‹åˆ†å‰²å€¼
+			splited_data_id[0].swap(L);//ä»¥åŠåˆ†å‰²å­é›†
 			splited_data_id[1].swap(R);
 		}
 		L.clear(); R.clear();
 	}
-	return pair<double, double>(min_se, min_split_value);//·µ»Ø¸ÃÌØÕ÷ÏÂµÄ×îĞ¡Æ½·½ºÍÒÔ¼°·Ö¸îµã
+	return pair<double, double>(min_se, min_split_value);//è¿”å›è¯¥ç‰¹å¾ä¸‹çš„æœ€å°å¹³æ–¹å’Œä»¥åŠåˆ†å‰²ç‚¹
 }
 
-//ÔÚÊı¾İ¼¯ÖĞÕÒµ½×îÓÅ·Ö¸îÌØÕ÷ºÍ×îÓÅ·Ö¸îµã
+//åœ¨æ•°æ®é›†ä¸­æ‰¾åˆ°æœ€ä¼˜åˆ†å‰²ç‰¹å¾å’Œæœ€ä¼˜åˆ†å‰²ç‚¹
 pair<double, int> LeastSquareError::select(vector<int> &samples_id, vector<vector<int>> &splited_data_id)
 {
 	double min_se = INT_MAX, min_split_value = INT_MAX;
-	int splited_fte_id = -1, fte_num = samples[samples_id[0]].x.size();//·Ö¸îÌØÕ÷ºÍÌØÕ÷×ÜÊı
+	int splited_fte_id = -1, fte_num = samples[samples_id[0]].x.size();//åˆ†å‰²ç‰¹å¾å’Œç‰¹å¾æ€»æ•°
 	for (int j = 0; j != fte_num; ++j)
-	{//¶ÔÃ¿Ò»¸öÌØÕ÷
+	{//å¯¹æ¯ä¸€ä¸ªç‰¹å¾
 		vector<vector<int>> temp_splited_data(2);
-		//¶¼¼ÆËãËüµÄ×îÓÅ·Ö¸îµãÒÔ¼°ÏàÓ¦µÄ×îĞ¡Æ½·½ºÍ
+		//éƒ½è®¡ç®—å®ƒçš„æœ€ä¼˜åˆ†å‰²ç‚¹ä»¥åŠç›¸åº”çš„æœ€å°å¹³æ–¹å’Œ
 		pair<double, double> se = specificFeatureMinSquareError(samples_id, j, temp_splited_data);
 		if (se.first < min_se)
-		{//Èç¹ûÊÇµ±Ç°×îÓÅ
+		{//å¦‚æœæ˜¯å½“å‰æœ€ä¼˜
 			min_se = se.first;
-			splited_fte_id = j;//Ôò¼ÇÏÂ¸ÃÌØÕ÷
-			min_split_value = se.second;//ºÍ·Ö¸îµã
-			splited_data_id.swap(temp_splited_data);//ÒÔ¼°·Ö¸î×Ó¼¯
+			splited_fte_id = j;//åˆ™è®°ä¸‹è¯¥ç‰¹å¾
+			min_split_value = se.second;//å’Œåˆ†å‰²ç‚¹
+			splited_data_id.swap(temp_splited_data);//ä»¥åŠåˆ†å‰²å­é›†
 		}
 	}
-	return pair<double, int>(min_split_value, splited_fte_id);//·µ»Ø×îÓÅ·Ö¸îÌØÕ÷ºÍ×îÓÅ·Ö¸îµã
+	return pair<double, int>(min_split_value, splited_fte_id);//è¿”å›æœ€ä¼˜åˆ†å‰²ç‰¹å¾å’Œæœ€ä¼˜åˆ†å‰²ç‚¹
 }
 
 #endif
