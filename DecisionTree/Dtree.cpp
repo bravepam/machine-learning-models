@@ -1,12 +1,3 @@
-
-/*******************************************
-* Author: bravepam
-*
-* E-mail:1372120340@qq.com
-*******************************************
-*/
-
-
 //#include<iostream>
 //#include<fstream>
 //#include<vector>
@@ -41,7 +32,9 @@
 //		}
 //	}
 //	vector<int> feature_values = { 3, 2, 2, 3 };
-//	ID3_Dtree dt(data, feature_values, 2, 0.1);
+//	C45tree dt(data.size(), 0.1, 1.0);
+//	//ID3tree dt(data.size(), 0.1);
+//	dt.initCriterion(data, feature_values, 2);
 //	dt.create();
 //	vector<int> vec = { 1, 1, 0, 0 };
 //	cout << dt.compute(vec) << endl;

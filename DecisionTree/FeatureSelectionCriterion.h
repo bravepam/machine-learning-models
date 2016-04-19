@@ -1,11 +1,13 @@
 /**************************************************************************************
  *该头文件包含的主要都是决策树特征选择的准则，有四种，结构如下：
- *1、criterion是包含三个纯虚函数的抽象基类，作为其他准则类的父类使用；
- *2、InfoGain：基于信息增益来选择特征，继承于criterion，重定义了三个纯虚函数，
- *   并有自己的数据成员；
+ *1、criterion是包含三个公共数据的基类，作为其他准则类的父类使用；
+ *2、InfoGain：基于信息增益来选择特征，继承于criterion。定义了一些主要的函数，
+ *   包括三个虚函数
  *3、InfoGainRatio：基于信息增益比来选择特征，继承于InfoGain，有一个自己
  *   的私有函数，重定义了select虚函数；
- *4、Gini：基于基尼指数来选择特征，继承于InfoGain，重定义了两个纯虚函数；
+ *4、Gini：有两种，多元分割和二元分割，基于基尼指数来选择特征，均继承于InfoGain；
+ *   区别是前者根据最优特征的取值个数生成数据集，和前两个特征选择准则类似；后者则还
+ *   要从最优特征中选出最优取值，基于等于或者不等于该值生成两个数据集
  *5、LeastSquareError：基于最小平方和来选择特征，用于生成回归树的特征选择，无基类
  **************************************************************************************/
 
@@ -61,7 +63,6 @@ protected:
 public:
 	InfoGain(const vector<sample<int>> &d, const vector<int> &fv, int cn) :criterion(d, fv, cn){}
 
-	//自定义的四个函数
 	//检查当前数据集是否是同一类别，如果是，则返回true和类别值；
 	//如果不是，则返回false和占多数的类别值
 	pair<bool, int> checkData(const vector<int>&, vector<int>&)const;
@@ -74,6 +75,7 @@ public:
 	{
 		feature_values[fte_id] = 0;
 	}
+	//辅助计算熵值，在计算多路分割的gini指数时重定义
 	virtual double entropyAux(int, const vector<int>&)const;
 
 	//计算数据集相对于类别的熵
@@ -242,7 +244,11 @@ pair<double, int> InfoGainRatio::select(const vector<int> &samples_id, vector<ve
 	return pair<double, int>(max_info_gain_ratio, split_fte_id);//返回最大增益比和分割特征
 }
 
+/*
 //-------------------------------------------------------------------------------------------------------
+//多路分割的Gini指数特征选择准则，和上述两者非常类似。在ID3和C4.5算法中，只要将特征选择准则初始化为
+//Gini即可使用，不过我们实现了另外一个二元分割的Gini指数特征选择准则，以用于实现分类回归树（CART）
+
 class Gini :public InfoGain
 {//基于基尼指数的特征选择准则，继承于InfoGain
 public:
@@ -254,9 +260,9 @@ public:
 	virtual ~Gini(){}
 };
 
-/*选择最优的分割特征
-*splited_data_id是最优分割后的子数据集集合
-*/
+//选择最优的分割特征
+//splited_data_id是最优分割后的子数据集集合
+//
 pair<double, int> Gini::select(const vector<int> &samples_id, vector<vector<int>> &splited_data_id)const
 {
 	double min_gini_index = INT_MAX;
@@ -268,14 +274,14 @@ pair<double, int> Gini::select(const vector<int> &samples_id, vector<vector<int>
 		//计算它的最小基尼指数和相应的特征取值
 		double ret = conditionalEntropy(samples_id, j, temp_splited_data);
 		if (ret < min_gini_index)
-		{//已取得
+		{//已取得最小基尼指数
 			min_gini_index = ret;
 			split_fte_id = j;//记下当前分割特征
 			splited_data_id.swap(temp_splited_data);//以及分割的子数据集集合
 		}
 	}
 	//和InfoGain相比，Gini差别只在第一个返回值，前者是信息增益，后者是基尼指数，如果要返回的是基尼指数差，
-	//则该函数可复用
+	//则该函数可复用InfoGain的
 	return pair<double, int>(min_gini_index,split_fte_id);//返回全局最小的基尼指数和最优分割特征
 }
 
@@ -289,6 +295,74 @@ double Gini::entropyAux(int size, const vector<int> &specific_fte_value_count)co
 		gini_index -= temp * temp;
 	}
 	return gini_index;
+}
+*/
+
+//----------------------------------------------------------------------------------------------
+class Gini :public InfoGain
+{//基于基尼指数的特征选择准则，继承于InfoGain
+private:
+	pair<double, int> conditionalEntropy(const vector<int>&, int, vector<vector<int>>&)const;
+public:
+	Gini(const vector<sample<int>> &d, const vector<int> &fv, int cn) :
+		InfoGain(d, fv, cn){}
+	pair<double, int> select(const vector<int>&, vector<vector<int>>&)const;
+	virtual ~Gini(){}
+};
+
+/*选择最优的分割特征
+*splited_data_id是最优分割后的子数据集集合
+*/
+pair<double, int> Gini::select(const vector<int> &samples_id, vector<vector<int>> &splited_data_id)const
+{
+	double min_gini_index = INT_MAX;
+	//分割特征和分割特征的取值 
+	int split_fte_id = -1, split_fte_value = -1;
+	for (int j = 0; j != feature_values.size(); ++j)
+	{//对每一个特征 
+		if (feature_values[j] == 0) continue;//表示该特征已经被用过了 
+		vector<vector<int>> temp_splited_data(2);
+		//计算它的最小基尼指数和相应的特征取值 
+		pair<double, int> ret = conditionalEntropy(samples_id, j, temp_splited_data);
+		if (ret.first < min_gini_index)
+		{//已取得全局最小的基尼指数 
+			min_gini_index = ret.first;
+			split_fte_id = j;//记下当前分割特征 
+			split_fte_value = ret.second;//和特征取值 
+			splited_data_id.swap(temp_splited_data);//以及分割的子数据集集合 
+		}
+	}
+	return pair<double, int>(split_fte_id, split_fte_value);//返回最优分割特征和特征取值 
+}
+
+//计算下特征fte_id分割下的基尼指数 
+pair<double, int> Gini::conditionalEntropy(const vector<int> &samples_id, int fte_id,
+	vector<vector<int>> &splited_data_id)const
+{
+	vector<int> yes, no;
+	double min_gini_index = INT_MAX, gini_index = 0.0;
+	int split_value = -1;//分割特征的取值 
+	for (int j = 0; j != feature_values[fte_id]; ++j)
+	{//对每一个特征取值 
+		for (int i = 0; i != samples_id.size(); ++i)
+		{//统计等于和不等于该值得样本数 
+			if (samples[samples_id[i]].x[fte_id] == j)
+				yes.push_back(samples_id[i]);
+			else no.push_back(samples_id[i]);
+		}
+		gini_index = (yes.size() * 1.0 / samples_id.size()) * entropy(yes, -1)
+			+ (no.size() * 1.0 / samples_id.size()) * entropy(no, -1);//以得到基尼指数 
+		if (gini_index < min_gini_index)
+		{//从而获得该特征下最小的基尼指数 
+			min_gini_index = gini_index;
+			split_value = j;//记下 
+			splited_data_id[0].swap(yes);//分割的子数据集只有两类 
+			splited_data_id[1].swap(no);
+		}
+		yes.clear();
+		no.clear();
+	}
+	return pair<double, int>(min_gini_index, split_value);//返回该特征下最优特征取值和相应的基尼指数 
 }
 
 //-------------------------------------------------------------------------------------------------------
