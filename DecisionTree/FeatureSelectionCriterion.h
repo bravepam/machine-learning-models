@@ -1,11 +1,3 @@
-
-/*******************************************
-* Author: bravepam
-*
-* E-mail:1372120340@qq.com
-*******************************************
-*/
-
 /**************************************************************************************
  *该头文件包含的主要都是决策树特征选择的准则，有四种，结构如下：
  *1、criterion是包含三个纯虚函数的抽象基类，作为其他准则类的父类使用；
@@ -49,11 +41,15 @@ struct sample
 //-------------------------------------------------------------------------------------------------------
 class criterion
 {//特征选择准则虚基类
-public:
-	virtual double entropy(const vector<int>&, int)const = 0;//计算熵
-	virtual double conditionalEntropy(const vector<int>&, int, vector<vector<int>>&)const = 0;//计算条件熵
-	//选择最优分割特征
-	virtual pair<double, int> select(const vector<int>&, vector<vector<int>>&)const = 0;
+protected:
+	const vector<sample<int>> samples;//样本集合
+	vector<int> feature_values;//每个特征所能取的特征值的个数
+	const int cls_num;//类别个数
+
+protected:
+	//受保护的构造函数，只允许继承，不允许外部使用
+	criterion(const vector<sample<int>> &d, const vector<int> &fv, int cn) :
+		samples(move(d)), feature_values(move(fv)), cls_num(cn){}
 };
 
 //-------------------------------------------------------------------------------------------------------
@@ -61,17 +57,11 @@ class InfoGain :public criterion
 {//基于信息增益的特征选择，继承于准则基类
 	//将实现所有的虚函数
 protected:
-	const vector<sample<int>> samples;//样本集合
-	vector<int> feature_values;//每个特征所能取的特征值的个数
-	const int cls_num;//类别个数
-protected:
 	vector<int> countingClass(const vector<int>&, int)const;
 public:
-	InfoGain(const vector<sample<int>> &d, const vector<int> &fv, int cn) :
-		samples(move(d)), feature_values(move(fv)), cls_num(cn){}
+	InfoGain(const vector<sample<int>> &d, const vector<int> &fv, int cn) :criterion(d, fv, cn){}
 
 	//自定义的四个函数
-
 	//检查当前数据集是否是同一类别，如果是，则返回true和类别值；
 	//如果不是，则返回false和占多数的类别值
 	pair<bool, int> checkData(const vector<int>&, vector<int>&)const;
@@ -84,12 +74,13 @@ public:
 	{
 		feature_values[fte_id] = 0;
 	}
-	double entropyAux(int, const vector<int>&)const;
+	virtual double entropyAux(int, const vector<int>&)const;
 
 	//计算数据集相对于类别的熵
-	virtual double entropy(const vector<int>&, int)const;
+	double entropy(const vector<int>&, int)const;
 	//计算数据集相对于某一特征的条件熵
-	virtual double conditionalEntropy(const vector<int>&, int, vector<vector<int>>&)const;
+	double conditionalEntropy(const vector<int>&, int, vector<vector<int>>&)const;
+	//选择最优分割特征
 	virtual pair<double, int> select(const vector<int>&, vector<vector<int>>&)const;
 	virtual ~InfoGain(){}
 };
@@ -183,21 +174,21 @@ pair<double, int> InfoGain::select(const vector<int> &samples_id, vector<vector<
 {
 	int split_fte_id = -1;//分割变量（特征）
 	//相对于类别的熵
-	double cls_epy = entropy(samples_id, -1), max_info_gain = 0.0;
+	double cls_epy = entropy(samples_id, -1), min_cdl_epy = INT_MAX;
 	for (int j = 0; j != feature_values.size(); ++j)
 	{//对每一个特征
 		if (feature_values[j] == 0) continue;//表示该特征已经被用过了
 		vector<vector<int>> temp_splited_data(feature_values[j]);
 		//都计算它的条件熵
 		double ret = conditionalEntropy(samples_id, j, temp_splited_data);
-		if (cls_epy - ret > max_info_gain)
-		{//以找出其中最大的信息增益
-			max_info_gain = cls_epy - ret;
+		if (ret < min_cdl_epy)
+		{//以找出其中最小的条件熵
+			min_cdl_epy = ret;
 			split_fte_id = j;//记下当前最优分割特征
 			splited_data_id.swap(temp_splited_data);//以及分割子数据集集合
 		}
 	}
-	return pair<double, int>(max_info_gain, split_fte_id);//返回最大信息增益和分割特征
+	return pair<double, int>(cls_epy - min_cdl_epy, split_fte_id);//返回最大信息增益和分割特征
 }
 
 //-------------------------------------------------------------------------------------------------------
@@ -205,12 +196,13 @@ class InfoGainRatio :public InfoGain
 {//基于信息增益比的特征选择，继承于信息增益准则
 private:
 	//自定义的私有成员函数
-	double infoGainRatio(const vector<int>&, int, vector<vector<int>>&)const;
+	double infoGainRatio(const double&, const vector<int>&, int, vector<vector<int>>&)const;
 public:
 	InfoGainRatio(const vector<sample<int>> &d, const vector<int> &fv, int cn) :
 		InfoGain(d, fv, cn){}
-	//重载最优分割特征选择函数，其实基类稍作修改就可以为其所用
-	virtual pair<double, int> select(const vector<int>&, vector<vector<int>>&)const;
+	
+	//重写最优分割特征选择函数
+	pair<double, int> select(const vector<int>&, vector<vector<int>>&)const;
 	virtual ~InfoGainRatio(){}
 };
 
@@ -218,9 +210,8 @@ public:
 *fte_id特征ID
 *splited_data_id为分割后的子数据集集合
 */
-double InfoGainRatio::infoGainRatio(const vector<int> &samples_id, int fte_id, vector<vector<int>> &splited_data_id)const
+double InfoGainRatio::infoGainRatio(const double &cls_epy, const vector<int> &samples_id, int fte_id, vector<vector<int>> &splited_data_id)const
 {
-	double cls_epy = entropy(samples_id, -1);//调用继承的基类成员计算相对于类别的熵
 	//同样，使用基类成员计算在fte_id特征下的条件熵
 	double ret = conditionalEntropy(samples_id, fte_id, splited_data_id);
 	double info_gain = cls_epy - ret;//得到信息增益
@@ -233,14 +224,14 @@ double InfoGainRatio::infoGainRatio(const vector<int> &samples_id, int fte_id, v
 */
 pair<double, int> InfoGainRatio::select(const vector<int> &samples_id, vector<vector<int>> &splited_data_id)const
 {
-	double max_info_gain_ratio = 0.0;
+	double max_info_gain_ratio = 0.0, cls_epy = entropy(samples_id, -1);
 	int split_fte_id = -1;//分割特征
 	for (int j = 0; j != feature_values.size(); ++j)
 	{//对每一个特征
 		if (feature_values[j] == 0) continue;//表示该特征已经被用过了
 		vector<vector<int>> temp_splited_data(feature_values[j]);
 		//计算出增益比
-		double info_gain_ratio = infoGainRatio(samples_id, j, temp_splited_data);
+		double info_gain_ratio = infoGainRatio(cls_epy, samples_id, j, temp_splited_data);
 		if (info_gain_ratio > max_info_gain_ratio)
 		{//以得到最大增益比
 			max_info_gain_ratio = info_gain_ratio;
@@ -257,8 +248,9 @@ class Gini :public InfoGain
 public:
 	Gini(const vector<sample<int>> &d, const vector<int> &fv, int cn) :
 		InfoGain(d, fv, cn){}
-	virtual double entropy(const vector<int>&, int)const;
-	virtual pair<double, int> select(const vector<int>&, vector<vector<int>>&)const;
+
+	double entropyAux(int, const vector<int>&)const;
+	pair<double, int> select(const vector<int>&, vector<vector<int>>&)const;
 	virtual ~Gini(){}
 };
 
@@ -276,23 +268,24 @@ pair<double, int> Gini::select(const vector<int> &samples_id, vector<vector<int>
 		//计算它的最小基尼指数和相应的特征取值
 		double ret = conditionalEntropy(samples_id, j, temp_splited_data);
 		if (ret < min_gini_index)
-		{//已取得全局最小的基尼指数
+		{//已取得
 			min_gini_index = ret;
 			split_fte_id = j;//记下当前分割特征
 			splited_data_id.swap(temp_splited_data);//以及分割的子数据集集合
 		}
 	}
-	return pair<double, int>(min_gini_index,split_fte_id);//返回最优分割特征和特征取值
+	//和InfoGain相比，Gini差别只在第一个返回值，前者是信息增益，后者是基尼指数，如果要返回的是基尼指数差，
+	//则该函数可复用
+	return pair<double, int>(min_gini_index,split_fte_id);//返回全局最小的基尼指数和最优分割特征
 }
 
 //计算基尼指数，不再是熵了，此时fte_id只可能是-1，即类别
-double Gini::entropy(const vector<int> &samples_id, int fte_id)const
+double Gini::entropyAux(int size, const vector<int> &specific_fte_value_count)const
 {
-	vector<int> specific_fte_value_count = countingClass(samples_id, fte_id);
 	double gini_index = 1.0, temp = 0.0;
 	for (int k = 0; k != specific_fte_value_count.size(); ++k)
 	{
-		temp = specific_fte_value_count[k] * 1.0 / samples_id.size();
+		temp = specific_fte_value_count[k] * 1.0 / size;
 		gini_index -= temp * temp;
 	}
 	return gini_index;
