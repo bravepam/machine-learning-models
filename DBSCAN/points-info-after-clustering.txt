@@ -1,0 +1,4507 @@
+cluster numbers: 31
+ID: 0 cluster ID: 0 Type: core [0.908148,0.0472496,]
+neighbors: 11	18	30	34	35	42	48	53	54	
+
+ID: 1 cluster ID: 0 Type: core [1.02574,0.147672,]
+neighbors: 7	16	19	29	37	52	60	83	
+
+ID: 2 cluster ID: 1 Type: core [1.06247,0.0166481,]
+neighbors: 6	22	55	
+
+ID: 3 cluster ID: 0 Type: core [0.967676,0.0160423,]
+neighbors: 8	20	25	34	35	
+
+ID: 4 cluster ID: 2 Type: core [0.999079,-0.0762325,]
+neighbors: 5	
+
+ID: 5 cluster ID: 2 Type: core [1.02761,-0.0376344,]
+neighbors: 4	17	
+
+ID: 6 cluster ID: 1 Type: core [1.06818,0.0585436,]
+neighbors: 2	22	55	
+
+ID: 7 cluster ID: 0 Type: core [1.00475,0.180435,]
+neighbors: 1	16	19	26	29	57	58	60	61	62	67	71	75	83	115	
+
+ID: 8 cluster ID: 0 Type: core [0.993783,0.057143,]
+neighbors: 3	9	14	24	31	41	74	
+
+ID: 9 cluster ID: 0 Type: core [1.02037,0.0899575,]
+neighbors: 8	14	24	31	37	41	74	
+
+ID: 10 cluster ID: 0 Type: core [1.12487,0.210939,]
+neighbors: 50	65	
+
+ID: 11 cluster ID: 0 Type: core [0.928447,0.0666027,]
+neighbors: 0	23	30	38	42	48	53	54	66	70	
+
+ID: 12 cluster ID: -1 Type: noise [1.13297,0.0754843,]
+neighbors: 
+
+ID: 13 cluster ID: -1 Type: noise [1.09207,-0.0489047,]
+neighbors: 
+
+ID: 14 cluster ID: 0 Type: core [0.997058,0.0749033,]
+neighbors: 8	9	24	31	41	70	74	
+
+ID: 15 cluster ID: 3 Type: core [1.07536,0.117477,]
+neighbors: 43	
+
+ID: 16 cluster ID: 0 Type: core [1.03897,0.159245,]
+neighbors: 1	7	19	29	37	52	60	75	83	
+
+ID: 17 cluster ID: 2 Type: core [1.01326,-0.0139034,]
+neighbors: 5	
+
+ID: 18 cluster ID: 0 Type: core [0.910559,0.0195509,]
+neighbors: 0	20	30	34	35	48	53	
+
+ID: 19 cluster ID: 0 Type: core [0.997095,0.162426,]
+neighbors: 1	7	16	26	29	37	56	57	58	61	62	67	83	
+
+ID: 20 cluster ID: 0 Type: core [0.931972,-0.00411792,]
+neighbors: 3	18	25	34	35	
+
+ID: 21 cluster ID: -1 Type: noise [0.86278,-0.0373492,]
+neighbors: 
+
+ID: 22 cluster ID: 1 Type: core [1.06914,0.0494634,]
+neighbors: 2	6	55	
+
+ID: 23 cluster ID: 0 Type: core [0.93309,0.113665,]
+neighbors: 11	33	36	38	40	42	44	46	49	54	56	66	68	70	
+
+ID: 24 cluster ID: 0 Type: core [0.99807,0.0644886,]
+neighbors: 8	9	14	31	41	74	
+
+ID: 25 cluster ID: 0 Type: core [0.960838,0.0144017,]
+neighbors: 3	20	34	35	
+
+ID: 26 cluster ID: 0 Type: core [0.994043,0.19206,]
+neighbors: 7	19	29	57	58	59	61	62	67	71	75	78	83	115	123	
+
+ID: 27 cluster ID: -1 Type: noise [1.15949,0.120401,]
+neighbors: 
+
+ID: 28 cluster ID: 4 Type: core [0.818396,0.234554,]
+neighbors: 94	
+
+ID: 29 cluster ID: 0 Type: core [0.995392,0.174692,]
+neighbors: 1	7	16	19	26	57	58	61	62	67	71	75	83	115	
+
+ID: 30 cluster ID: 0 Type: core [0.885115,0.0597672,]
+neighbors: 0	11	18	42	48	53	54	
+
+ID: 31 cluster ID: 0 Type: core [0.981395,0.072758,]
+neighbors: 8	9	14	24	41	70	74	
+
+ID: 32 cluster ID: 0 Type: core [0.921448,0.208122,]
+neighbors: 39	49	59	88	91	93	101	112	
+
+ID: 33 cluster ID: 0 Type: core [0.954518,0.13113,]
+neighbors: 23	36	38	44	46	49	56	57	61	66	68	70	
+
+ID: 34 cluster ID: 0 Type: core [0.935879,0.015528,]
+neighbors: 0	3	18	20	25	35	48	53	
+
+ID: 35 cluster ID: 0 Type: core [0.931146,0.0146518,]
+neighbors: 0	3	18	20	25	34	48	53	
+
+ID: 36 cluster ID: 0 Type: core [0.930536,0.126575,]
+neighbors: 23	33	38	40	44	46	49	54	56	66	68	70	
+
+ID: 37 cluster ID: 0 Type: core [1.02198,0.125657,]
+neighbors: 1	9	16	19	83	
+
+ID: 38 cluster ID: 0 Type: core [0.925434,0.115112,]
+neighbors: 11	23	33	36	40	42	44	46	49	54	56	66	68	70	
+
+ID: 39 cluster ID: 0 Type: core [0.914237,0.182451,]
+neighbors: 32	40	46	49	68	69	88	93	
+
+ID: 40 cluster ID: 0 Type: core [0.901445,0.139468,]
+neighbors: 23	36	38	39	44	46	49	54	66	68	69	
+
+ID: 41 cluster ID: 0 Type: core [0.985864,0.0736666,]
+neighbors: 8	9	14	24	31	70	74	
+
+ID: 42 cluster ID: 0 Type: core [0.908645,0.0733658,]
+neighbors: 0	11	23	30	38	48	53	54	66	
+
+ID: 43 cluster ID: 3 Type: core [1.08409,0.111281,]
+neighbors: 15	
+
+ID: 44 cluster ID: 0 Type: core [0.943448,0.124826,]
+neighbors: 23	33	36	38	40	46	49	54	56	61	66	68	70	
+
+ID: 45 cluster ID: 0 Type: core [1.07967,0.257282,]
+neighbors: 47	51	64	87	98	110	
+
+ID: 46 cluster ID: 0 Type: core [0.91527,0.144232,]
+neighbors: 23	33	36	38	39	40	44	49	66	68	69	
+
+ID: 47 cluster ID: 0 Type: core [1.04554,0.224828,]
+neighbors: 45	52	60	75	78	87	89	98	100	123	
+
+ID: 48 cluster ID: 0 Type: core [0.906593,0.0469771,]
+neighbors: 0	11	18	30	34	35	42	53	54	
+
+ID: 49 cluster ID: 0 Type: core [0.922835,0.158423,]
+neighbors: 23	32	33	36	38	39	40	44	46	57	61	68	69	
+
+ID: 50 cluster ID: 0 Type: core [1.09806,0.208687,]
+neighbors: 10	52	65	98	
+
+ID: 51 cluster ID: 0 Type: core [1.04153,0.275832,]
+neighbors: 45	64	77	80	87	89	100	107	110	
+
+ID: 52 cluster ID: 0 Type: core [1.05679,0.181481,]
+neighbors: 1	16	47	50	60	75	83	98	123	
+
+ID: 53 cluster ID: 0 Type: core [0.923356,0.0614207,]
+neighbors: 0	11	18	30	34	35	42	48	54	66	
+
+ID: 54 cluster ID: 0 Type: core [0.905188,0.0937801,]
+neighbors: 0	11	23	30	36	38	40	42	44	48	53	66	
+
+ID: 55 cluster ID: 1 Type: core [1.06875,0.0499207,]
+neighbors: 2	6	22	
+
+ID: 56 cluster ID: 0 Type: core [0.968599,0.130163,]
+neighbors: 19	23	33	36	38	44	57	61	68	70	
+
+ID: 57 cluster ID: 0 Type: core [0.970829,0.168943,]
+neighbors: 7	19	26	29	33	49	56	58	61	62	67	68	71	83	115	
+
+ID: 58 cluster ID: 0 Type: core [0.994981,0.192526,]
+neighbors: 7	19	26	29	57	59	61	62	67	71	75	78	83	100	115	123	
+
+ID: 59 cluster ID: 0 Type: core [0.966606,0.221945,]
+neighbors: 26	32	58	62	67	71	72	76	78	89	91	101	112	115	
+
+ID: 60 cluster ID: 0 Type: core [1.05027,0.175727,]
+neighbors: 1	7	16	47	52	75	83	98	123	
+
+ID: 61 cluster ID: 0 Type: core [0.965768,0.162472,]
+neighbors: 7	19	26	29	33	44	49	56	57	58	62	67	68	115	
+
+ID: 62 cluster ID: 0 Type: core [0.982966,0.187799,]
+neighbors: 7	19	26	29	57	58	59	61	67	71	75	78	83	115	
+
+ID: 63 cluster ID: 0 Type: core [0.953764,0.329196,]
+neighbors: 82	84	85	90	92	96	103	104	105	108	109	111	113	116	117	126	138	147	157	
+
+ID: 64 cluster ID: 0 Type: core [1.0385,0.278697,]
+neighbors: 45	51	77	80	87	89	100	107	110	
+
+ID: 65 cluster ID: 0 Type: core [1.14408,0.219721,]
+neighbors: 10	50	
+
+ID: 66 cluster ID: 0 Type: core [0.92634,0.102216,]
+neighbors: 11	23	33	36	38	40	42	44	46	53	54	68	70	
+
+ID: 67 cluster ID: 0 Type: core [0.984142,0.196426,]
+neighbors: 7	19	26	29	57	58	59	61	62	71	75	78	83	91	115	
+
+ID: 68 cluster ID: 0 Type: core [0.935831,0.141763,]
+neighbors: 23	33	36	38	39	40	44	46	49	56	57	61	66	70	
+
+ID: 69 cluster ID: 0 Type: core [0.881274,0.145979,]
+neighbors: 39	40	46	49	93	
+
+ID: 70 cluster ID: 0 Type: core [0.958571,0.106057,]
+neighbors: 11	14	23	31	33	36	38	41	44	56	66	68	
+
+ID: 71 cluster ID: 0 Type: core [0.971928,0.218051,]
+neighbors: 7	26	29	57	58	59	62	67	72	76	78	89	91	101	112	115	
+
+ID: 72 cluster ID: 0 Type: core [0.966874,0.246155,]
+neighbors: 59	71	76	78	89	91	101	112	115	
+
+ID: 73 cluster ID: 0 Type: core [0.896443,0.346865,]
+neighbors: 97	103	109	111	117	122	126	127	134	143	147	157	160	
+
+ID: 74 cluster ID: 0 Type: core [1.01262,0.0530187,]
+neighbors: 8	9	14	24	31	41	
+
+ID: 75 cluster ID: 0 Type: core [1.02754,0.204334,]
+neighbors: 7	16	26	29	47	52	58	60	62	67	78	83	89	98	100	115	123	
+
+ID: 76 cluster ID: 0 Type: core [0.963562,0.261899,]
+neighbors: 59	71	72	78	84	85	89	91	101	112	113	
+
+ID: 77 cluster ID: 0 Type: core [1.04557,0.30233,]
+neighbors: 51	64	79	80	87	107	110	
+
+ID: 78 cluster ID: 0 Type: core [1.00226,0.230906,]
+neighbors: 26	47	58	59	62	67	71	72	75	76	80	89	100	115	123	
+
+ID: 79 cluster ID: 0 Type: core [1.06936,0.345465,]
+neighbors: 77	99	124	
+
+ID: 80 cluster ID: 0 Type: core [1.02183,0.270779,]
+neighbors: 51	64	77	78	87	89	100	107	110	
+
+ID: 81 cluster ID: 0 Type: core [0.948386,0.413591,]
+neighbors: 95	106	128	137	140	148	152	166	171	
+
+ID: 82 cluster ID: 0 Type: core [0.954087,0.32848,]
+neighbors: 63	84	85	90	92	96	103	104	105	108	109	111	113	116	117	126	138	147	157	
+
+ID: 83 cluster ID: 0 Type: core [1.01715,0.172726,]
+neighbors: 1	7	16	19	26	29	37	52	57	58	60	62	67	75	
+
+ID: 84 cluster ID: 0 Type: core [0.971929,0.308774,]
+neighbors: 63	76	82	85	90	92	96	104	107	108	113	116	138	157	
+
+ID: 85 cluster ID: 0 Type: core [0.938057,0.297999,]
+neighbors: 63	76	82	84	90	92	96	103	104	109	113	117	126	157	
+
+ID: 86 cluster ID: 0 Type: core [1.01367,0.378692,]
+neighbors: 105	106	108	124	130	132	
+
+ID: 87 cluster ID: 0 Type: core [1.04977,0.274173,]
+neighbors: 45	47	51	64	77	80	89	100	107	110	
+
+ID: 88 cluster ID: 0 Type: core [0.903826,0.226114,]
+neighbors: 32	39	91	93	101	
+
+ID: 89 cluster ID: 0 Type: core [1.00846,0.246566,]
+neighbors: 47	51	59	64	71	72	75	76	78	80	87	100	110	115	123	
+
+ID: 90 cluster ID: 0 Type: core [0.962201,0.316293,]
+neighbors: 63	82	84	85	92	96	103	104	105	108	109	111	113	116	117	138	147	157	
+
+ID: 91 cluster ID: 0 Type: core [0.944278,0.223898,]
+neighbors: 32	59	67	71	72	76	88	101	112	115	
+
+ID: 92 cluster ID: 0 Type: core [0.949347,0.311685,]
+neighbors: 63	82	84	85	90	96	103	104	109	111	113	116	117	126	138	147	157	
+
+ID: 93 cluster ID: 0 Type: core [0.883947,0.191697,]
+neighbors: 32	39	69	88	
+
+ID: 94 cluster ID: 4 Type: core [0.809361,0.204507,]
+neighbors: 28	
+
+ID: 95 cluster ID: 0 Type: core [0.955123,0.393744,]
+neighbors: 81	105	106	108	111	116	128	132	147	152	166	
+
+ID: 96 cluster ID: 0 Type: core [0.975064,0.318008,]
+neighbors: 63	82	84	85	90	92	104	105	107	108	116	138	147	157	
+
+ID: 97 cluster ID: 0 Type: core [0.863987,0.355942,]
+neighbors: 73	102	114	122	127	129	133	134	136	143	160	180	
+
+ID: 98 cluster ID: 0 Type: core [1.05906,0.220099,]
+neighbors: 45	47	50	52	60	75	100	123	
+
+ID: 99 cluster ID: 0 Type: core [1.10079,0.35698,]
+neighbors: 79	124	
+
+ID: 100 cluster ID: 0 Type: core [1.02531,0.231572,]
+neighbors: 47	51	58	64	75	78	80	87	89	98	123	
+
+ID: 101 cluster ID: 0 Type: core [0.93176,0.239776,]
+neighbors: 32	59	71	72	76	88	91	112	113	
+
+ID: 102 cluster ID: 0 Type: core [0.855507,0.381731,]
+neighbors: 97	122	129	133	136	143	169	180	
+
+ID: 103 cluster ID: 0 Type: core [0.915503,0.314519,]
+neighbors: 63	73	82	85	90	92	109	111	113	117	122	126	127	134	147	157	160	
+
+ID: 104 cluster ID: 0 Type: core [0.971116,0.327214,]
+neighbors: 63	82	84	85	90	92	96	105	107	108	109	111	116	117	138	147	157	
+
+ID: 105 cluster ID: 0 Type: core [0.974786,0.362017,]
+neighbors: 63	82	86	90	95	96	104	106	108	111	116	138	147	157	
+
+ID: 106 cluster ID: 0 Type: core [0.96727,0.378212,]
+neighbors: 81	86	95	105	108	111	116	132	147	152	
+
+ID: 107 cluster ID: 0 Type: core [1.01522,0.306027,]
+neighbors: 51	64	77	80	84	87	96	104	110	138	
+
+ID: 108 cluster ID: 0 Type: core [0.972118,0.35674,]
+neighbors: 63	82	84	86	90	95	96	104	105	106	111	116	138	147	157	
+
+ID: 109 cluster ID: 0 Type: core [0.922336,0.319308,]
+neighbors: 63	73	82	85	90	92	103	104	111	113	117	122	126	127	134	147	157	160	
+
+ID: 110 cluster ID: 0 Type: core [1.04367,0.279691,]
+neighbors: 45	51	64	77	80	87	89	107	
+
+ID: 111 cluster ID: 0 Type: core [0.935744,0.355588,]
+neighbors: 63	73	82	90	92	95	103	104	105	106	108	109	116	117	126	127	134	147	157	160	
+
+ID: 112 cluster ID: 0 Type: core [0.94973,0.248567,]
+neighbors: 32	59	71	72	76	91	101	113	115	
+
+ID: 113 cluster ID: 0 Type: core [0.933686,0.287137,]
+neighbors: 63	76	82	84	85	90	92	101	103	109	112	117	126	157	
+
+ID: 114 cluster ID: 0 Type: core [0.851186,0.309864,]
+neighbors: 97	119	122	
+
+ID: 115 cluster ID: 0 Type: core [0.979138,0.210332,]
+neighbors: 7	26	29	57	58	59	61	62	67	71	72	75	78	89	91	112	
+
+ID: 116 cluster ID: 0 Type: core [0.96507,0.346995,]
+neighbors: 63	82	84	90	92	95	96	104	105	106	108	111	117	138	147	157	
+
+ID: 117 cluster ID: 0 Type: core [0.924462,0.332385,]
+neighbors: 63	73	82	85	90	92	103	104	109	111	113	116	122	126	127	134	147	157	160	
+
+ID: 118 cluster ID: 0 Type: core [1.02715,0.443018,]
+neighbors: 130	132	159	
+
+ID: 119 cluster ID: 0 Type: core [0.867459,0.265525,]
+neighbors: 114	
+
+ID: 120 cluster ID: 0 Type: core [0.999332,0.486127,]
+neighbors: 121	165	179	
+
+ID: 121 cluster ID: 0 Type: core [0.968519,0.471834,]
+neighbors: 120	165	166	
+
+ID: 122 cluster ID: 0 Type: core [0.880887,0.339506,]
+neighbors: 73	97	102	103	109	114	117	126	127	133	134	160	
+
+ID: 123 cluster ID: 0 Type: core [1.03301,0.22193,]
+neighbors: 26	47	52	58	60	75	78	89	98	100	
+
+ID: 124 cluster ID: 0 Type: core [1.05758,0.358476,]
+neighbors: 79	86	99	
+
+ID: 125 cluster ID: 0 Type: core [0.792682,0.427358,]
+neighbors: 142	144	145	151	155	164	173	176	193	
+
+ID: 126 cluster ID: 0 Type: core [0.904834,0.320054,]
+neighbors: 63	73	82	85	92	103	109	111	113	117	122	127	134	147	157	160	
+
+ID: 127 cluster ID: 0 Type: core [0.892312,0.33919,]
+neighbors: 73	97	103	109	111	117	122	126	134	147	157	160	
+
+ID: 128 cluster ID: 0 Type: core [0.934048,0.423835,]
+neighbors: 81	95	137	140	141	148	152	153	154	162	166	171	
+
+ID: 129 cluster ID: 0 Type: core [0.830256,0.389274,]
+neighbors: 97	102	133	136	145	169	180	
+
+ID: 130 cluster ID: 0 Type: core [1.0141,0.398238,]
+neighbors: 86	118	132	
+
+ID: 131 cluster ID: 0 Type: core [0.912493,0.497554,]
+neighbors: 148	149	153	162	172	189	194	201	207	
+
+ID: 132 cluster ID: 0 Type: core [0.998981,0.406761,]
+neighbors: 86	95	106	118	130	
+
+ID: 133 cluster ID: 0 Type: core [0.864768,0.386539,]
+neighbors: 97	102	122	129	136	141	143	154	169	180	
+
+ID: 134 cluster ID: 0 Type: core [0.900184,0.336325,]
+neighbors: 73	97	103	109	111	117	122	126	127	147	157	160	
+
+ID: 135 cluster ID: 0 Type: core [0.892021,0.554047,]
+neighbors: 139	150	172	177	189	201	207	226	
+
+ID: 136 cluster ID: 0 Type: core [0.854883,0.392393,]
+neighbors: 97	102	129	133	141	143	145	154	169	180	
+
+ID: 137 cluster ID: 0 Type: core [0.914654,0.429226,]
+neighbors: 81	128	140	141	143	148	152	153	154	162	166	171	194	
+
+ID: 138 cluster ID: 0 Type: core [0.986868,0.316981,]
+neighbors: 63	82	84	90	92	96	104	105	107	108	116	
+
+ID: 139 cluster ID: 0 Type: core [0.890488,0.569009,]
+neighbors: 135	150	172	177	189	207	226	
+
+ID: 140 cluster ID: 0 Type: core [0.907149,0.422996,]
+neighbors: 81	128	137	141	143	148	152	153	154	162	166	171	
+
+ID: 141 cluster ID: 0 Type: core [0.890209,0.425886,]
+neighbors: 128	133	136	137	140	143	148	153	154	162	171	180	
+
+ID: 142 cluster ID: 0 Type: core [0.779611,0.439384,]
+neighbors: 125	144	151	155	164	173	176	193	
+
+ID: 143 cluster ID: 0 Type: core [0.886207,0.394327,]
+neighbors: 73	97	102	133	136	137	140	141	154	160	169	171	180	
+
+ID: 144 cluster ID: 0 Type: core [0.776205,0.415953,]
+neighbors: 125	142	151	155	164	173	176	
+
+ID: 145 cluster ID: 0 Type: core [0.834818,0.43569,]
+neighbors: 125	129	136	151	155	161	169	176	180	184	187	193	
+
+ID: 146 cluster ID: 0 Type: core [0.814943,0.495223,]
+neighbors: 151	161	163	175	183	186	187	193	197	217	
+
+ID: 147 cluster ID: 0 Type: core [0.935969,0.348468,]
+neighbors: 63	73	82	90	92	95	96	103	104	105	106	108	109	111	116	117	126	127	134	157	160	
+
+ID: 148 cluster ID: 0 Type: core [0.921144,0.454523,]
+neighbors: 81	128	131	137	140	141	149	152	153	154	162	166	171	194	
+
+ID: 149 cluster ID: 0 Type: core [0.907544,0.501312,]
+neighbors: 131	148	162	172	189	194	201	207	
+
+ID: 150 cluster ID: 0 Type: core [0.847204,0.552811,]
+neighbors: 135	139	163	170	172	175	177	188	190	196	198	202	211	
+
+ID: 151 cluster ID: 0 Type: core [0.803696,0.453599,]
+neighbors: 125	142	144	145	146	155	161	164	176	184	187	193	197	
+
+ID: 152 cluster ID: 0 Type: core [0.946601,0.420655,]
+neighbors: 81	95	106	128	137	140	148	153	166	171	
+
+ID: 153 cluster ID: 0 Type: core [0.914749,0.451483,]
+neighbors: 128	131	137	140	141	148	152	154	162	166	171	194	
+
+ID: 154 cluster ID: 0 Type: core [0.886494,0.423128,]
+neighbors: 128	133	136	137	140	141	143	148	153	162	171	180	184	
+
+ID: 155 cluster ID: 0 Type: core [0.8068,0.441046,]
+neighbors: 125	142	144	145	151	161	164	169	176	184	187	193	
+
+ID: 156 cluster ID: 0 Type: core [0.803349,0.637967,]
+neighbors: 195	200	210	213	222	224	227	229	237	238	254	
+
+ID: 157 cluster ID: 0 Type: core [0.93565,0.335031,]
+neighbors: 63	73	82	84	85	90	92	96	103	104	105	108	109	111	113	116	117	126	127	134	147	160	
+
+ID: 158 cluster ID: -1 Type: noise [1.09232,0.627336,]
+neighbors: 
+
+ID: 159 cluster ID: 0 Type: core [1.04357,0.451753,]
+neighbors: 118	
+
+ID: 160 cluster ID: 0 Type: core [0.90324,0.354375,]
+neighbors: 73	97	103	109	111	117	122	126	127	134	143	147	157	
+
+ID: 161 cluster ID: 0 Type: core [0.840142,0.47824,]
+neighbors: 145	146	151	155	175	183	184	187	193	197	
+
+ID: 162 cluster ID: 0 Type: core [0.912785,0.459933,]
+neighbors: 128	131	137	140	141	148	149	153	154	166	171	194	
+
+ID: 163 cluster ID: 0 Type: core [0.807896,0.538564,]
+neighbors: 146	150	170	175	181	183	186	188	190	196	197	198	202	203	211	217	
+
+ID: 164 cluster ID: 0 Type: core [0.773474,0.45456,]
+neighbors: 125	142	144	151	155	173	176	
+
+ID: 165 cluster ID: 0 Type: core [0.981905,0.513939,]
+neighbors: 120	121	167	179	
+
+ID: 166 cluster ID: 0 Type: core [0.9509,0.438113,]
+neighbors: 81	95	121	128	137	140	148	152	153	162	171	
+
+ID: 167 cluster ID: 0 Type: core [0.966739,0.534364,]
+neighbors: 165	179	
+
+ID: 168 cluster ID: 0 Type: core [0.754902,0.615332,]
+neighbors: 185	191	205	210	219	220	222	227	229	236	238	254	
+
+ID: 169 cluster ID: 0 Type: core [0.837709,0.404388,]
+neighbors: 102	129	133	136	143	145	155	180	184	
+
+ID: 170 cluster ID: 0 Type: core [0.815153,0.576635,]
+neighbors: 150	163	181	188	190	195	196	198	202	203	211	213	217	224	254	
+
+ID: 171 cluster ID: 0 Type: core [0.903906,0.421878,]
+neighbors: 81	128	137	140	141	143	148	152	153	154	162	166	
+
+ID: 172 cluster ID: 0 Type: core [0.8849,0.525889,]
+neighbors: 131	135	139	149	150	177	189	201	207	
+
+ID: 173 cluster ID: 0 Type: core [0.762275,0.416604,]
+neighbors: 125	142	144	164	176	204	
+
+ID: 174 cluster ID: 0 Type: core [0.716951,0.391249,]
+neighbors: 204	
+
+ID: 175 cluster ID: 0 Type: core [0.825792,0.520854,]
+neighbors: 146	150	161	163	183	186	188	190	196	197	198	211	217	
+
+ID: 176 cluster ID: 0 Type: core [0.79395,0.448852,]
+neighbors: 125	142	144	145	151	155	164	173	193	
+
+ID: 177 cluster ID: 0 Type: core [0.884322,0.556414,]
+neighbors: 135	139	150	172	189	201	207	226	
+
+ID: 178 cluster ID: 5 Type: core [0.99835,0.589934,]
+neighbors: 182	
+
+ID: 179 cluster ID: 0 Type: core [0.991999,0.520122,]
+neighbors: 120	165	167	
+
+ID: 180 cluster ID: 0 Type: core [0.857474,0.399345,]
+neighbors: 97	102	129	133	136	141	143	145	154	169	
+
+ID: 181 cluster ID: 0 Type: core [0.798071,0.570505,]
+neighbors: 163	170	188	190	196	198	202	203	211	213	217	224	254	
+
+ID: 182 cluster ID: 5 Type: core [0.997808,0.587269,]
+neighbors: 178	
+
+ID: 183 cluster ID: 0 Type: core [0.834474,0.497742,]
+neighbors: 146	161	163	175	184	186	187	193	196	197	
+
+ID: 184 cluster ID: 0 Type: core [0.84643,0.45239,]
+neighbors: 145	151	154	155	161	169	183	187	193	
+
+ID: 185 cluster ID: 0 Type: core [0.746533,0.570732,]
+neighbors: 168	205	214	219	220	236	
+
+ID: 186 cluster ID: 0 Type: core [0.800148,0.515402,]
+neighbors: 146	163	175	183	188	192	196	197	211	217	
+
+ID: 187 cluster ID: 0 Type: core [0.847654,0.463498,]
+neighbors: 145	146	151	155	161	183	184	193	197	
+
+ID: 188 cluster ID: 0 Type: core [0.820299,0.551643,]
+neighbors: 150	163	170	175	181	186	190	196	198	202	203	211	213	217	224	
+
+ID: 189 cluster ID: 0 Type: core [0.901823,0.546,]
+neighbors: 131	135	139	149	172	177	201	207	226	
+
+ID: 190 cluster ID: 0 Type: core [0.822297,0.566645,]
+neighbors: 150	163	170	175	181	188	196	198	202	203	211	213	217	224	
+
+ID: 191 cluster ID: 0 Type: core [0.729021,0.623198,]
+neighbors: 168	205	210	219	220	222	236	238	240	
+
+ID: 192 cluster ID: 0 Type: core [0.755605,0.520306,]
+neighbors: 186	214	217	
+
+ID: 193 cluster ID: 0 Type: core [0.826887,0.454272,]
+neighbors: 125	142	145	146	151	155	161	176	183	184	187	197	
+
+ID: 194 cluster ID: 0 Type: core [0.90954,0.473857,]
+neighbors: 131	137	148	149	153	162	201	
+
+ID: 195 cluster ID: 0 Type: core [0.840257,0.614507,]
+neighbors: 156	170	198	202	213	224	254	
+
+ID: 196 cluster ID: 0 Type: core [0.830581,0.543141,]
+neighbors: 150	163	170	175	181	183	186	188	190	197	198	202	203	211	217	
+
+ID: 197 cluster ID: 0 Type: core [0.819702,0.497146,]
+neighbors: 146	151	161	163	175	183	186	187	193	196	217	
+
+ID: 198 cluster ID: 0 Type: core [0.83031,0.570283,]
+neighbors: 150	163	170	175	181	188	190	195	196	202	203	211	213	224	
+
+ID: 199 cluster ID: -1 Type: noise [1.00455,0.694186,]
+neighbors: 
+
+ID: 200 cluster ID: 0 Type: core [0.797148,0.679926,]
+neighbors: 156	223	227	229	231	232	237	238	248	274	275	
+
+ID: 201 cluster ID: 0 Type: core [0.901981,0.511862,]
+neighbors: 131	135	149	172	177	189	194	207	
+
+ID: 202 cluster ID: 0 Type: core [0.8124,0.578431,]
+neighbors: 150	163	170	181	188	190	195	196	198	203	211	213	217	224	254	
+
+ID: 203 cluster ID: 0 Type: core [0.799136,0.573013,]
+neighbors: 163	170	181	188	190	196	198	202	210	211	213	217	224	254	
+
+ID: 204 cluster ID: 0 Type: core [0.71839,0.433562,]
+neighbors: 173	174	
+
+ID: 205 cluster ID: 0 Type: core [0.756458,0.616225,]
+neighbors: 168	185	191	210	219	220	222	227	229	236	238	254	
+
+ID: 206 cluster ID: 0 Type: core [0.858432,0.681943,]
+neighbors: 208	209	212	215	216	230	248	
+
+ID: 207 cluster ID: 0 Type: core [0.910625,0.54294,]
+neighbors: 131	135	139	149	172	177	189	201	
+
+ID: 208 cluster ID: 0 Type: core [0.889434,0.712297,]
+neighbors: 206	212	215	216	230	239	
+
+ID: 209 cluster ID: 0 Type: core [0.848233,0.670102,]
+neighbors: 206	215	216	230	248	
+
+ID: 210 cluster ID: 0 Type: core [0.777173,0.617596,]
+neighbors: 156	168	191	203	205	213	219	220	222	224	227	229	236	238	254	
+
+ID: 211 cluster ID: 0 Type: core [0.802684,0.5523,]
+neighbors: 150	163	170	175	181	186	188	190	196	198	202	203	213	217	224	
+
+ID: 212 cluster ID: 0 Type: core [0.875958,0.717227,]
+neighbors: 206	208	216	230	239	248	
+
+ID: 213 cluster ID: 0 Type: core [0.805628,0.59177,]
+neighbors: 156	170	181	188	190	195	198	202	203	210	211	222	224	254	
+
+ID: 214 cluster ID: 0 Type: core [0.73695,0.56532,]
+neighbors: 185	192	220	233	236	
+
+ID: 215 cluster ID: 0 Type: core [0.896971,0.664516,]
+neighbors: 206	208	209	
+
+ID: 216 cluster ID: 0 Type: core [0.853677,0.714795,]
+neighbors: 206	208	209	212	218	230	232	248	
+
+ID: 217 cluster ID: 0 Type: core [0.794014,0.533449,]
+neighbors: 146	163	170	175	181	186	188	190	192	196	197	202	203	211	
+
+ID: 218 cluster ID: 0 Type: core [0.816825,0.730369,]
+neighbors: 216	230	231	232	245	248	252	260	
+
+ID: 219 cluster ID: 0 Type: core [0.75105,0.616828,]
+neighbors: 168	185	191	205	210	220	222	227	229	236	238	240	254	
+
+ID: 220 cluster ID: 0 Type: core [0.738599,0.613051,]
+neighbors: 168	185	191	205	210	214	219	222	236	238	240	
+
+ID: 221 cluster ID: -1 Type: noise [0.917267,0.805773,]
+neighbors: 
+
+ID: 222 cluster ID: 0 Type: core [0.766872,0.622805,]
+neighbors: 156	168	191	205	210	213	219	220	224	227	229	236	237	238	254	
+
+ID: 223 cluster ID: 0 Type: core [0.751907,0.680711,]
+neighbors: 200	225	227	231	237	238	243	249	267	274	275	
+
+ID: 224 cluster ID: 0 Type: core [0.802047,0.593314,]
+neighbors: 156	170	181	188	190	195	198	202	203	210	211	213	222	229	254	
+
+ID: 225 cluster ID: 0 Type: core [0.734086,0.711632,]
+neighbors: 223	243	244	247	249	258	267	274	275	
+
+ID: 226 cluster ID: 0 Type: core [0.897872,0.593379,]
+neighbors: 135	139	177	189	
+
+ID: 227 cluster ID: 0 Type: core [0.77304,0.660023,]
+neighbors: 156	168	200	205	210	219	222	223	229	231	237	238	249	274	275	
+
+ID: 228 cluster ID: 0 Type: core [0.65325,0.694808,]
+neighbors: 244	251	261	265	266	268	273	278	281	295	324	
+
+ID: 229 cluster ID: 0 Type: core [0.793273,0.642108,]
+neighbors: 156	168	200	205	210	219	222	224	227	237	238	254	
+
+ID: 230 cluster ID: 0 Type: core [0.848092,0.718602,]
+neighbors: 206	208	209	212	216	218	232	245	248	
+
+ID: 231 cluster ID: 0 Type: core [0.798738,0.693348,]
+neighbors: 200	218	223	227	232	237	248	274	275	
+
+ID: 232 cluster ID: 0 Type: core [0.806804,0.715577,]
+neighbors: 200	216	218	230	231	245	248	260	275	
+
+ID: 233 cluster ID: 0 Type: core [0.693715,0.585463,]
+neighbors: 214	240	
+
+ID: 234 cluster ID: 0 Type: core [0.699299,0.867413,]
+neighbors: 253	256	264	285	
+
+ID: 235 cluster ID: 0 Type: core [0.660162,0.755223,]
+neighbors: 241	246	257	259	268	271	272	273	277	281	292	295	303	311	
+
+ID: 236 cluster ID: 0 Type: core [0.751882,0.610668,]
+neighbors: 168	185	191	205	210	214	219	220	222	238	254	
+
+ID: 237 cluster ID: 0 Type: core [0.767118,0.667503,]
+neighbors: 156	200	222	223	227	229	231	238	249	274	275	
+
+ID: 238 cluster ID: 0 Type: core [0.762966,0.649356,]
+neighbors: 156	168	191	200	205	210	219	220	222	223	227	229	236	237	249	254	274	
+
+ID: 239 cluster ID: 0 Type: core [0.923623,0.732046,]
+neighbors: 208	212	
+
+ID: 240 cluster ID: 0 Type: core [0.70177,0.613833,]
+neighbors: 191	219	220	233	
+
+ID: 241 cluster ID: 0 Type: core [0.629591,0.778566,]
+neighbors: 235	246	250	255	262	272	273	287	290	295	299	303	311	333	
+
+ID: 242 cluster ID: 0 Type: core [0.714728,0.758665,]
+neighbors: 247	257	258	259	271	277	292	303	
+
+ID: 243 cluster ID: 0 Type: core [0.70225,0.683664,]
+neighbors: 223	225	244	249	258	266	267	268	
+
+ID: 244 cluster ID: 0 Type: core [0.691295,0.695047,]
+neighbors: 225	228	243	247	249	251	257	258	266	267	268	281	324	
+
+ID: 245 cluster ID: 0 Type: core [0.819016,0.758163,]
+neighbors: 218	230	232	252	260	269	283	
+
+ID: 246 cluster ID: 0 Type: core [0.620384,0.763182,]
+neighbors: 235	241	250	255	263	272	273	276	290	295	311	313	
+
+ID: 247 cluster ID: 0 Type: core [0.718244,0.731726,]
+neighbors: 225	242	244	257	258	259	267	271	277	292	
+
+ID: 248 cluster ID: 0 Type: core [0.830951,0.702729,]
+neighbors: 200	206	209	212	216	218	230	231	232	
+
+ID: 249 cluster ID: 0 Type: core [0.728175,0.674075,]
+neighbors: 223	225	227	237	238	243	244	258	266	267	274	
+
+ID: 250 cluster ID: 0 Type: core [0.603409,0.737811,]
+neighbors: 241	246	263	273	276	280	311	313	
+
+ID: 251 cluster ID: 0 Type: core [0.650127,0.670699,]
+neighbors: 228	244	261	265	266	268	278	281	324	
+
+ID: 252 cluster ID: 0 Type: core [0.805408,0.771803,]
+neighbors: 218	245	260	269	283	
+
+ID: 253 cluster ID: 0 Type: core [0.704549,0.862928,]
+neighbors: 234	256	264	285	
+
+ID: 254 cluster ID: 0 Type: core [0.798997,0.61521,]
+neighbors: 156	168	170	181	195	202	203	205	210	213	219	222	224	229	236	238	
+
+ID: 255 cluster ID: 0 Type: core [0.620657,0.806046,]
+neighbors: 241	246	262	272	276	287	290	293	297	299	311	333	
+
+ID: 256 cluster ID: 0 Type: core [0.684025,0.830236,]
+neighbors: 234	253	293	
+
+ID: 257 cluster ID: 0 Type: core [0.688392,0.73335,]
+neighbors: 235	242	244	247	258	259	268	271	277	281	292	295	303	
+
+ID: 258 cluster ID: 0 Type: core [0.707173,0.718927,]
+neighbors: 225	242	243	244	247	249	257	259	267	268	292	
+
+ID: 259 cluster ID: 0 Type: core [0.706713,0.757019,]
+neighbors: 235	242	247	257	258	271	277	292	303	
+
+ID: 260 cluster ID: 0 Type: core [0.796621,0.758011,]
+neighbors: 218	232	245	252	269	283	
+
+ID: 261 cluster ID: 0 Type: core [0.633291,0.659608,]
+neighbors: 228	251	265	278	324	
+
+ID: 262 cluster ID: 0 Type: core [0.601722,0.819495,]
+neighbors: 241	255	276	284	287	290	293	294	297	299	312	314	323	333	
+
+ID: 263 cluster ID: 0 Type: core [0.591674,0.732086,]
+neighbors: 246	250	273	280	311	313	
+
+ID: 264 cluster ID: 0 Type: core [0.720255,0.866243,]
+neighbors: 234	253	285	
+
+ID: 265 cluster ID: 0 Type: core [0.616995,0.666829,]
+neighbors: 228	251	261	278	280	324	
+
+ID: 266 cluster ID: 0 Type: core [0.693957,0.668024,]
+neighbors: 228	243	244	249	251	267	
+
+ID: 267 cluster ID: 0 Type: core [0.719914,0.692752,]
+neighbors: 223	225	243	244	247	249	258	266	274	
+
+ID: 268 cluster ID: 0 Type: core [0.667381,0.717301,]
+neighbors: 228	235	243	244	251	257	258	273	281	295	324	
+
+ID: 269 cluster ID: 0 Type: core [0.788853,0.779583,]
+neighbors: 245	252	260	283	
+
+ID: 270 cluster ID: -1 Type: noise [0.59578,0.588483,]
+neighbors: 
+
+ID: 271 cluster ID: 0 Type: core [0.688533,0.767028,]
+neighbors: 235	242	247	257	259	272	277	292	295	303	
+
+ID: 272 cluster ID: 0 Type: core [0.653217,0.789534,]
+neighbors: 235	241	246	255	271	277	287	290	295	299	303	311	333	
+
+ID: 273 cluster ID: 0 Type: core [0.620479,0.731537,]
+neighbors: 228	235	241	246	250	263	268	280	281	295	311	313	324	
+
+ID: 274 cluster ID: 0 Type: core [0.755117,0.697162,]
+neighbors: 200	223	225	227	231	237	238	249	267	275	
+
+ID: 275 cluster ID: 0 Type: core [0.773553,0.700746,]
+neighbors: 200	223	225	227	231	232	237	274	
+
+ID: 276 cluster ID: 0 Type: core [0.578905,0.78133,]
+neighbors: 246	250	255	262	284	287	290	311	312	313	323	
+
+ID: 277 cluster ID: 0 Type: core [0.693488,0.77209,]
+neighbors: 235	242	247	257	259	271	272	292	303	
+
+ID: 278 cluster ID: 0 Type: core [0.629794,0.661511,]
+neighbors: 228	251	261	265	281	324	
+
+ID: 279 cluster ID: 6 Type: core [0.527552,0.657816,]
+neighbors: 302	
+
+ID: 280 cluster ID: 0 Type: core [0.603903,0.709891,]
+neighbors: 250	263	265	273	281	313	324	
+
+ID: 281 cluster ID: 0 Type: core [0.651695,0.70624,]
+neighbors: 228	235	244	251	257	268	273	278	280	295	324	
+
+ID: 282 cluster ID: 0 Type: core [0.558639,0.914401,]
+neighbors: 289	298	307	310	325	330	331	341	349	370	375	381	
+
+ID: 283 cluster ID: 0 Type: core [0.774708,0.762334,]
+neighbors: 245	252	260	269	
+
+ID: 284 cluster ID: 0 Type: core [0.555558,0.819038,]
+neighbors: 262	276	286	294	296	305	312	323	332	343	
+
+ID: 285 cluster ID: 0 Type: core [0.685168,0.887008,]
+neighbors: 234	253	264	
+
+ID: 286 cluster ID: 0 Type: core [0.570639,0.863966,]
+neighbors: 284	289	294	297	307	312	314	323	330	341	344	
+
+ID: 287 cluster ID: 0 Type: core [0.611842,0.814046,]
+neighbors: 241	255	262	272	276	290	293	297	299	311	312	314	323	333	
+
+ID: 288 cluster ID: 0 Type: core [0.493712,0.973552,]
+neighbors: 319	320	338	350	351	
+
+ID: 289 cluster ID: 0 Type: core [0.530869,0.888091,]
+neighbors: 282	286	298	325	330	337	338	341	346	349	353	370	375	381	
+
+ID: 290 cluster ID: 0 Type: core [0.617579,0.806852,]
+neighbors: 241	246	255	262	272	276	287	293	297	299	311	323	333	
+
+ID: 291 cluster ID: 0 Type: core [0.620056,0.932136,]
+neighbors: 301	307	310	331	344	
+
+ID: 292 cluster ID: 0 Type: core [0.704679,0.764155,]
+neighbors: 235	242	247	257	258	259	271	277	303	
+
+ID: 293 cluster ID: 0 Type: core [0.637448,0.848112,]
+neighbors: 255	256	262	287	290	297	299	314	333	344	
+
+ID: 294 cluster ID: 0 Type: core [0.565807,0.849883,]
+neighbors: 262	284	286	297	312	314	323	330	343	
+
+ID: 295 cluster ID: 0 Type: core [0.65407,0.740351,]
+neighbors: 228	235	241	246	257	268	271	272	273	281	303	311	324	
+
+ID: 296 cluster ID: 0 Type: core [0.526712,0.786548,]
+neighbors: 284	305	312	318	327	332	343	
+
+ID: 297 cluster ID: 0 Type: core [0.611999,0.83964,]
+neighbors: 255	262	286	287	290	293	294	299	314	323	333	
+
+ID: 298 cluster ID: 0 Type: core [0.536218,0.914982,]
+neighbors: 282	289	325	330	331	338	341	346	349	351	370	375	381	
+
+ID: 299 cluster ID: 0 Type: core [0.62442,0.823847,]
+neighbors: 241	255	262	272	287	290	293	297	314	333	
+
+ID: 300 cluster ID: 0 Type: core [0.473372,0.869521,]
+neighbors: 304	315	317	326	329	337	339	346	353	356	360	371	373	381	382	
+
+ID: 301 cluster ID: 0 Type: core [0.629969,0.913579,]
+neighbors: 291	307	344	
+
+ID: 302 cluster ID: 6 Type: core [0.532509,0.614253,]
+neighbors: 279	
+
+ID: 303 cluster ID: 0 Type: core [0.67771,0.775628,]
+neighbors: 235	241	242	257	259	271	272	277	292	295	
+
+ID: 304 cluster ID: 0 Type: core [0.482002,0.876974,]
+neighbors: 300	315	326	329	337	339	346	353	356	371	373	381	
+
+ID: 305 cluster ID: 0 Type: core [0.527116,0.782125,]
+neighbors: 284	296	318	332	343	
+
+ID: 306 cluster ID: 0 Type: core [0.594769,0.986348,]
+neighbors: 310	
+
+ID: 307 cluster ID: 0 Type: core [0.598617,0.900354,]
+neighbors: 282	286	291	301	310	314	331	341	344	
+
+ID: 308 cluster ID: 0 Type: core [0.482155,0.750334,]
+neighbors: 316	328	347	
+
+ID: 309 cluster ID: 0 Type: core [0.43142,0.801874,]
+neighbors: 316	317	328	342	360	361	
+
+ID: 310 cluster ID: 0 Type: core [0.585674,0.939986,]
+neighbors: 282	291	306	307	325	331	341	
+
+ID: 311 cluster ID: 0 Type: core [0.613363,0.764609,]
+neighbors: 235	241	246	250	255	263	272	273	276	287	290	295	313	
+
+ID: 312 cluster ID: 0 Type: core [0.562934,0.820511,]
+neighbors: 262	276	284	286	287	294	296	323	332	343	
+
+ID: 313 cluster ID: 0 Type: core [0.587408,0.734148,]
+neighbors: 246	250	263	273	276	280	311	
+
+ID: 314 cluster ID: 0 Type: core [0.600234,0.856007,]
+neighbors: 262	286	287	293	294	297	299	307	323	333	344	
+
+ID: 315 cluster ID: 0 Type: core [0.476718,0.842945,]
+neighbors: 300	304	316	317	326	327	329	337	339	353	356	360	371	373	
+
+ID: 316 cluster ID: 0 Type: core [0.469826,0.796985,]
+neighbors: 308	309	315	318	327	328	373	
+
+ID: 317 cluster ID: 0 Type: core [0.432478,0.844429,]
+neighbors: 300	309	315	329	336	339	356	360	361	366	373	382	
+
+ID: 318 cluster ID: 0 Type: core [0.498516,0.797865,]
+neighbors: 296	305	316	326	327	328	332	343	373	
+
+ID: 319 cluster ID: 0 Type: core [0.500732,0.969457,]
+neighbors: 288	320	338	350	351	375	
+
+ID: 320 cluster ID: 0 Type: core [0.456872,0.971851,]
+neighbors: 288	319	335	363	365	377	
+
+ID: 321 cluster ID: 0 Type: core [0.458119,0.921087,]
+neighbors: 338	340	346	363	364	365	371	387	
+
+ID: 322 cluster ID: 0 Type: core [0.542191,1.00763,]
+neighbors: 350	351	
+
+ID: 323 cluster ID: 0 Type: core [0.572748,0.827342,]
+neighbors: 262	276	284	286	287	290	294	297	312	314	343	
+
+ID: 324 cluster ID: 0 Type: core [0.644683,0.707408,]
+neighbors: 228	244	251	261	265	268	273	278	280	281	295	
+
+ID: 325 cluster ID: 0 Type: core [0.546859,0.924399,]
+neighbors: 282	289	298	310	330	331	338	341	349	351	370	375	381	
+
+ID: 326 cluster ID: 0 Type: core [0.503252,0.834982,]
+neighbors: 300	304	315	318	327	332	337	339	343	353	356	373	
+
+ID: 327 cluster ID: 0 Type: core [0.483103,0.807398,]
+neighbors: 296	315	316	318	326	328	332	343	356	373	
+
+ID: 328 cluster ID: 0 Type: core [0.469414,0.773699,]
+neighbors: 308	309	316	318	327	342	347	
+
+ID: 329 cluster ID: 0 Type: core [0.452549,0.847496,]
+neighbors: 300	304	315	317	336	339	356	360	361	371	373	382	
+
+ID: 330 cluster ID: 0 Type: core [0.53306,0.878806,]
+neighbors: 282	286	289	294	298	325	337	341	346	349	353	370	381	
+
+ID: 331 cluster ID: 0 Type: core [0.578813,0.936673,]
+neighbors: 282	291	298	307	310	325	341	370	
+
+ID: 332 cluster ID: 0 Type: core [0.521242,0.799055,]
+neighbors: 284	296	305	312	318	326	327	343	
+
+ID: 333 cluster ID: 0 Type: core [0.626287,0.816262,]
+neighbors: 241	255	262	272	287	290	293	297	299	314	
+
+ID: 334 cluster ID: 0 Type: core [0.424394,0.711833,]
+neighbors: 347	
+
+ID: 335 cluster ID: 0 Type: core [0.424861,0.969146,]
+neighbors: 320	363	365	368	377	400	
+
+ID: 336 cluster ID: 0 Type: core [0.405984,0.863608,]
+neighbors: 317	329	360	361	366	382	387	
+
+ID: 337 cluster ID: 0 Type: core [0.503425,0.867245,]
+neighbors: 289	300	304	315	326	330	339	346	353	356	371	373	381	
+
+ID: 338 cluster ID: 0 Type: core [0.501394,0.926411,]
+neighbors: 288	289	298	319	321	325	346	349	353	370	375	381	
+
+ID: 339 cluster ID: 0 Type: core [0.464457,0.856753,]
+neighbors: 300	304	315	317	326	329	337	353	356	360	371	373	382	
+
+ID: 340 cluster ID: 0 Type: core [0.446093,0.911933,]
+neighbors: 321	346	364	365	371	382	387	
+
+ID: 341 cluster ID: 0 Type: core [0.569112,0.900136,]
+neighbors: 282	286	289	298	307	310	325	330	331	344	349	370	
+
+ID: 342 cluster ID: 0 Type: core [0.424711,0.771285,]
+neighbors: 309	328	367	
+
+ID: 343 cluster ID: 0 Type: core [0.532188,0.815571,]
+neighbors: 284	294	296	305	312	318	323	326	327	332	
+
+ID: 344 cluster ID: 0 Type: core [0.612446,0.890557,]
+neighbors: 286	291	293	301	307	314	341	
+
+ID: 345 cluster ID: 0 Type: core [0.378498,1.02661,]
+neighbors: 390	391	400	411	417	
+
+ID: 346 cluster ID: 0 Type: core [0.490914,0.90125,]
+neighbors: 289	298	300	304	321	330	337	338	340	349	353	364	371	375	381	
+
+ID: 347 cluster ID: 0 Type: core [0.464584,0.734522,]
+neighbors: 308	328	334	
+
+ID: 348 cluster ID: 0 Type: core [0.364164,0.946556,]
+neighbors: 357	358	359	368	372	380	383	385	404	406	
+
+ID: 349 cluster ID: 0 Type: core [0.533991,0.912069,]
+neighbors: 282	289	298	325	330	338	341	346	370	375	381	
+
+ID: 350 cluster ID: 0 Type: core [0.527853,0.997087,]
+neighbors: 288	319	322	351	
+
+ID: 351 cluster ID: 0 Type: core [0.533932,0.964877,]
+neighbors: 288	298	319	322	325	350	375	
+
+ID: 352 cluster ID: 0 Type: core [0.313146,0.959758,]
+neighbors: 355	362	374	380	392	401	404	405	419	425	428	432	434	442	
+
+ID: 353 cluster ID: 0 Type: core [0.491727,0.882243,]
+neighbors: 289	300	304	315	326	330	337	338	339	346	356	371	381	
+
+ID: 354 cluster ID: -1 Type: noise [0.42268,1.06392,]
+neighbors: 
+
+ID: 355 cluster ID: 0 Type: core [0.298283,0.923031,]
+neighbors: 352	359	380	392	395	396	398	401	402	403	404	405	412	416	419	423	432	434	442	
+
+ID: 356 cluster ID: 0 Type: core [0.472252,0.846972,]
+neighbors: 300	304	315	317	326	327	329	337	339	353	360	371	373	
+
+ID: 357 cluster ID: 0 Type: core [0.388626,0.933542,]
+neighbors: 348	358	363	368	372	377	383	385	387	406	
+
+ID: 358 cluster ID: 0 Type: core [0.374272,0.929716,]
+neighbors: 348	357	359	368	372	383	385	388	406	
+
+ID: 359 cluster ID: 0 Type: core [0.341713,0.904022,]
+neighbors: 348	355	358	372	383	385	388	392	401	403	406	419	423	
+
+ID: 360 cluster ID: 0 Type: core [0.428713,0.847327,]
+neighbors: 300	309	315	317	329	336	339	356	361	366	382	
+
+ID: 361 cluster ID: 0 Type: core [0.406257,0.841646,]
+neighbors: 309	317	329	336	360	366	382	393	
+
+ID: 362 cluster ID: 0 Type: core [0.284981,0.998569,]
+neighbors: 352	374	386	394	420	425	428	432	433	434	442	
+
+ID: 363 cluster ID: 0 Type: core [0.424152,0.957109,]
+neighbors: 320	321	335	357	364	365	368	377	
+
+ID: 364 cluster ID: 0 Type: core [0.444207,0.914221,]
+neighbors: 321	340	346	363	365	371	382	387	
+
+ID: 365 cluster ID: 0 Type: core [0.443551,0.945405,]
+neighbors: 320	321	335	340	363	364	377	387	
+
+ID: 366 cluster ID: 0 Type: core [0.402967,0.881919,]
+neighbors: 317	336	360	361	382	387	
+
+ID: 367 cluster ID: 0 Type: core [0.386018,0.765985,]
+neighbors: 342	
+
+ID: 368 cluster ID: 0 Type: core [0.394386,0.96297,]
+neighbors: 335	348	357	358	363	377	383	385	400	
+
+ID: 369 cluster ID: 0 Type: core [0.29609,0.864716,]
+neighbors: 378	384	395	401	402	403	423	424	
+
+ID: 370 cluster ID: 0 Type: core [0.541702,0.910799,]
+neighbors: 282	289	298	325	330	331	338	341	349	375	381	
+
+ID: 371 cluster ID: 0 Type: core [0.459999,0.887269,]
+neighbors: 300	304	315	321	329	337	339	340	346	353	356	364	382	387	
+
+ID: 372 cluster ID: 0 Type: core [0.358125,0.917735,]
+neighbors: 348	357	358	359	380	383	385	388	392	403	406	419	
+
+ID: 373 cluster ID: 0 Type: core [0.479189,0.832475,]
+neighbors: 300	304	315	316	317	318	326	327	329	337	339	356	
+
+ID: 374 cluster ID: 0 Type: core [0.297609,0.998189,]
+neighbors: 352	362	386	390	394	404	420	425	428	432	433	434	442	
+
+ID: 375 cluster ID: 0 Type: core [0.52534,0.934417,]
+neighbors: 282	289	298	319	325	338	346	349	351	370	381	
+
+ID: 376 cluster ID: 0 Type: core [0.212459,0.880745,]
+neighbors: 379	421	424	426	435	444	451	
+
+ID: 377 cluster ID: 0 Type: core [0.416902,0.961239,]
+neighbors: 320	335	357	363	365	368	400	
+
+ID: 378 cluster ID: 0 Type: core [0.300593,0.834083,]
+neighbors: 369	384	402	408	
+
+ID: 379 cluster ID: 0 Type: core [0.233465,0.900632,]
+neighbors: 376	389	396	398	412	416	421	424	426	451	
+
+ID: 380 cluster ID: 0 Type: core [0.322774,0.951432,]
+neighbors: 348	352	355	372	392	401	404	405	419	428	432	434	442	
+
+ID: 381 cluster ID: 0 Type: core [0.518849,0.884922,]
+neighbors: 282	289	298	300	304	325	330	337	338	346	349	353	370	375	
+
+ID: 382 cluster ID: 0 Type: core [0.424086,0.876234,]
+neighbors: 300	317	329	336	339	340	360	361	364	366	371	387	
+
+ID: 383 cluster ID: 0 Type: core [0.36687,0.923798,]
+neighbors: 348	357	358	359	368	372	385	388	392	406	419	
+
+ID: 384 cluster ID: 0 Type: core [0.319813,0.835258,]
+neighbors: 369	378	393	402	408	
+
+ID: 385 cluster ID: 0 Type: core [0.369159,0.930712,]
+neighbors: 348	357	358	359	368	372	383	388	406	419	
+
+ID: 386 cluster ID: 0 Type: core [0.255121,0.99424,]
+neighbors: 362	374	420	425	432	433	436	
+
+ID: 387 cluster ID: 0 Type: core [0.421525,0.902857,]
+neighbors: 321	336	340	357	364	365	366	371	382	
+
+ID: 388 cluster ID: 0 Type: core [0.348453,0.898402,]
+neighbors: 358	359	372	383	385	392	403	406	419	423	
+
+ID: 389 cluster ID: 0 Type: core [0.234835,0.933401,]
+neighbors: 379	396	398	405	412	413	416	422	
+
+ID: 390 cluster ID: 0 Type: core [0.339249,1.00883,]
+neighbors: 345	374	391	394	411	417	420	428	
+
+ID: 391 cluster ID: 0 Type: core [0.334899,1.04681,]
+neighbors: 345	390	394	417	
+
+ID: 392 cluster ID: 0 Type: core [0.317372,0.92833,]
+neighbors: 352	355	359	372	380	383	388	395	398	401	403	404	405	406	419	423	434	442	
+
+ID: 393 cluster ID: 0 Type: core [0.359313,0.826066,]
+neighbors: 361	384	408	
+
+ID: 394 cluster ID: 0 Type: core [0.306181,1.02645,]
+neighbors: 362	374	390	391	420	425	428	
+
+ID: 395 cluster ID: 0 Type: core [0.287097,0.889217,]
+neighbors: 355	369	392	396	398	401	402	403	405	412	416	419	423	424	
+
+ID: 396 cluster ID: 0 Type: core [0.248573,0.920058,]
+neighbors: 355	379	389	395	398	405	412	416	424	426	442	
+
+ID: 397 cluster ID: 0 Type: core [0.253594,1.06073,]
+neighbors: 399	410	415	429	447	463	473	
+
+ID: 398 cluster ID: 0 Type: core [0.277691,0.914329,]
+neighbors: 355	379	389	392	395	396	401	402	405	412	416	419	423	424	434	442	
+
+ID: 399 cluster ID: 0 Type: core [0.259852,1.10024,]
+neighbors: 397	410	415	473	
+
+ID: 400 cluster ID: 0 Type: core [0.3895,0.993631,]
+neighbors: 335	345	368	377	411	417	
+
+ID: 401 cluster ID: 0 Type: core [0.299853,0.914288,]
+neighbors: 352	355	359	369	380	392	395	398	402	403	404	405	412	416	419	423	434	442	
+
+ID: 402 cluster ID: 0 Type: core [0.294517,0.873396,]
+neighbors: 355	369	378	384	395	398	401	403	416	423	424	
+
+ID: 403 cluster ID: 0 Type: core [0.3255,0.889966,]
+neighbors: 355	359	369	372	388	392	395	401	402	406	419	423	
+
+ID: 404 cluster ID: 0 Type: core [0.320237,0.958673,]
+neighbors: 348	352	355	374	380	392	401	405	419	428	432	434	442	
+
+ID: 405 cluster ID: 0 Type: core [0.279779,0.935483,]
+neighbors: 352	355	380	389	392	395	396	398	401	404	412	416	419	423	432	434	442	
+
+ID: 406 cluster ID: 0 Type: core [0.349102,0.903861,]
+neighbors: 348	357	358	359	372	383	385	388	392	403	419	423	
+
+ID: 407 cluster ID: -1 Type: noise [0.353927,1.10362,]
+neighbors: 
+
+ID: 408 cluster ID: 0 Type: core [0.338857,0.820318,]
+neighbors: 378	384	393	
+
+ID: 409 cluster ID: 0 Type: core [0.130053,0.959751,]
+neighbors: 440	445	449	450	453	459	462	464	475	491	
+
+ID: 410 cluster ID: 0 Type: core [0.222962,1.08587,]
+neighbors: 397	399	415	429	439	446	447	458	463	473	
+
+ID: 411 cluster ID: 0 Type: core [0.379887,1.02045,]
+neighbors: 345	390	400	417	
+
+ID: 412 cluster ID: 0 Type: core [0.266615,0.927709,]
+neighbors: 355	379	389	395	396	398	401	405	416	423	424	432	434	442	
+
+ID: 413 cluster ID: 0 Type: core [0.191031,0.940381,]
+neighbors: 389	422	444	453	474	
+
+ID: 414 cluster ID: -1 Type: noise [0.236932,1.23866,]
+neighbors: 
+
+ID: 415 cluster ID: 0 Type: core [0.236973,1.07387,]
+neighbors: 397	399	410	429	446	447	463	473	
+
+ID: 416 cluster ID: 0 Type: core [0.264777,0.907244,]
+neighbors: 355	379	389	395	396	398	401	402	405	412	423	424	426	442	
+
+ID: 417 cluster ID: 0 Type: core [0.360549,1.02434,]
+neighbors: 345	390	391	400	411	
+
+ID: 418 cluster ID: 0 Type: core [0.0939589,1.02342,]
+neighbors: 430	462	466	470	471	472	481	482	485	487	494	509	515	
+
+ID: 419 cluster ID: 0 Type: core [0.322598,0.91758,]
+neighbors: 352	355	359	372	380	383	385	388	392	395	398	401	403	404	405	406	423	442	
+
+ID: 420 cluster ID: 0 Type: core [0.293238,1.01325,]
+neighbors: 362	374	386	390	394	425	428	432	433	
+
+ID: 421 cluster ID: 0 Type: core [0.188524,0.885008,]
+neighbors: 376	379	426	444	451	452	
+
+ID: 422 cluster ID: 0 Type: core [0.202163,0.949825,]
+neighbors: 389	413	436	444	453	474	477	
+
+ID: 423 cluster ID: 0 Type: core [0.300565,0.896187,]
+neighbors: 355	359	369	388	392	395	398	401	402	403	405	406	412	416	419	424	
+
+ID: 424 cluster ID: 0 Type: core [0.253887,0.882282,]
+neighbors: 369	376	379	395	396	398	402	412	416	423	426	
+
+ID: 425 cluster ID: 0 Type: core [0.276886,0.987213,]
+neighbors: 352	362	374	386	394	420	428	432	433	434	442	
+
+ID: 426 cluster ID: 0 Type: core [0.229359,0.87707,]
+neighbors: 376	379	396	416	421	424	435	451	
+
+ID: 427 cluster ID: 0 Type: core [0.0758071,0.902525,]
+neighbors: 448	449	455	492	493	498	
+
+ID: 428 cluster ID: 0 Type: core [0.313232,0.995943,]
+neighbors: 352	362	374	380	390	394	404	420	425	432	434	
+
+ID: 429 cluster ID: 0 Type: core [0.223357,1.04068,]
+neighbors: 397	410	415	431	439	443	446	447	454	463	473	477	
+
+ID: 430 cluster ID: 0 Type: core [0.143293,1.01614,]
+neighbors: 418	440	445	450	454	462	464	470	472	476	
+
+ID: 431 cluster ID: 0 Type: core [0.200337,1.0136,]
+neighbors: 429	436	443	446	447	454	463	474	477	
+
+ID: 432 cluster ID: 0 Type: core [0.282232,0.96823,]
+neighbors: 352	355	362	374	380	386	404	405	412	420	425	428	433	434	442	
+
+ID: 433 cluster ID: 0 Type: core [0.262321,0.99359,]
+neighbors: 362	374	386	420	425	432	434	436	
+
+ID: 434 cluster ID: 0 Type: core [0.288284,0.954289,]
+neighbors: 352	355	362	374	380	392	398	401	404	405	412	425	428	432	433	442	
+
+ID: 435 cluster ID: 0 Type: core [0.230207,0.83627,]
+neighbors: 376	426	
+
+ID: 436 cluster ID: 0 Type: core [0.213266,0.990191,]
+neighbors: 386	422	431	433	443	454	474	477	
+
+ID: 437 cluster ID: 0 Type: core [0.033197,1.00612,]
+neighbors: 456	457	466	468	469	480	481	487	494	503	513	514	515	
+
+ID: 438 cluster ID: 0 Type: core [0.17668,1.06278,]
+neighbors: 439	446	447	454	458	463	473	476	
+
+ID: 439 cluster ID: 0 Type: core [0.186846,1.07246,]
+neighbors: 410	429	438	446	447	454	458	463	473	
+
+ID: 440 cluster ID: 0 Type: core [0.152507,0.983144,]
+neighbors: 409	430	443	445	450	453	459	462	464	474	491	
+
+ID: 441 cluster ID: 0 Type: core [0.0914358,1.09379,]
+neighbors: 461	467	476	478	485	
+
+ID: 442 cluster ID: 0 Type: core [0.287107,0.9494,]
+neighbors: 352	355	362	374	380	392	396	398	401	404	405	412	416	419	425	432	434	
+
+ID: 443 cluster ID: 0 Type: core [0.194349,1.01033,]
+neighbors: 429	431	436	440	446	447	454	463	474	477	
+
+ID: 444 cluster ID: 0 Type: core [0.184676,0.91522,]
+neighbors: 376	413	421	422	451	452	453	
+
+ID: 445 cluster ID: 0 Type: core [0.121662,0.981277,]
+neighbors: 409	430	440	450	453	459	462	464	470	475	482	491	
+
+ID: 446 cluster ID: 0 Type: core [0.199995,1.04713,]
+neighbors: 410	415	429	431	438	439	443	447	454	458	463	473	477	
+
+ID: 447 cluster ID: 0 Type: core [0.210442,1.04386,]
+neighbors: 397	410	415	429	431	438	439	443	446	454	463	473	477	
+
+ID: 448 cluster ID: 0 Type: core [0.0788152,0.889089,]
+neighbors: 427	492	493	498	
+
+ID: 449 cluster ID: 0 Type: core [0.101185,0.934964,]
+neighbors: 409	427	459	475	491	492	493	511	
+
+ID: 450 cluster ID: 0 Type: core [0.126971,0.981891,]
+neighbors: 409	430	440	445	453	459	462	464	470	475	482	491	
+
+ID: 451 cluster ID: 0 Type: core [0.191853,0.874691,]
+neighbors: 376	379	421	426	444	452	
+
+ID: 452 cluster ID: 0 Type: core [0.15488,0.897648,]
+neighbors: 421	444	451	493	
+
+ID: 453 cluster ID: 0 Type: core [0.159611,0.954007,]
+neighbors: 409	413	422	440	444	445	450	459	464	474	491	
+
+ID: 454 cluster ID: 0 Type: core [0.184785,1.02588,]
+neighbors: 429	430	431	436	438	439	443	446	447	463	477	
+
+ID: 455 cluster ID: 0 Type: core [0.0345412,0.918015,]
+neighbors: 427	456	479	483	492	501	525	
+
+ID: 456 cluster ID: 0 Type: core [0.0459485,0.962721,]
+neighbors: 437	455	457	468	469	479	481	492	501	511	513	529	
+
+ID: 457 cluster ID: 0 Type: core [0.0672054,0.97211,]
+neighbors: 437	456	459	468	469	475	479	481	482	492	494	501	511	513	515	
+
+ID: 458 cluster ID: 0 Type: core [0.174247,1.08803,]
+neighbors: 410	438	439	446	473	486	
+
+ID: 459 cluster ID: 0 Type: core [0.111518,0.958095,]
+neighbors: 409	440	445	449	450	453	457	462	464	475	482	491	511	
+
+ID: 460 cluster ID: 7 Type: core [0.0428296,1.22841,]
+neighbors: 490	
+
+ID: 461 cluster ID: 0 Type: core [0.0548982,1.07411,]
+neighbors: 441	465	466	485	487	499	
+
+ID: 462 cluster ID: 0 Type: core [0.129807,0.996878,]
+neighbors: 409	418	430	440	445	450	459	464	470	472	482	491	
+
+ID: 463 cluster ID: 0 Type: core [0.213276,1.05371,]
+neighbors: 397	410	415	429	431	438	439	443	446	447	454	473	
+
+ID: 464 cluster ID: 0 Type: core [0.132862,0.981936,]
+neighbors: 409	430	440	445	450	453	459	462	470	475	482	491	
+
+ID: 465 cluster ID: 0 Type: core [0.0275583,1.07431,]
+neighbors: 461	466	480	487	499	
+
+ID: 466 cluster ID: 0 Type: core [0.0545495,1.0433,]
+neighbors: 418	437	461	465	471	480	481	485	487	494	509	513	515	
+
+ID: 467 cluster ID: 0 Type: core [0.100167,1.0964,]
+neighbors: 441	476	478	
+
+ID: 468 cluster ID: 0 Type: core [0.0467441,0.991075,]
+neighbors: 437	456	457	469	479	481	482	494	501	503	511	513	515	
+
+ID: 469 cluster ID: 0 Type: core [0.0573384,0.987532,]
+neighbors: 437	456	457	468	471	479	481	482	494	501	503	511	513	515	
+
+ID: 470 cluster ID: 0 Type: core [0.106781,1.0224,]
+neighbors: 418	430	445	450	462	464	471	472	476	482	485	494	509	515	
+
+ID: 471 cluster ID: 0 Type: core [0.0888176,1.02626,]
+neighbors: 418	466	469	470	472	481	482	485	487	494	509	515	
+
+ID: 472 cluster ID: 0 Type: core [0.127834,1.039,]
+neighbors: 418	430	462	470	471	476	482	509	
+
+ID: 473 cluster ID: 0 Type: core [0.217439,1.08625,]
+neighbors: 397	399	410	415	429	438	439	446	447	458	463	
+
+ID: 474 cluster ID: 0 Type: core [0.192737,0.972151,]
+neighbors: 413	422	431	436	440	443	453	477	
+
+ID: 475 cluster ID: 0 Type: core [0.106816,0.949889,]
+neighbors: 409	445	449	450	457	459	464	491	492	493	511	
+
+ID: 476 cluster ID: 0 Type: core [0.130195,1.06267,]
+neighbors: 430	438	441	467	470	472	509	
+
+ID: 477 cluster ID: 0 Type: core [0.202863,0.998144,]
+neighbors: 422	429	431	436	443	446	447	454	474	
+
+ID: 478 cluster ID: 0 Type: core [0.110487,1.12141,]
+neighbors: 441	467	
+
+ID: 479 cluster ID: 0 Type: core [0.0472211,0.950515,]
+neighbors: 455	456	457	468	469	481	492	501	511	513	
+
+ID: 480 cluster ID: 0 Type: core [0.0181723,1.03964,]
+neighbors: 437	465	466	487	503	513	514	
+
+ID: 481 cluster ID: 0 Type: core [0.0597776,0.995824,]
+neighbors: 418	437	456	457	466	468	469	471	479	482	494	503	511	513	515	
+
+ID: 482 cluster ID: 0 Type: core [0.0942326,1.00442,]
+neighbors: 418	445	450	457	459	462	464	468	469	470	471	472	481	494	509	515	
+
+ID: 483 cluster ID: 0 Type: core [-0.00284462,0.908293,]
+neighbors: 455	525	534	
+
+ID: 484 cluster ID: 0 Type: core [-0.0334325,1.05536,]
+neighbors: 495	497	505	507	533	539	544	548	
+
+ID: 485 cluster ID: 0 Type: core [0.0732313,1.05377,]
+neighbors: 418	441	461	466	470	471	487	494	509	515	
+
+ID: 486 cluster ID: 0 Type: core [0.165413,1.12692,]
+neighbors: 458	
+
+ID: 487 cluster ID: 0 Type: core [0.0555984,1.04622,]
+neighbors: 418	437	461	465	466	471	480	485	494	509	515	
+
+ID: 488 cluster ID: 0 Type: core [-0.0177156,0.992957,]
+neighbors: 495	503	508	514	521	524	529	533	
+
+ID: 489 cluster ID: 0 Type: core [0.00615539,1.12303,]
+neighbors: 499	507	522	
+
+ID: 490 cluster ID: 7 Type: core [0.0293593,1.19543,]
+neighbors: 460	
+
+ID: 491 cluster ID: 0 Type: core [0.12676,0.951821,]
+neighbors: 409	440	445	449	450	453	459	462	464	475	493	
+
+ID: 492 cluster ID: 0 Type: core [0.0650438,0.93646,]
+neighbors: 427	448	449	455	456	457	475	479	501	511	
+
+ID: 493 cluster ID: 0 Type: core [0.106078,0.906996,]
+neighbors: 427	448	449	452	475	491	
+
+ID: 494 cluster ID: 0 Type: core [0.0779197,1.01078,]
+neighbors: 418	437	457	466	468	469	470	471	481	482	485	487	509	513	515	
+
+ID: 495 cluster ID: 0 Type: core [-0.0376507,1.01694,]
+neighbors: 484	488	497	502	508	514	521	524	533	539	544	548	
+
+ID: 496 cluster ID: 0 Type: core [-0.117158,0.997897,]
+neighbors: 502	510	517	518	526	528	530	532	536	538	540	545	546	552	557	558	569	576	584	586	
+
+ID: 497 cluster ID: 0 Type: core [-0.0634901,1.04994,]
+neighbors: 484	495	502	505	530	539	544	548	552	562	
+
+ID: 498 cluster ID: 0 Type: core [0.0739271,0.866015,]
+neighbors: 427	448	
+
+ID: 499 cluster ID: 0 Type: core [0.0298039,1.10209,]
+neighbors: 461	465	489	522	
+
+ID: 500 cluster ID: 0 Type: core [-0.00703607,0.841256,]
+neighbors: 504	
+
+ID: 501 cluster ID: 0 Type: core [0.0438248,0.944042,]
+neighbors: 455	456	457	468	469	479	492	511	
+
+ID: 502 cluster ID: 0 Type: core [-0.0815192,1.02384,]
+neighbors: 495	496	497	510	528	530	532	538	539	544	548	552	562	576	
+
+ID: 503 cluster ID: 0 Type: core [0.018685,1.0061,]
+neighbors: 437	468	469	480	481	488	508	513	514	529	533	
+
+ID: 504 cluster ID: 0 Type: core [0.0226438,0.837179,]
+neighbors: 500	525	
+
+ID: 505 cluster ID: 0 Type: core [-0.0452827,1.08909,]
+neighbors: 484	497	507	539	548	
+
+ID: 506 cluster ID: 0 Type: core [-0.111125,0.921907,]
+neighbors: 518	535	540	554	
+
+ID: 507 cluster ID: 0 Type: core [-0.0215975,1.08765,]
+neighbors: 484	489	505	522	548	
+
+ID: 508 cluster ID: 0 Type: core [-0.0245115,0.982514,]
+neighbors: 488	495	503	514	521	524	529	533	547	
+
+ID: 509 cluster ID: 0 Type: core [0.0972319,1.04228,]
+neighbors: 418	466	470	471	472	476	482	485	487	494	515	
+
+ID: 510 cluster ID: 0 Type: core [-0.109338,0.988739,]
+neighbors: 496	502	517	518	526	528	530	532	536	538	540	545	546	552	554	557	558	569	576	584	586	
+
+ID: 511 cluster ID: 0 Type: core [0.0655754,0.960323,]
+neighbors: 449	456	457	459	468	469	475	479	481	492	501	513	
+
+ID: 512 cluster ID: 0 Type: core [-0.192492,1.06968,]
+neighbors: 519	561	564	570	
+
+ID: 513 cluster ID: 0 Type: core [0.0357346,0.998712,]
+neighbors: 437	456	457	466	468	469	479	480	481	494	503	511	514	515	
+
+ID: 514 cluster ID: 0 Type: core [-0.00486169,1.01256,]
+neighbors: 437	480	488	495	503	508	513	529	533	548	
+
+ID: 515 cluster ID: 0 Type: core [0.0737295,1.02007,]
+neighbors: 418	437	457	466	468	469	470	471	481	482	485	487	494	509	513	
+
+ID: 516 cluster ID: 0 Type: core [-0.163573,0.964558,]
+neighbors: 526	536	540	541	545	554	558	565	568	569	574	575	584	586	590	624	
+
+ID: 517 cluster ID: 0 Type: core [-0.094999,0.970536,]
+neighbors: 496	510	518	524	526	528	536	538	547	552	554	557	569	
+
+ID: 518 cluster ID: 0 Type: core [-0.103478,0.956237,]
+neighbors: 496	506	510	517	526	528	536	540	547	554	557	569	
+
+ID: 519 cluster ID: 0 Type: core [-0.173393,1.08302,]
+neighbors: 512	543	550	561	570	
+
+ID: 520 cluster ID: 0 Type: core [-0.114659,1.12939,]
+neighbors: 527	550	
+
+ID: 521 cluster ID: 0 Type: core [-0.040433,0.970957,]
+neighbors: 488	495	508	523	524	528	529	533	547	
+
+ID: 522 cluster ID: 0 Type: core [-0.00986993,1.1302,]
+neighbors: 489	499	507	
+
+ID: 523 cluster ID: 0 Type: core [-0.0521707,0.925883,]
+neighbors: 521	534	535	547	
+
+ID: 524 cluster ID: 0 Type: core [-0.047242,0.979206,]
+neighbors: 488	495	508	517	521	528	529	533	547	
+
+ID: 525 cluster ID: 0 Type: core [0.0209793,0.885102,]
+neighbors: 455	483	504	
+
+ID: 526 cluster ID: 0 Type: core [-0.13289,0.986856,]
+neighbors: 496	510	516	517	518	532	536	538	540	545	546	554	557	558	569	576	584	586	
+
+ID: 527 cluster ID: 0 Type: core [-0.0802707,1.14588,]
+neighbors: 520	
+
+ID: 528 cluster ID: 0 Type: core [-0.0800996,0.97465,]
+neighbors: 496	502	510	517	518	521	524	538	547	552	557	
+
+ID: 529 cluster ID: 0 Type: core [-0.00335486,0.963714,]
+neighbors: 456	488	503	508	514	521	524	
+
+ID: 530 cluster ID: 0 Type: core [-0.105614,1.03438,]
+neighbors: 496	497	502	510	532	536	538	539	544	546	552	557	562	567	576	
+
+ID: 531 cluster ID: 0 Type: core [-0.0604882,0.869524,]
+neighbors: 534	535	
+
+ID: 532 cluster ID: 0 Type: core [-0.125999,1.0124,]
+neighbors: 496	502	510	526	530	536	538	545	546	552	557	558	562	569	576	584	586	
+
+ID: 533 cluster ID: 0 Type: core [-0.0243604,1.01046,]
+neighbors: 484	488	495	503	508	514	521	524	544	548	
+
+ID: 534 cluster ID: 0 Type: core [-0.0408152,0.912173,]
+neighbors: 483	523	531	535	547	
+
+ID: 535 cluster ID: 0 Type: core [-0.0685112,0.898238,]
+neighbors: 506	523	531	534	
+
+ID: 536 cluster ID: 0 Type: core [-0.127485,0.997707,]
+neighbors: 496	510	516	517	518	526	530	532	538	540	545	546	552	557	558	569	576	584	586	
+
+ID: 537 cluster ID: 0 Type: core [-0.213562,0.960803,]
+neighbors: 542	556	568	575	578	580	583	588	589	590	603	604	622	624	641	
+
+ID: 538 cluster ID: 0 Type: core [-0.0916699,1.00563,]
+neighbors: 496	502	510	517	526	528	530	532	536	539	544	546	552	557	576	
+
+ID: 539 cluster ID: 0 Type: core [-0.064975,1.04681,]
+neighbors: 484	495	497	502	505	530	538	544	548	552	562	576	
+
+ID: 540 cluster ID: 0 Type: core [-0.143892,0.957598,]
+neighbors: 496	506	510	516	518	526	536	545	554	557	558	565	569	574	584	586	590	
+
+ID: 541 cluster ID: 0 Type: core [-0.183025,1.00665,]
+neighbors: 516	545	546	556	558	561	564	569	578	579	584	586	
+
+ID: 542 cluster ID: 0 Type: core [-0.234187,0.98482,]
+neighbors: 537	556	559	568	573	578	579	580	583	588	589	595	
+
+ID: 543 cluster ID: 0 Type: core [-0.144477,1.08448,]
+neighbors: 519	550	561	562	567	
+
+ID: 544 cluster ID: 0 Type: core [-0.0681858,1.02969,]
+neighbors: 484	495	497	502	530	533	538	539	548	552	576	
+
+ID: 545 cluster ID: 0 Type: core [-0.156462,0.987235,]
+neighbors: 496	510	516	526	532	536	540	541	546	554	557	558	569	584	586	590	
+
+ID: 546 cluster ID: 0 Type: core [-0.133874,1.01175,]
+neighbors: 496	510	526	530	532	536	538	541	545	552	557	558	562	569	576	584	586	
+
+ID: 547 cluster ID: 0 Type: core [-0.0600534,0.954853,]
+neighbors: 508	517	518	521	523	524	528	534	
+
+ID: 548 cluster ID: 0 Type: core [-0.0367144,1.04136,]
+neighbors: 484	495	497	502	505	507	514	533	539	544	
+
+ID: 549 cluster ID: 0 Type: core [-0.195606,0.884364,]
+neighbors: 553	555	560	574	624	
+
+ID: 550 cluster ID: 0 Type: core [-0.139471,1.09502,]
+neighbors: 519	520	543	562	567	
+
+ID: 551 cluster ID: 0 Type: core [-0.284031,1.00139,]
+neighbors: 559	573	587	591	594	595	608	614	
+
+ID: 552 cluster ID: 0 Type: core [-0.0909724,1.01787,]
+neighbors: 496	497	502	510	517	528	530	532	536	538	539	544	546	557	562	576	
+
+ID: 553 cluster ID: 0 Type: core [-0.217353,0.894158,]
+neighbors: 549	560	574	582	603	604	622	624	641	
+
+ID: 554 cluster ID: 0 Type: core [-0.130193,0.946239,]
+neighbors: 506	510	516	517	518	526	540	545	557	558	565	569	590	
+
+ID: 555 cluster ID: 0 Type: core [-0.201272,0.837585,]
+neighbors: 549	572	598	
+
+ID: 556 cluster ID: 0 Type: core [-0.230533,0.997942,]
+neighbors: 537	541	542	559	568	573	578	579	580	583	588	
+
+ID: 557 cluster ID: 0 Type: core [-0.122027,0.993991,]
+neighbors: 496	510	517	518	526	528	530	532	536	538	540	545	546	552	554	558	569	576	584	586	
+
+ID: 558 cluster ID: 0 Type: core [-0.145689,0.989368,]
+neighbors: 496	510	516	526	532	536	540	541	545	546	554	557	569	584	586	
+
+ID: 559 cluster ID: 0 Type: core [-0.244231,1.02774,]
+neighbors: 542	551	556	573	579	593	611	614	
+
+ID: 560 cluster ID: 0 Type: core [-0.203127,0.904069,]
+neighbors: 549	553	565	574	575	603	604	622	624	
+
+ID: 561 cluster ID: 0 Type: core [-0.178004,1.05085,]
+neighbors: 512	519	541	543	564	570	
+
+ID: 562 cluster ID: 0 Type: core [-0.112105,1.05441,]
+neighbors: 497	502	530	532	539	543	546	550	552	567	576	
+
+ID: 563 cluster ID: 0 Type: core [-0.325809,0.939066,]
+neighbors: 600	601	602	607	608	612	618	620	630	638	
+
+ID: 564 cluster ID: 0 Type: core [-0.190431,1.03167,]
+neighbors: 512	541	561	570	579	584	586	
+
+ID: 565 cluster ID: 0 Type: core [-0.164625,0.929869,]
+neighbors: 516	540	554	560	568	574	575	590	624	
+
+ID: 566 cluster ID: 0 Type: core [-0.253199,1.09186,]
+neighbors: 581	593	611	625	
+
+ID: 567 cluster ID: 0 Type: core [-0.12336,1.07469,]
+neighbors: 530	543	550	562	576	
+
+ID: 568 cluster ID: 0 Type: core [-0.202656,0.958484,]
+neighbors: 516	537	542	556	565	574	575	578	580	583	590	603	604	622	624	
+
+ID: 569 cluster ID: 0 Type: core [-0.140681,0.981388,]
+neighbors: 496	510	516	517	518	526	532	536	540	541	545	546	554	557	558	584	586	590	
+
+ID: 570 cluster ID: 0 Type: core [-0.195816,1.05609,]
+neighbors: 512	519	561	564	579	
+
+ID: 571 cluster ID: 0 Type: core [-0.258168,0.929903,]
+neighbors: 580	582	583	587	588	589	595	603	604	619	622	641	
+
+ID: 572 cluster ID: 0 Type: core [-0.241938,0.847717,]
+neighbors: 555	598	629	
+
+ID: 573 cluster ID: 0 Type: core [-0.266236,1.00541,]
+neighbors: 542	551	556	559	579	587	588	591	593	594	595	611	614	
+
+ID: 574 cluster ID: 0 Type: core [-0.177071,0.920329,]
+neighbors: 516	540	549	553	560	565	568	575	590	622	624	
+
+ID: 575 cluster ID: 0 Type: core [-0.188783,0.9354,]
+neighbors: 516	537	560	565	568	574	578	580	583	590	603	622	624	
+
+ID: 576 cluster ID: 0 Type: core [-0.110183,1.02965,]
+neighbors: 496	502	510	526	530	532	536	538	539	544	546	552	557	562	567	
+
+ID: 577 cluster ID: -1 Type: noise [-0.234038,1.14117,]
+neighbors: 
+
+ID: 578 cluster ID: 0 Type: core [-0.215902,0.974655,]
+neighbors: 537	541	542	556	568	575	579	580	583	588	589	590	603	604	
+
+ID: 579 cluster ID: 0 Type: core [-0.227378,1.02145,]
+neighbors: 541	542	556	559	564	570	573	578	593	
+
+ID: 580 cluster ID: 0 Type: core [-0.217941,0.953259,]
+neighbors: 537	542	556	568	571	575	578	583	588	589	590	603	604	622	624	641	
+
+ID: 581 cluster ID: 0 Type: core [-0.291839,1.06572,]
+neighbors: 566	591	593	594	611	614	625	
+
+ID: 582 cluster ID: 0 Type: core [-0.257825,0.895148,]
+neighbors: 553	571	589	601	603	604	619	622	629	641	
+
+ID: 583 cluster ID: 0 Type: core [-0.227667,0.965692,]
+neighbors: 537	542	556	568	571	575	578	580	588	589	595	603	604	622	641	
+
+ID: 584 cluster ID: 0 Type: core [-0.156749,0.995134,]
+neighbors: 496	510	516	526	532	536	540	541	545	546	557	558	564	569	586	
+
+ID: 585 cluster ID: 0 Type: core [-0.371107,0.903863,]
+neighbors: 612	617	628	630	642	643	650	654	656	659	
+
+ID: 586 cluster ID: 0 Type: core [-0.15546,1.00419,]
+neighbors: 496	510	516	526	532	536	540	541	545	546	557	558	564	569	584	
+
+ID: 587 cluster ID: 0 Type: core [-0.282082,0.968758,]
+neighbors: 551	571	573	588	589	595	600	608	618	
+
+ID: 588 cluster ID: 0 Type: core [-0.255125,0.960186,]
+neighbors: 537	542	556	571	573	578	580	583	587	589	595	603	604	622	641	
+
+ID: 589 cluster ID: 0 Type: core [-0.249693,0.938244,]
+neighbors: 537	542	571	578	580	582	583	587	588	595	603	604	619	622	641	
+
+ID: 590 cluster ID: 0 Type: core [-0.175317,0.948214,]
+neighbors: 516	537	540	545	554	565	568	569	574	575	578	580	624	
+
+ID: 591 cluster ID: 0 Type: core [-0.311185,1.0256,]
+neighbors: 551	573	581	594	608	611	614	
+
+ID: 592 cluster ID: 0 Type: core [-0.377208,0.970573,]
+neighbors: 596	606	610	616	617	638	645	651	659	
+
+ID: 593 cluster ID: 0 Type: core [-0.253036,1.04382,]
+neighbors: 559	566	573	579	581	594	611	614	625	
+
+ID: 594 cluster ID: 0 Type: core [-0.300059,1.0292,]
+neighbors: 551	573	581	591	593	608	611	614	
+
+ID: 595 cluster ID: 0 Type: core [-0.273155,0.970152,]
+neighbors: 542	551	571	573	583	587	588	589	604	641	
+
+ID: 596 cluster ID: 0 Type: core [-0.368415,0.977037,]
+neighbors: 592	606	608	610	616	617	618	638	645	651	
+
+ID: 597 cluster ID: 0 Type: core [-0.446677,0.800493,]
+neighbors: 605	640	648	652	653	660	661	665	681	
+
+ID: 598 cluster ID: 0 Type: core [-0.212169,0.826284,]
+neighbors: 555	572	
+
+ID: 599 cluster ID: -1 Type: noise [-0.342063,1.14806,]
+neighbors: 
+
+ID: 600 cluster ID: 0 Type: core [-0.31567,0.936769,]
+neighbors: 563	587	601	602	607	608	612	618	619	620	638	
+
+ID: 601 cluster ID: 0 Type: core [-0.301776,0.905161,]
+neighbors: 563	582	600	602	607	612	619	620	629	630	
+
+ID: 602 cluster ID: 0 Type: core [-0.318259,0.897957,]
+neighbors: 563	600	601	607	612	613	619	620	629	630	
+
+ID: 603 cluster ID: 0 Type: core [-0.238096,0.930793,]
+neighbors: 537	553	560	568	571	575	578	580	582	583	588	589	604	619	622	641	
+
+ID: 604 cluster ID: 0 Type: core [-0.240018,0.934898,]
+neighbors: 537	553	560	568	571	578	580	582	583	588	589	595	603	619	622	641	
+
+ID: 605 cluster ID: 0 Type: core [-0.456277,0.810449,]
+neighbors: 597	640	648	652	653	660	663	665	680	681	
+
+ID: 606 cluster ID: 0 Type: core [-0.384704,0.961905,]
+neighbors: 592	596	610	616	617	638	645	659	
+
+ID: 607 cluster ID: 0 Type: core [-0.319123,0.900603,]
+neighbors: 563	600	601	602	612	613	619	620	629	630	
+
+ID: 608 cluster ID: 0 Type: core [-0.320753,0.985768,]
+neighbors: 551	563	587	591	594	596	600	618	638	
+
+ID: 609 cluster ID: 0 Type: core [-0.439872,0.966152,]
+neighbors: 610	626	631	633	634	635	639	670	
+
+ID: 610 cluster ID: 0 Type: core [-0.400368,0.963208,]
+neighbors: 592	596	606	609	616	617	626	645	651	659	
+
+ID: 611 cluster ID: 0 Type: core [-0.269977,1.05304,]
+neighbors: 559	566	573	581	591	593	594	614	625	
+
+ID: 612 cluster ID: 0 Type: core [-0.334871,0.90957,]
+neighbors: 563	585	600	601	602	607	618	620	628	630	638	654	
+
+ID: 613 cluster ID: 0 Type: core [-0.32873,0.853757,]
+neighbors: 602	607	615	630	636	
+
+ID: 614 cluster ID: 0 Type: core [-0.285018,1.03414,]
+neighbors: 551	559	573	581	591	593	594	611	625	
+
+ID: 615 cluster ID: 0 Type: core [-0.368397,0.827608,]
+neighbors: 613	642	
+
+ID: 616 cluster ID: 0 Type: core [-0.384672,0.992495,]
+neighbors: 592	596	606	610	617	645	651	
+
+ID: 617 cluster ID: 0 Type: core [-0.38743,0.942587,]
+neighbors: 585	592	596	606	610	616	628	638	645	650	654	659	
+
+ID: 618 cluster ID: 0 Type: core [-0.327128,0.952807,]
+neighbors: 563	587	596	600	608	612	620	638	
+
+ID: 619 cluster ID: 0 Type: core [-0.277187,0.907048,]
+neighbors: 571	582	589	600	601	602	603	604	607	620	629	641	
+
+ID: 620 cluster ID: 0 Type: core [-0.315559,0.928552,]
+neighbors: 563	600	601	602	607	612	618	619	630	638	
+
+ID: 621 cluster ID: 0 Type: core [-0.447466,0.895979,]
+neighbors: 623	627	632	634	637	639	643	647	649	656	666	699	
+
+ID: 622 cluster ID: 0 Type: core [-0.22475,0.925004,]
+neighbors: 537	553	560	568	571	574	575	580	582	583	588	589	603	604	624	641	
+
+ID: 623 cluster ID: 0 Type: core [-0.409991,0.866566,]
+neighbors: 621	628	637	642	643	647	650	653	654	656	699	
+
+ID: 624 cluster ID: 0 Type: core [-0.185316,0.925733,]
+neighbors: 516	537	549	553	560	565	568	574	575	580	590	622	
+
+ID: 625 cluster ID: 0 Type: core [-0.279634,1.07966,]
+neighbors: 566	581	593	611	614	
+
+ID: 626 cluster ID: 0 Type: core [-0.438724,0.959024,]
+neighbors: 609	610	631	633	634	639	670	
+
+ID: 627 cluster ID: 0 Type: core [-0.468334,0.888108,]
+neighbors: 621	632	634	637	639	647	649	663	666	668	673	678	688	718	
+
+ID: 628 cluster ID: 0 Type: core [-0.372702,0.898944,]
+neighbors: 585	612	617	623	630	642	643	650	654	656	659	
+
+ID: 629 cluster ID: 0 Type: core [-0.280855,0.874399,]
+neighbors: 572	582	601	602	607	619	636	
+
+ID: 630 cluster ID: 0 Type: core [-0.339358,0.891979,]
+neighbors: 563	585	601	602	607	612	613	620	628	642	650	654	
+
+ID: 631 cluster ID: 0 Type: core [-0.45859,0.95706,]
+neighbors: 609	626	633	634	639	670	
+
+ID: 632 cluster ID: 0 Type: core [-0.478446,0.865132,]
+neighbors: 621	627	637	647	648	649	658	660	663	665	666	668	673	678	680	688	701	718	721	
+
+ID: 633 cluster ID: 0 Type: core [-0.460422,1.00136,]
+neighbors: 609	626	631	635	662	
+
+ID: 634 cluster ID: 0 Type: core [-0.443545,0.922952,]
+neighbors: 609	621	626	627	631	637	639	643	647	656	659	670	
+
+ID: 635 cluster ID: 0 Type: core [-0.435848,1.01577,]
+neighbors: 609	633	651	662	
+
+ID: 636 cluster ID: 0 Type: core [-0.308317,0.846317,]
+neighbors: 613	629	
+
+ID: 637 cluster ID: 0 Type: core [-0.452399,0.891451,]
+neighbors: 621	623	627	632	634	639	643	647	649	656	663	666	699	
+
+ID: 638 cluster ID: 0 Type: core [-0.348527,0.952898,]
+neighbors: 563	592	596	600	606	608	612	617	618	620	
+
+ID: 639 cluster ID: 0 Type: core [-0.445486,0.929736,]
+neighbors: 609	621	626	627	631	634	637	647	659	670	
+
+ID: 640 cluster ID: 0 Type: core [-0.436352,0.779087,]
+neighbors: 597	605	652	661	681	
+
+ID: 641 cluster ID: 0 Type: core [-0.245672,0.932411,]
+neighbors: 537	553	571	580	582	583	588	589	595	603	604	619	622	
+
+ID: 642 cluster ID: 0 Type: core [-0.379579,0.863161,]
+neighbors: 585	615	623	628	630	643	650	654	656	699	
+
+ID: 643 cluster ID: 0 Type: core [-0.408241,0.89253,]
+neighbors: 585	621	623	628	634	637	642	647	650	654	656	659	699	
+
+ID: 644 cluster ID: 0 Type: core [-0.535975,0.944789,]
+neighbors: 655	664	690	
+
+ID: 645 cluster ID: 0 Type: core [-0.391127,0.984475,]
+neighbors: 592	596	606	610	616	617	651	
+
+ID: 646 cluster ID: 0 Type: core [-0.602983,0.965199,]
+neighbors: 667	682	690	
+
+ID: 647 cluster ID: 0 Type: core [-0.447821,0.880452,]
+neighbors: 621	623	627	632	634	637	639	643	649	653	656	660	663	665	666	678	699	
+
+ID: 648 cluster ID: 0 Type: core [-0.492908,0.818844,]
+neighbors: 597	605	632	658	660	663	665	668	675	678	680	687	693	721	
+
+ID: 649 cluster ID: 0 Type: core [-0.48029,0.875159,]
+neighbors: 621	627	632	637	647	658	660	663	665	666	668	673	678	680	688	701	718	721	
+
+ID: 650 cluster ID: 0 Type: core [-0.386876,0.894502,]
+neighbors: 585	617	623	628	630	642	643	654	656	659	699	
+
+ID: 651 cluster ID: 0 Type: core [-0.39285,1.0123,]
+neighbors: 592	596	610	616	635	645	
+
+ID: 652 cluster ID: 0 Type: core [-0.445385,0.794439,]
+neighbors: 597	605	640	660	661	665	681	
+
+ID: 653 cluster ID: 0 Type: core [-0.427566,0.846153,]
+neighbors: 597	605	623	647	660	663	665	681	699	
+
+ID: 654 cluster ID: 0 Type: core [-0.378391,0.898392,]
+neighbors: 585	612	617	623	628	630	642	643	650	656	659	699	
+
+ID: 655 cluster ID: 0 Type: core [-0.547278,0.90967,]
+neighbors: 644	664	671	673	685	688	691	701	712	720	
+
+ID: 656 cluster ID: 0 Type: core [-0.404281,0.894617,]
+neighbors: 585	621	623	628	634	637	642	643	647	650	654	659	699	
+
+ID: 657 cluster ID: 0 Type: core [-0.375989,0.74369,]
+neighbors: 661	
+
+ID: 658 cluster ID: 0 Type: core [-0.513642,0.860037,]
+neighbors: 632	648	649	663	664	666	668	673	675	678	680	687	688	697	701	718	721	
+
+ID: 659 cluster ID: 0 Type: core [-0.398979,0.925767,]
+neighbors: 585	592	606	610	617	628	634	639	643	650	654	656	
+
+ID: 660 cluster ID: 0 Type: core [-0.457601,0.831709,]
+neighbors: 597	605	632	647	648	649	652	653	663	665	666	678	680	681	721	
+
+ID: 661 cluster ID: 0 Type: core [-0.413526,0.776697,]
+neighbors: 597	640	652	657	681	
+
+ID: 662 cluster ID: 0 Type: core [-0.480219,1.01804,]
+neighbors: 633	635	
+
+ID: 663 cluster ID: 0 Type: core [-0.473796,0.847318,]
+neighbors: 605	627	632	637	647	648	649	653	658	660	665	666	668	678	680	687	718	721	
+
+ID: 664 cluster ID: 0 Type: core [-0.529502,0.901106,]
+neighbors: 644	655	658	668	671	673	688	691	701	712	718	720	
+
+ID: 665 cluster ID: 0 Type: core [-0.465765,0.834939,]
+neighbors: 597	605	632	647	648	649	652	653	660	663	666	678	680	721	
+
+ID: 666 cluster ID: 0 Type: core [-0.477609,0.874225,]
+neighbors: 621	627	632	637	647	649	658	660	663	665	668	673	678	680	688	701	718	721	
+
+ID: 667 cluster ID: 0 Type: core [-0.603185,0.98832,]
+neighbors: 646	682	690	
+
+ID: 668 cluster ID: 0 Type: core [-0.509176,0.863175,]
+neighbors: 627	632	648	649	658	663	664	666	673	675	678	680	687	688	701	718	721	
+
+ID: 669 cluster ID: 0 Type: core [-0.576855,0.802788,]
+neighbors: 672	679	684	692	696	708	719	727	753	
+
+ID: 670 cluster ID: 0 Type: core [-0.474766,0.940374,]
+neighbors: 609	626	631	634	639	
+
+ID: 671 cluster ID: 0 Type: core [-0.57855,0.896553,]
+neighbors: 655	664	676	682	685	691	697	705	712	720	747	
+
+ID: 672 cluster ID: 0 Type: core [-0.568789,0.766401,]
+neighbors: 669	677	679	683	686	689	692	695	696	702	719	731	735	746	750	753	
+
+ID: 673 cluster ID: 0 Type: core [-0.515003,0.881445,]
+neighbors: 627	632	649	655	658	664	666	668	678	688	691	697	701	718	721	
+
+ID: 674 cluster ID: -1 Type: noise [-0.773044,0.886389,]
+neighbors: 
+
+ID: 675 cluster ID: 0 Type: core [-0.51507,0.819071,]
+neighbors: 648	658	668	678	680	684	687	693	721	
+
+ID: 676 cluster ID: 0 Type: core [-0.595787,0.888039,]
+neighbors: 671	685	691	694	697	700	705	712	720	747	
+
+ID: 677 cluster ID: 0 Type: core [-0.522938,0.769004,]
+neighbors: 672	679	687	693	698	702	731	
+
+ID: 678 cluster ID: 0 Type: core [-0.485643,0.852022,]
+neighbors: 627	632	647	648	649	658	660	663	665	666	668	673	675	680	687	688	701	718	721	
+
+ID: 679 cluster ID: 0 Type: core [-0.561712,0.787303,]
+neighbors: 669	672	677	684	692	693	696	702	719	746	753	
+
+ID: 680 cluster ID: 0 Type: core [-0.486273,0.834097,]
+neighbors: 605	632	648	649	658	660	663	665	666	668	675	678	687	693	718	721	
+
+ID: 681 cluster ID: 0 Type: core [-0.415454,0.808353,]
+neighbors: 597	605	640	652	653	660	661	
+
+ID: 682 cluster ID: 0 Type: core [-0.589927,0.942828,]
+neighbors: 646	667	671	685	690	
+
+ID: 683 cluster ID: 0 Type: core [-0.587584,0.737777,]
+neighbors: 672	686	689	692	695	702	717	731	735	746	750	753	
+
+ID: 684 cluster ID: 0 Type: core [-0.547873,0.815526,]
+neighbors: 669	675	679	687	693	696	697	719	727	
+
+ID: 685 cluster ID: 0 Type: core [-0.593677,0.899092,]
+neighbors: 655	671	676	682	691	700	705	712	720	747	
+
+ID: 686 cluster ID: 0 Type: core [-0.555282,0.72696,]
+neighbors: 672	683	689	698	702	730	731	746	750	
+
+ID: 687 cluster ID: 0 Type: core [-0.513751,0.817735,]
+neighbors: 648	658	663	668	675	677	678	680	684	693	721	
+
+ID: 688 cluster ID: 0 Type: core [-0.511528,0.885648,]
+neighbors: 627	632	649	655	658	664	666	668	673	678	691	701	718	721	
+
+ID: 689 cluster ID: 0 Type: core [-0.56169,0.727271,]
+neighbors: 672	683	686	702	730	731	746	750	
+
+ID: 690 cluster ID: 0 Type: core [-0.564056,0.959226,]
+neighbors: 644	646	667	682	
+
+ID: 691 cluster ID: 0 Type: core [-0.5531,0.894593,]
+neighbors: 655	664	671	673	676	685	688	697	701	705	712	720	
+
+ID: 692 cluster ID: 0 Type: core [-0.599554,0.776074,]
+neighbors: 669	672	679	683	695	696	702	714	717	719	735	746	750	753	
+
+ID: 693 cluster ID: 0 Type: core [-0.518986,0.808468,]
+neighbors: 648	675	677	679	680	684	687	721	
+
+ID: 694 cluster ID: 0 Type: core [-0.619487,0.844834,]
+neighbors: 676	696	700	703	705	708	727	747	
+
+ID: 695 cluster ID: 0 Type: core [-0.616685,0.769407,]
+neighbors: 672	683	692	696	711	714	717	719	722	735	746	750	753	
+
+ID: 696 cluster ID: 0 Type: core [-0.589718,0.810372,]
+neighbors: 669	672	679	684	692	694	695	708	719	727	753	
+
+ID: 697 cluster ID: 0 Type: core [-0.559214,0.860442,]
+neighbors: 658	671	673	676	684	691	701	705	708	712	720	727	
+
+ID: 698 cluster ID: 0 Type: core [-0.51395,0.751719,]
+neighbors: 677	686	702	731	
+
+ID: 699 cluster ID: 0 Type: core [-0.417139,0.868908,]
+neighbors: 621	623	637	642	643	647	650	653	654	656	
+
+ID: 700 cluster ID: 0 Type: core [-0.621258,0.858471,]
+neighbors: 676	685	694	703	705	708	727	747	
+
+ID: 701 cluster ID: 0 Type: core [-0.52254,0.874194,]
+neighbors: 632	649	655	658	664	666	668	673	678	688	691	697	712	718	720	721	
+
+ID: 702 cluster ID: 0 Type: core [-0.562883,0.742762,]
+neighbors: 672	677	679	683	686	689	692	698	719	730	731	735	746	750	
+
+ID: 703 cluster ID: 0 Type: core [-0.659211,0.86168,]
+neighbors: 694	700	726	747	774	
+
+ID: 704 cluster ID: 0 Type: core [-0.701937,0.740207,]
+neighbors: 713	722	723	729	732	736	737	742	744	756	757	768	770	782	
+
+ID: 705 cluster ID: 0 Type: core [-0.591961,0.871196,]
+neighbors: 671	676	685	691	694	697	700	708	712	720	727	747	
+
+ID: 706 cluster ID: -1 Type: noise [-0.671698,0.916615,]
+neighbors: 
+
+ID: 707 cluster ID: 0 Type: core [-0.683748,0.808293,]
+neighbors: 711	726	729	770	774	
+
+ID: 708 cluster ID: 0 Type: core [-0.596388,0.837378,]
+neighbors: 669	694	696	697	700	705	712	727	747	
+
+ID: 709 cluster ID: -1 Type: noise [-0.497115,0.66127,]
+neighbors: 
+
+ID: 710 cluster ID: 0 Type: core [-0.629083,0.69367,]
+neighbors: 713	715	734	760	761	773	778	
+
+ID: 711 cluster ID: 0 Type: core [-0.651621,0.777198,]
+neighbors: 695	707	714	717	722	736	753	770	
+
+ID: 712 cluster ID: 0 Type: core [-0.566945,0.873658,]
+neighbors: 655	664	671	676	685	691	697	701	705	708	720	727	747	
+
+ID: 713 cluster ID: 0 Type: core [-0.668566,0.719273,]
+neighbors: 704	710	722	736	737	743	756	768	773	778	
+
+ID: 714 cluster ID: 0 Type: core [-0.636075,0.769568,]
+neighbors: 692	695	711	717	722	735	736	753	
+
+ID: 715 cluster ID: 0 Type: core [-0.607235,0.674,]
+neighbors: 710	734	760	776	
+
+ID: 716 cluster ID: 0 Type: core [-0.754295,0.739391,]
+neighbors: 723	732	738	742	744	748	751	757	762	775	781	795	804	
+
+ID: 717 cluster ID: 0 Type: core [-0.626899,0.75029,]
+neighbors: 683	692	695	711	714	722	735	736	746	750	753	773	
+
+ID: 718 cluster ID: 0 Type: core [-0.500495,0.873067,]
+neighbors: 627	632	649	658	663	664	666	668	673	678	680	688	701	721	
+
+ID: 719 cluster ID: 0 Type: core [-0.574079,0.789251,]
+neighbors: 669	672	679	684	692	695	696	702	727	746	753	
+
+ID: 720 cluster ID: 0 Type: core [-0.569195,0.881874,]
+neighbors: 655	664	671	676	685	691	697	701	705	712	727	747	
+
+ID: 721 cluster ID: 0 Type: core [-0.500129,0.838733,]
+neighbors: 632	648	649	658	660	663	665	666	668	673	675	678	680	687	688	693	701	718	
+
+ID: 722 cluster ID: 0 Type: core [-0.659354,0.758491,]
+neighbors: 695	704	711	713	714	717	736	737	768	770	773	
+
+ID: 723 cluster ID: 0 Type: core [-0.722143,0.766735,]
+neighbors: 704	716	724	729	732	744	748	757	770	
+
+ID: 724 cluster ID: 0 Type: core [-0.728525,0.782736,]
+neighbors: 723	729	732	744	748	757	770	
+
+ID: 725 cluster ID: 8 Type: core [-0.783435,0.818929,]
+neighbors: 728	
+
+ID: 726 cluster ID: 0 Type: core [-0.69254,0.833074,]
+neighbors: 703	707	729	774	
+
+ID: 727 cluster ID: 0 Type: core [-0.57851,0.837498,]
+neighbors: 669	684	694	696	697	700	705	708	712	719	720	747	
+
+ID: 728 cluster ID: 8 Type: core [-0.817569,0.829958,]
+neighbors: 725	
+
+ID: 729 cluster ID: 0 Type: core [-0.701189,0.789183,]
+neighbors: 704	707	723	724	726	732	744	770	774	
+
+ID: 730 cluster ID: 0 Type: core [-0.537156,0.707205,]
+neighbors: 686	689	702	731	
+
+ID: 731 cluster ID: 0 Type: core [-0.539697,0.741271,]
+neighbors: 672	677	683	686	689	698	702	730	746	750	
+
+ID: 732 cluster ID: 0 Type: core [-0.721709,0.773022,]
+neighbors: 704	716	723	724	729	744	748	757	770	
+
+ID: 733 cluster ID: 0 Type: core [-0.737975,0.690647,]
+neighbors: 739	742	754	755	756	762	763	771	775	779	782	790	795	804	
+
+ID: 734 cluster ID: 0 Type: core [-0.638856,0.67841,]
+neighbors: 710	715	743	760	761	773	776	778	
+
+ID: 735 cluster ID: 0 Type: core [-0.609876,0.743891,]
+neighbors: 672	683	692	695	702	714	717	746	750	753	
+
+ID: 736 cluster ID: 0 Type: core [-0.663946,0.748937,]
+neighbors: 704	711	713	714	717	722	737	768	770	773	
+
+ID: 737 cluster ID: 0 Type: core [-0.679394,0.715026,]
+neighbors: 704	713	722	736	743	756	768	773	778	782	
+
+ID: 738 cluster ID: 0 Type: core [-0.79566,0.76552,]
+neighbors: 716	741	748	751	781	
+
+ID: 739 cluster ID: 0 Type: core [-0.735774,0.665347,]
+neighbors: 733	754	755	762	763	765	771	775	779	782	785	788	790	793	
+
+ID: 740 cluster ID: 0 Type: core [-0.793397,0.613962,]
+neighbors: 745	752	758	759	777	780	785	788	792	803	810	821	828	
+
+ID: 741 cluster ID: 0 Type: core [-0.81187,0.754524,]
+neighbors: 738	751	772	781	783	787	
+
+ID: 742 cluster ID: 0 Type: core [-0.730774,0.715788,]
+neighbors: 704	716	733	748	756	757	762	768	771	775	779	782	795	
+
+ID: 743 cluster ID: 0 Type: core [-0.679384,0.676108,]
+neighbors: 713	734	737	754	756	761	765	768	773	778	782	
+
+ID: 744 cluster ID: 0 Type: core [-0.727153,0.777713,]
+neighbors: 704	716	723	724	729	732	748	757	770	
+
+ID: 745 cluster ID: 0 Type: core [-0.777914,0.601488,]
+neighbors: 740	752	758	759	777	780	785	788	792	793	803	810	821	834	
+
+ID: 746 cluster ID: 0 Type: core [-0.586573,0.744903,]
+neighbors: 672	679	683	686	689	692	695	702	717	719	731	735	750	753	
+
+ID: 747 cluster ID: 0 Type: core [-0.61254,0.873017,]
+neighbors: 671	676	685	694	700	703	705	708	712	720	727	
+
+ID: 748 cluster ID: 0 Type: core [-0.754689,0.756061,]
+neighbors: 716	723	724	732	738	742	744	751	757	775	781	
+
+ID: 749 cluster ID: 9 Type: core [-0.602534,0.584413,]
+neighbors: 786	
+
+ID: 750 cluster ID: 0 Type: core [-0.58645,0.740473,]
+neighbors: 672	683	686	689	692	695	702	717	731	735	746	753	
+
+ID: 751 cluster ID: 0 Type: core [-0.799527,0.741548,]
+neighbors: 716	738	741	748	772	781	783	787	795	804	
+
+ID: 752 cluster ID: 0 Type: core [-0.803327,0.626933,]
+neighbors: 740	745	758	759	766	777	780	785	788	792	803	821	828	
+
+ID: 753 cluster ID: 0 Type: core [-0.603349,0.775861,]
+neighbors: 669	672	679	683	692	695	696	711	714	717	719	735	746	750	
+
+ID: 754 cluster ID: 0 Type: core [-0.716974,0.657899,]
+neighbors: 733	739	743	755	763	765	767	769	771	778	779	782	790	793	
+
+ID: 755 cluster ID: 0 Type: core [-0.759533,0.654416,]
+neighbors: 733	739	754	758	759	762	763	771	779	785	788	790	792	793	
+
+ID: 756 cluster ID: 0 Type: core [-0.70001,0.71041,]
+neighbors: 704	713	733	737	742	743	768	773	775	778	779	782	
+
+ID: 757 cluster ID: 0 Type: core [-0.738678,0.749716,]
+neighbors: 704	716	723	724	732	742	744	748	775	
+
+ID: 758 cluster ID: 0 Type: core [-0.783484,0.634224,]
+neighbors: 740	745	752	755	759	766	777	780	785	788	790	792	793	803	821	
+
+ID: 759 cluster ID: 0 Type: core [-0.769215,0.627745,]
+neighbors: 740	745	752	755	758	763	777	780	785	788	790	792	793	803	
+
+ID: 760 cluster ID: 0 Type: core [-0.633986,0.644505,]
+neighbors: 710	715	734	761	776	
+
+ID: 761 cluster ID: 0 Type: core [-0.656145,0.652382,]
+neighbors: 710	734	743	760	776	778	
+
+ID: 762 cluster ID: 0 Type: core [-0.75343,0.697035,]
+neighbors: 716	733	739	742	755	763	771	775	779	782	790	795	804	
+
+ID: 763 cluster ID: 0 Type: core [-0.734952,0.650956,]
+neighbors: 733	739	754	755	759	762	765	767	769	771	779	785	788	790	792	793	
+
+ID: 764 cluster ID: 0 Type: core [-0.893381,0.495874,]
+neighbors: 816	833	837	844	846	863	865	869	
+
+ID: 765 cluster ID: 0 Type: core [-0.705631,0.640421,]
+neighbors: 739	743	754	763	767	769	778	793	805	
+
+ID: 766 cluster ID: 0 Type: core [-0.818606,0.664743,]
+neighbors: 752	758	783	794	796	814	828	
+
+ID: 767 cluster ID: 0 Type: core [-0.703252,0.614598,]
+neighbors: 754	763	765	769	793	805	
+
+ID: 768 cluster ID: 0 Type: core [-0.683693,0.720735,]
+neighbors: 704	713	722	736	737	742	743	756	770	773	778	782	
+
+ID: 769 cluster ID: 0 Type: core [-0.695922,0.621123,]
+neighbors: 754	763	765	767	805	
+
+ID: 770 cluster ID: 0 Type: core [-0.688223,0.768892,]
+neighbors: 704	707	711	722	723	724	729	732	736	744	768	
+
+ID: 771 cluster ID: 0 Type: core [-0.744639,0.679798,]
+neighbors: 733	739	742	754	755	762	763	775	779	782	790	793	795	804	
+
+ID: 772 cluster ID: 0 Type: core [-0.844643,0.747103,]
+neighbors: 741	751	781	787	
+
+ID: 773 cluster ID: 0 Type: core [-0.650977,0.714623,]
+neighbors: 710	713	717	722	734	736	737	743	756	768	778	
+
+ID: 774 cluster ID: 0 Type: core [-0.692419,0.83044,]
+neighbors: 703	707	726	729	
+
+ID: 775 cluster ID: 0 Type: core [-0.745091,0.709019,]
+neighbors: 716	733	739	742	748	756	757	762	771	779	782	790	795	804	
+
+ID: 776 cluster ID: 0 Type: core [-0.63207,0.639878,]
+neighbors: 715	734	760	761	
+
+ID: 777 cluster ID: 0 Type: core [-0.784763,0.590595,]
+neighbors: 740	745	752	758	759	780	785	788	792	797	803	810	821	834	
+
+ID: 778 cluster ID: 0 Type: core [-0.674321,0.677567,]
+neighbors: 710	713	734	737	743	754	756	761	765	768	773	
+
+ID: 779 cluster ID: 0 Type: core [-0.739173,0.682571,]
+neighbors: 733	739	742	754	755	756	762	763	771	775	782	790	793	795	
+
+ID: 780 cluster ID: 0 Type: core [-0.795369,0.610379,]
+neighbors: 740	745	752	758	759	777	785	788	792	803	810	821	828	
+
+ID: 781 cluster ID: 0 Type: core [-0.796595,0.756818,]
+neighbors: 716	738	741	748	751	772	783	787	795	
+
+ID: 782 cluster ID: 0 Type: core [-0.720792,0.700825,]
+neighbors: 704	733	737	739	742	743	754	756	762	768	771	775	779	790	
+
+ID: 783 cluster ID: 0 Type: core [-0.811213,0.709065,]
+neighbors: 741	751	766	781	795	796	804	
+
+ID: 784 cluster ID: 0 Type: core [-0.717514,0.51886,]
+neighbors: 801	812	823	826	835	838	
+
+ID: 785 cluster ID: 0 Type: core [-0.758654,0.628578,]
+neighbors: 739	740	745	752	755	758	759	763	777	780	788	790	792	793	803	
+
+ID: 786 cluster ID: 9 Type: core [-0.593019,0.542873,]
+neighbors: 749	
+
+ID: 787 cluster ID: 0 Type: core [-0.845464,0.756922,]
+neighbors: 741	751	772	781	
+
+ID: 788 cluster ID: 0 Type: core [-0.768182,0.632969,]
+neighbors: 739	740	745	752	755	758	759	763	777	780	785	790	792	793	803	
+
+ID: 789 cluster ID: 0 Type: core [-0.855129,0.565886,]
+neighbors: 800	808	822	842	
+
+ID: 790 cluster ID: 0 Type: core [-0.754709,0.667797,]
+neighbors: 733	739	754	755	758	759	762	763	771	775	779	782	785	788	792	793	795	804	
+
+ID: 791 cluster ID: 0 Type: core [-0.950233,0.538962,]
+neighbors: 809	817	830	837	861	
+
+ID: 792 cluster ID: 0 Type: core [-0.771276,0.628882,]
+neighbors: 740	745	752	755	758	759	763	777	780	785	788	790	793	803	
+
+ID: 793 cluster ID: 0 Type: core [-0.747589,0.63601,]
+neighbors: 739	745	754	755	758	759	763	765	767	771	779	785	788	790	792	
+
+ID: 794 cluster ID: 0 Type: core [-0.857242,0.671296,]
+neighbors: 766	796	799	814	818	825	828	
+
+ID: 795 cluster ID: 0 Type: core [-0.779187,0.710302,]
+neighbors: 716	733	742	751	762	771	775	779	781	783	790	804	
+
+ID: 796 cluster ID: 0 Type: core [-0.832381,0.682751,]
+neighbors: 766	783	794	814	
+
+ID: 797 cluster ID: 0 Type: core [-0.785185,0.545093,]
+neighbors: 777	801	808	810	815	834	838	840	
+
+ID: 798 cluster ID: 0 Type: core [-0.830569,0.477603,]
+neighbors: 802	816	819	824	831	833	849	855	860	
+
+ID: 799 cluster ID: 0 Type: core [-0.889817,0.636743,]
+neighbors: 794	800	806	814	818	820	825	842	
+
+ID: 800 cluster ID: 0 Type: core [-0.873053,0.597444,]
+neighbors: 789	799	806	807	822	825	842	
+
+ID: 801 cluster ID: 0 Type: core [-0.751714,0.55292,]
+neighbors: 784	797	810	812	815	823	834	838	840	
+
+ID: 802 cluster ID: 0 Type: core [-0.830224,0.51476,]
+neighbors: 798	815	819	833	849	855	
+
+ID: 803 cluster ID: 0 Type: core [-0.786571,0.601631,]
+neighbors: 740	745	752	758	759	777	780	785	788	792	810	821	
+
+ID: 804 cluster ID: 0 Type: core [-0.783036,0.708678,]
+neighbors: 716	733	751	762	771	775	783	790	795	
+
+ID: 805 cluster ID: 0 Type: core [-0.692254,0.597425,]
+neighbors: 765	767	769	811	
+
+ID: 806 cluster ID: 0 Type: core [-0.892967,0.603517,]
+neighbors: 799	800	807	822	825	842	
+
+ID: 807 cluster ID: 0 Type: core [-0.912106,0.579336,]
+neighbors: 800	806	822	830	842	
+
+ID: 808 cluster ID: 0 Type: core [-0.828897,0.566588,]
+neighbors: 789	797	810	815	821	
+
+ID: 809 cluster ID: 0 Type: core [-0.958417,0.542196,]
+neighbors: 791	817	830	837	861	
+
+ID: 810 cluster ID: 0 Type: core [-0.786575,0.569071,]
+neighbors: 740	745	777	780	797	801	803	808	815	834	838	840	
+
+ID: 811 cluster ID: 0 Type: core [-0.668054,0.566232,]
+neighbors: 805	835	
+
+ID: 812 cluster ID: 0 Type: core [-0.727909,0.532041,]
+neighbors: 784	801	823	826	834	835	838	840	
+
+ID: 813 cluster ID: -1 Type: noise [-0.985359,0.645871,]
+neighbors: 
+
+ID: 814 cluster ID: 0 Type: core [-0.866011,0.655937,]
+neighbors: 766	794	796	799	818	825	828	
+
+ID: 815 cluster ID: 0 Type: core [-0.793064,0.534242,]
+neighbors: 797	801	802	808	810	834	838	840	849	
+
+ID: 816 cluster ID: 0 Type: core [-0.870707,0.456428,]
+neighbors: 764	798	833	839	844	845	846	852	856	860	864	865	900	
+
+ID: 817 cluster ID: 0 Type: core [-0.959911,0.546835,]
+neighbors: 791	809	830	837	861	
+
+ID: 818 cluster ID: 0 Type: core [-0.885386,0.675528,]
+neighbors: 794	799	814	820	825	
+
+ID: 819 cluster ID: 0 Type: core [-0.813973,0.473474,]
+neighbors: 798	802	824	831	833	849	855	860	
+
+ID: 820 cluster ID: 0 Type: core [-0.917443,0.66896,]
+neighbors: 799	818	825	
+
+ID: 821 cluster ID: 0 Type: core [-0.818345,0.608287,]
+neighbors: 740	745	752	758	777	780	803	808	828	
+
+ID: 822 cluster ID: 0 Type: core [-0.890507,0.577541,]
+neighbors: 789	800	806	807	830	842	
+
+ID: 823 cluster ID: 0 Type: core [-0.735514,0.515205,]
+neighbors: 784	801	812	826	834	835	838	840	
+
+ID: 824 cluster ID: 0 Type: core [-0.793068,0.466382,]
+neighbors: 798	819	831	849	855	
+
+ID: 825 cluster ID: 0 Type: core [-0.878989,0.638143,]
+neighbors: 794	799	800	806	814	818	820	828	842	
+
+ID: 826 cluster ID: 0 Type: core [-0.745459,0.489188,]
+neighbors: 784	812	823	832	838	
+
+ID: 827 cluster ID: 0 Type: core [-0.746218,0.427386,]
+neighbors: 832	
+
+ID: 828 cluster ID: 0 Type: core [-0.836378,0.631816,]
+neighbors: 740	752	766	780	794	814	821	825	
+
+ID: 829 cluster ID: 0 Type: core [-0.8803,0.294994,]
+neighbors: 857	867	871	872	882	884	894	899	902	903	905	911	914	916	934	
+
+ID: 830 cluster ID: 0 Type: core [-0.93848,0.565259,]
+neighbors: 791	807	809	817	822	861	
+
+ID: 831 cluster ID: 0 Type: core [-0.814865,0.436717,]
+neighbors: 798	819	824	855	860	
+
+ID: 832 cluster ID: 0 Type: core [-0.721546,0.451082,]
+neighbors: 826	827	
+
+ID: 833 cluster ID: 0 Type: core [-0.846669,0.491196,]
+neighbors: 764	798	802	816	819	844	849	855	860	
+
+ID: 834 cluster ID: 0 Type: core [-0.754833,0.557151,]
+neighbors: 745	777	797	801	810	812	815	823	838	840	
+
+ID: 835 cluster ID: 0 Type: core [-0.68984,0.534318,]
+neighbors: 784	811	812	823	
+
+ID: 836 cluster ID: 0 Type: core [-1.00786,0.462721,]
+neighbors: 843	854	868	870	876	878	
+
+ID: 837 cluster ID: 0 Type: core [-0.92728,0.510975,]
+neighbors: 764	791	809	817	844	851	861	863	865	869	
+
+ID: 838 cluster ID: 0 Type: core [-0.76052,0.532883,]
+neighbors: 784	797	801	810	812	815	823	826	834	840	
+
+ID: 839 cluster ID: 0 Type: core [-0.895852,0.429188,]
+neighbors: 816	845	846	852	856	859	864	900	
+
+ID: 840 cluster ID: 0 Type: core [-0.770618,0.539515,]
+neighbors: 797	801	810	812	815	823	834	838	
+
+ID: 841 cluster ID: 0 Type: core [-0.947964,0.348751,]
+neighbors: 847	858	871	875	881	886	887	898	906	928	931	
+
+ID: 842 cluster ID: 0 Type: core [-0.887036,0.59314,]
+neighbors: 789	799	800	806	807	822	825	
+
+ID: 843 cluster ID: 0 Type: core [-0.98318,0.453161,]
+neighbors: 836	850	851	854	868	870	876	878	
+
+ID: 844 cluster ID: 0 Type: core [-0.894881,0.492952,]
+neighbors: 764	816	833	837	846	856	863	865	869	
+
+ID: 845 cluster ID: 0 Type: core [-0.871037,0.438909,]
+neighbors: 816	839	846	852	856	860	864	900	
+
+ID: 846 cluster ID: 0 Type: core [-0.890495,0.45549,]
+neighbors: 764	816	839	844	845	852	856	859	863	864	865	900	
+
+ID: 847 cluster ID: 0 Type: core [-0.971767,0.312781,]
+neighbors: 841	858	875	879	881	887	891	908	913	928	931	
+
+ID: 848 cluster ID: 0 Type: core [-0.854966,0.357753,]
+neighbors: 862	872	873	874	880	893	897	899	901	911	
+
+ID: 849 cluster ID: 0 Type: core [-0.811598,0.488427,]
+neighbors: 798	802	815	819	824	833	855	
+
+ID: 850 cluster ID: 0 Type: core [-0.952974,0.417376,]
+neighbors: 843	859	866	878	
+
+ID: 851 cluster ID: 0 Type: core [-0.95693,0.485025,]
+neighbors: 837	843	861	863	870	
+
+ID: 852 cluster ID: 0 Type: core [-0.886703,0.420206,]
+neighbors: 816	839	845	846	856	859	862	864	893	900	924	
+
+ID: 853 cluster ID: 0 Type: core [-1.11085,0.332248,]
+neighbors: 883	
+
+ID: 854 cluster ID: 0 Type: core [-0.997562,0.448583,]
+neighbors: 836	843	868	870	876	878	
+
+ID: 855 cluster ID: 0 Type: core [-0.819235,0.48112,]
+neighbors: 798	802	819	824	831	833	849	860	
+
+ID: 856 cluster ID: 0 Type: core [-0.904282,0.444121,]
+neighbors: 816	839	844	845	846	852	859	863	864	865	900	
+
+ID: 857 cluster ID: 0 Type: core [-0.897647,0.322308,]
+neighbors: 829	858	867	871	872	874	875	880	882	898	899	902	905	906	911	916	931	
+
+ID: 858 cluster ID: 0 Type: core [-0.944438,0.335116,]
+neighbors: 841	847	857	871	875	881	882	886	887	898	906	928	931	
+
+ID: 859 cluster ID: 0 Type: core [-0.925855,0.428688,]
+neighbors: 839	846	850	852	856	863	878	900	
+
+ID: 860 cluster ID: 0 Type: core [-0.837977,0.442105,]
+neighbors: 798	816	819	831	833	845	855	864	
+
+ID: 861 cluster ID: 0 Type: core [-0.940844,0.51721,]
+neighbors: 791	809	817	830	837	851	863	869	
+
+ID: 862 cluster ID: 0 Type: core [-0.893653,0.378413,]
+neighbors: 848	852	874	880	886	893	899	900	901	924	
+
+ID: 863 cluster ID: 0 Type: core [-0.924775,0.471506,]
+neighbors: 764	837	844	846	851	856	859	861	865	
+
+ID: 864 cluster ID: 0 Type: core [-0.870241,0.445787,]
+neighbors: 816	839	845	846	852	856	860	865	900	
+
+ID: 865 cluster ID: 0 Type: core [-0.89801,0.482873,]
+neighbors: 764	816	837	844	846	856	863	864	869	
+
+ID: 866 cluster ID: 0 Type: core [-0.974345,0.398371,]
+neighbors: 850	878	
+
+ID: 867 cluster ID: 0 Type: core [-0.880603,0.295331,]
+neighbors: 829	857	871	872	875	882	884	894	899	902	903	905	911	914	916	934	
+
+ID: 868 cluster ID: 0 Type: core [-1.01116,0.474061,]
+neighbors: 836	843	854	870	876	
+
+ID: 869 cluster ID: 0 Type: core [-0.8954,0.515332,]
+neighbors: 764	837	844	861	865	
+
+ID: 870 cluster ID: 0 Type: core [-0.991672,0.461795,]
+neighbors: 836	843	851	854	868	876	878	
+
+ID: 871 cluster ID: 0 Type: core [-0.918862,0.31723,]
+neighbors: 829	841	857	858	867	875	880	882	886	898	899	902	905	906	916	931	
+
+ID: 872 cluster ID: 0 Type: core [-0.866843,0.330848,]
+neighbors: 829	848	857	867	874	880	882	884	893	899	901	911	916	934	
+
+ID: 873 cluster ID: 0 Type: core [-0.81199,0.381153,]
+neighbors: 848	897	
+
+ID: 874 cluster ID: 0 Type: core [-0.881933,0.35573,]
+neighbors: 848	857	862	872	880	882	886	893	898	899	901	911	924	
+
+ID: 875 cluster ID: 0 Type: core [-0.929232,0.306086,]
+neighbors: 841	847	857	858	867	871	882	889	898	899	902	905	906	918	931	
+
+ID: 876 cluster ID: 0 Type: core [-1.01575,0.453805,]
+neighbors: 836	843	854	868	870	878	
+
+ID: 877 cluster ID: 0 Type: core [-1.0366,0.32759,]
+neighbors: 879	883	890	891	908	913	919	926	
+
+ID: 878 cluster ID: 0 Type: core [-0.972541,0.433487,]
+neighbors: 836	843	850	854	859	866	870	876	
+
+ID: 879 cluster ID: 0 Type: core [-1.00095,0.338391,]
+neighbors: 847	877	881	887	890	891	908	913	919	928	
+
+ID: 880 cluster ID: 0 Type: core [-0.886363,0.350774,]
+neighbors: 848	857	862	871	872	874	882	886	893	898	899	901	906	911	924	
+
+ID: 881 cluster ID: 0 Type: core [-0.958406,0.348017,]
+neighbors: 841	847	858	879	886	887	898	906	908	928	931	
+
+ID: 882 cluster ID: 0 Type: core [-0.90472,0.321582,]
+neighbors: 829	857	858	867	871	872	874	875	880	886	898	899	902	905	906	911	916	931	
+
+ID: 883 cluster ID: 0 Type: core [-1.08475,0.323045,]
+neighbors: 853	877	890	926	
+
+ID: 884 cluster ID: 0 Type: core [-0.844044,0.308297,]
+neighbors: 829	867	872	899	911	916	934	
+
+ID: 885 cluster ID: 0 Type: core [-0.923621,0.201152,]
+neighbors: 895	904	920	927	930	936	943	944	945	955	976	979	
+
+ID: 886 cluster ID: 0 Type: core [-0.928969,0.364979,]
+neighbors: 841	858	862	871	874	880	881	882	893	898	906	924	931	
+
+ID: 887 cluster ID: 0 Type: core [-0.98677,0.3388,]
+neighbors: 841	847	858	879	881	891	908	919	928	
+
+ID: 888 cluster ID: 0 Type: core [-0.868408,0.234635,]
+neighbors: 894	903	912	914	917	
+
+ID: 889 cluster ID: 0 Type: core [-0.93635,0.265223,]
+neighbors: 875	894	902	904	905	917	918	925	927	945	
+
+ID: 890 cluster ID: 0 Type: core [-1.04512,0.315181,]
+neighbors: 877	879	883	891	896	908	913	919	926	
+
+ID: 891 cluster ID: 0 Type: core [-1.01467,0.298365,]
+neighbors: 847	877	879	887	890	896	907	908	913	919	922	926	928	947	
+
+ID: 892 cluster ID: -1 Type: noise [-1.07986,0.414383,]
+neighbors: 
+
+ID: 893 cluster ID: 0 Type: core [-0.880227,0.373195,]
+neighbors: 848	852	862	872	874	880	886	897	899	900	901	924	
+
+ID: 894 cluster ID: 0 Type: core [-0.911583,0.256281,]
+neighbors: 829	867	888	889	902	904	905	914	917	918	927	945	
+
+ID: 895 cluster ID: 0 Type: core [-0.9457,0.156338,]
+neighbors: 885	920	930	932	935	936	939	944	955	976	977	979	
+
+ID: 896 cluster ID: 0 Type: core [-1.03539,0.271371,]
+neighbors: 890	891	907	913	915	921	922	926	941	947	967	
+
+ID: 897 cluster ID: 0 Type: core [-0.835628,0.38104,]
+neighbors: 848	873	893	901	
+
+ID: 898 cluster ID: 0 Type: core [-0.918894,0.33519,]
+neighbors: 841	857	858	871	874	875	880	881	882	886	899	902	906	924	931	
+
+ID: 899 cluster ID: 0 Type: core [-0.885858,0.330876,]
+neighbors: 829	848	857	862	867	871	872	874	875	880	882	884	893	898	901	902	906	911	916	931	
+
+ID: 900 cluster ID: 0 Type: core [-0.884818,0.412107,]
+neighbors: 816	839	845	846	852	856	859	862	864	893	924	
+
+ID: 901 cluster ID: 0 Type: core [-0.857695,0.36002,]
+neighbors: 848	862	872	874	880	893	897	899	911	
+
+ID: 902 cluster ID: 0 Type: core [-0.902,0.289768,]
+neighbors: 829	857	867	871	875	882	889	894	898	899	905	911	914	916	917	931	
+
+ID: 903 cluster ID: 0 Type: core [-0.859314,0.254575,]
+neighbors: 829	867	888	914	916	917	934	
+
+ID: 904 cluster ID: 0 Type: core [-0.952695,0.235634,]
+neighbors: 885	889	894	910	918	925	927	936	938	943	944	945	955	976	
+
+ID: 905 cluster ID: 0 Type: core [-0.912675,0.281382,]
+neighbors: 829	857	867	871	875	882	889	894	902	914	916	917	918	931	945	
+
+ID: 906 cluster ID: 0 Type: core [-0.930909,0.342251,]
+neighbors: 841	857	858	871	875	880	881	882	886	898	899	924	931	
+
+ID: 907 cluster ID: 0 Type: core [-1.01488,0.273344,]
+neighbors: 891	896	908	913	915	921	922	926	941	947	
+
+ID: 908 cluster ID: 0 Type: core [-0.99857,0.318886,]
+neighbors: 847	877	879	881	887	890	891	907	913	919	922	926	928	
+
+ID: 909 cluster ID: -1 Type: noise [-0.787916,0.105786,]
+neighbors: 
+
+ID: 910 cluster ID: 0 Type: core [-0.984161,0.233477,]
+neighbors: 904	915	918	921	922	925	927	936	938	941	943	944	947	
+
+ID: 911 cluster ID: 0 Type: core [-0.868735,0.316872,]
+neighbors: 829	848	857	867	872	874	880	882	884	899	901	902	916	934	
+
+ID: 912 cluster ID: 0 Type: core [-0.841663,0.207643,]
+neighbors: 888	
+
+ID: 913 cluster ID: 0 Type: core [-1.01635,0.296952,]
+neighbors: 847	877	879	890	891	896	907	908	919	922	926	928	947	
+
+ID: 914 cluster ID: 0 Type: core [-0.875981,0.265486,]
+neighbors: 829	867	888	894	902	903	905	916	917	
+
+ID: 915 cluster ID: 0 Type: core [-1.00885,0.23613,]
+neighbors: 896	907	910	921	922	925	938	941	947	950	956	967	992	
+
+ID: 916 cluster ID: 0 Type: core [-0.876361,0.300621,]
+neighbors: 829	857	867	871	872	882	884	899	902	903	905	911	914	934	
+
+ID: 917 cluster ID: 0 Type: core [-0.900657,0.245976,]
+neighbors: 888	889	894	902	903	905	914	918	927	945	
+
+ID: 918 cluster ID: 0 Type: core [-0.943661,0.260528,]
+neighbors: 875	889	894	904	905	910	917	925	927	945	
+
+ID: 919 cluster ID: 0 Type: core [-1.02769,0.335122,]
+neighbors: 877	879	887	890	891	908	913	926	928	
+
+ID: 920 cluster ID: 0 Type: core [-0.934935,0.186829,]
+neighbors: 885	895	927	930	935	936	939	943	944	955	976	979	
+
+ID: 921 cluster ID: 0 Type: core [-1.00666,0.23082,]
+neighbors: 896	907	910	915	922	925	938	941	947	950	956	967	992	
+
+ID: 922 cluster ID: 0 Type: core [-1.01503,0.272673,]
+neighbors: 891	896	907	908	910	913	915	921	926	941	947	
+
+ID: 923 cluster ID: 10 Type: core [-1.12491,0.278124,]
+neighbors: 948	
+
+ID: 924 cluster ID: 0 Type: core [-0.909037,0.380161,]
+neighbors: 852	862	874	880	886	893	898	900	906	
+
+ID: 925 cluster ID: 0 Type: core [-0.972257,0.230994,]
+neighbors: 889	904	910	915	918	921	927	936	938	941	943	944	945	947	955	976	
+
+ID: 926 cluster ID: 0 Type: core [-1.0412,0.306265,]
+neighbors: 877	883	890	891	896	907	908	913	919	922	
+
+ID: 927 cluster ID: 0 Type: core [-0.944449,0.233956,]
+neighbors: 885	889	894	904	910	917	918	920	925	936	938	943	944	945	955	976	
+
+ID: 928 cluster ID: 0 Type: core [-0.986211,0.331072,]
+neighbors: 841	847	858	879	881	887	891	908	913	919	
+
+ID: 929 cluster ID: 11 Type: core [-1.11205,0.180685,]
+neighbors: 966	
+
+ID: 930 cluster ID: 0 Type: core [-0.930963,0.178521,]
+neighbors: 885	895	920	935	936	939	943	944	955	976	979	
+
+ID: 931 cluster ID: 0 Type: core [-0.928229,0.319697,]
+neighbors: 841	847	857	858	871	875	881	882	886	898	899	902	905	906	
+
+ID: 932 cluster ID: 0 Type: core [-0.990456,0.159612,]
+neighbors: 895	935	936	937	942	944	954	959	965	972	991	
+
+ID: 933 cluster ID: 0 Type: core [-1.01259,0.103869,]
+neighbors: 937	942	958	959	960	970	974	978	981	991	996	997	
+
+ID: 934 cluster ID: 0 Type: core [-0.833978,0.294175,]
+neighbors: 829	867	872	884	903	911	916	
+
+ID: 935 cluster ID: 0 Type: core [-0.961485,0.163934,]
+neighbors: 895	920	930	932	936	939	943	944	955	976	977	979	
+
+ID: 936 cluster ID: 0 Type: core [-0.965427,0.189476,]
+neighbors: 885	895	904	910	920	925	927	930	932	935	938	943	944	955	976	979	
+
+ID: 937 cluster ID: 0 Type: core [-1.01304,0.148139,]
+neighbors: 932	933	940	942	954	959	965	970	972	981	991	997	
+
+ID: 938 cluster ID: 0 Type: core [-0.975961,0.221002,]
+neighbors: 904	910	915	921	925	927	936	941	943	944	947	955	976	
+
+ID: 939 cluster ID: 0 Type: core [-0.924393,0.144013,]
+neighbors: 895	920	930	935	977	979	
+
+ID: 940 cluster ID: 0 Type: core [-1.03804,0.17525,]
+neighbors: 937	942	950	954	956	965	972	991	992	
+
+ID: 941 cluster ID: 0 Type: core [-1.00544,0.239405,]
+neighbors: 896	907	910	915	921	922	925	938	947	967	992	
+
+ID: 942 cluster ID: 0 Type: core [-1.01556,0.132344,]
+neighbors: 932	933	937	940	954	959	960	965	970	972	978	981	991	996	997	
+
+ID: 943 cluster ID: 0 Type: core [-0.961093,0.209891,]
+neighbors: 885	904	910	920	925	927	930	935	936	938	944	955	976	979	
+
+ID: 944 cluster ID: 0 Type: core [-0.968715,0.190556,]
+neighbors: 885	895	904	910	920	925	927	930	932	935	936	938	943	955	976	979	
+
+ID: 945 cluster ID: 0 Type: core [-0.924199,0.244321,]
+neighbors: 885	889	894	904	905	917	918	925	927	
+
+ID: 946 cluster ID: 0 Type: core [-1.0295,0.0144528,]
+neighbors: 969	988	989	990	993	995	998	
+
+ID: 947 cluster ID: 0 Type: core [-1.01009,0.250479,]
+neighbors: 891	896	907	910	913	915	921	922	925	938	941	967	
+
+ID: 948 cluster ID: 10 Type: core [-1.13434,0.234449,]
+neighbors: 923	
+
+ID: 949 cluster ID: 0 Type: core [-0.965275,0.0440837,]
+neighbors: 958	971	973	974	982	984	986	987	989	993	1000	
+
+ID: 950 cluster ID: 0 Type: core [-1.04997,0.216282,]
+neighbors: 915	921	940	956	967	992	
+
+ID: 951 cluster ID: 0 Type: core [-0.902212,0.0963709,]
+neighbors: 952	953	964	968	977	984	
+
+ID: 952 cluster ID: 0 Type: core [-0.861326,0.0800202,]
+neighbors: 951	964	
+
+ID: 953 cluster ID: 0 Type: core [-0.898725,0.0467065,]
+neighbors: 951	957	964	968	971	
+
+ID: 954 cluster ID: 0 Type: core [-1.03849,0.151451,]
+neighbors: 932	937	940	942	956	965	970	972	981	991	997	
+
+ID: 955 cluster ID: 0 Type: core [-0.948167,0.196569,]
+neighbors: 885	895	904	920	925	927	930	935	936	938	943	944	976	979	
+
+ID: 956 cluster ID: 0 Type: core [-1.03795,0.197021,]
+neighbors: 915	921	940	950	954	965	967	972	992	
+
+ID: 957 cluster ID: 0 Type: core [-0.88268,0.019124,]
+neighbors: 953	971	983	
+
+ID: 958 cluster ID: 0 Type: core [-1.00039,0.0785593,]
+neighbors: 933	949	959	960	970	974	978	981	982	989	993	996	
+
+ID: 959 cluster ID: 0 Type: core [-0.994965,0.11505,]
+neighbors: 932	933	937	942	958	960	970	974	978	981	991	996	997	
+
+ID: 960 cluster ID: 0 Type: core [-0.998754,0.0958187,]
+neighbors: 933	942	958	959	970	974	978	981	991	996	
+
+ID: 961 cluster ID: 11 Type: core [-1.09763,0.100049,]
+neighbors: 966	
+
+ID: 962 cluster ID: 0 Type: core [-1.07934,0.0520672,]
+neighbors: 990	994	995	
+
+ID: 963 cluster ID: -1 Type: noise [-1.20479,0.0379928,]
+neighbors: 
+
+ID: 964 cluster ID: 0 Type: core [-0.899336,0.0919481,]
+neighbors: 951	952	953	968	984	
+
+ID: 965 cluster ID: 0 Type: core [-1.02468,0.168365,]
+neighbors: 932	937	940	942	954	956	970	972	991	992	997	
+
+ID: 966 cluster ID: 11 Type: core [-1.10158,0.137933,]
+neighbors: 929	961	
+
+ID: 967 cluster ID: 0 Type: core [-1.05445,0.23403,]
+neighbors: 896	915	921	941	947	950	956	992	
+
+ID: 968 cluster ID: 0 Type: core [-0.913119,0.0941738,]
+neighbors: 951	953	964	977	984	
+
+ID: 969 cluster ID: 0 Type: core [-1.01,0.00934414,]
+neighbors: 946	982	986	987	988	989	993	998	1000	
+
+ID: 970 cluster ID: 0 Type: core [-1.02007,0.118649,]
+neighbors: 933	937	942	954	958	959	960	965	972	978	981	991	996	997	
+
+ID: 971 cluster ID: 0 Type: core [-0.922347,0.0201249,]
+neighbors: 949	953	957	973	986	
+
+ID: 972 cluster ID: 0 Type: core [-1.02893,0.155349,]
+neighbors: 932	937	940	942	954	956	965	970	981	991	997	
+
+ID: 973 cluster ID: 0 Type: core [-0.953675,0.0360661,]
+neighbors: 949	971	982	986	987	993	1000	
+
+ID: 974 cluster ID: 0 Type: core [-0.968514,0.0909862,]
+neighbors: 933	949	958	959	960	977	978	984	996	
+
+ID: 975 cluster ID: -1 Type: noise [-1.14587,0.0441002,]
+neighbors: 
+
+ID: 976 cluster ID: 0 Type: core [-0.948191,0.18968,]
+neighbors: 885	895	904	920	925	927	930	935	936	938	943	944	955	979	
+
+ID: 977 cluster ID: 0 Type: core [-0.944885,0.119936,]
+neighbors: 895	935	939	951	968	974	984	
+
+ID: 978 cluster ID: 0 Type: core [-1.01264,0.0952842,]
+neighbors: 933	942	958	959	960	970	974	981	991	996	997	
+
+ID: 979 cluster ID: 0 Type: core [-0.943942,0.18076,]
+neighbors: 885	895	920	930	935	936	939	943	944	955	976	
+
+ID: 980 cluster ID: -1 Type: noise [-0.859909,0.140131,]
+neighbors: 
+
+ID: 981 cluster ID: 0 Type: core [-1.02849,0.112488,]
+neighbors: 933	937	942	954	958	959	960	970	972	978	991	996	997	
+
+ID: 982 cluster ID: 0 Type: core [-0.988439,0.0440313,]
+neighbors: 949	958	969	973	986	987	989	993	1000	
+
+ID: 983 cluster ID: 0 Type: core [-0.863096,-0.00370991,]
+neighbors: 957	
+
+ID: 984 cluster ID: 0 Type: core [-0.94498,0.0873296,]
+neighbors: 949	951	964	968	974	977	
+
+ID: 985 cluster ID: -1 Type: noise [-1.10023,-0.0699474,]
+neighbors: 
+
+ID: 986 cluster ID: 0 Type: core [-0.966537,0.00358721,]
+neighbors: 949	969	971	973	982	987	989	993	1000	
+
+ID: 987 cluster ID: 0 Type: core [-0.979148,0.006115,]
+neighbors: 949	969	973	982	986	988	989	993	1000	
+
+ID: 988 cluster ID: 0 Type: core [-1.01676,-0.0232465,]
+neighbors: 946	969	987	998	1000	
+
+ID: 989 cluster ID: 0 Type: core [-1.00521,0.0292932,]
+neighbors: 946	949	958	969	982	986	987	993	1000	
+
+ID: 990 cluster ID: 0 Type: core [-1.0715,0.0343306,]
+neighbors: 946	962	994	995	
+
+ID: 991 cluster ID: 0 Type: core [-1.01531,0.142177,]
+neighbors: 932	933	937	940	942	954	959	960	965	970	972	978	981	997	
+
+ID: 992 cluster ID: 0 Type: core [-1.04407,0.211415,]
+neighbors: 915	921	940	941	950	956	965	967	
+
+ID: 993 cluster ID: 0 Type: core [-1.00296,0.0338677,]
+neighbors: 946	949	958	969	973	982	986	987	989	1000	
+
+ID: 994 cluster ID: 0 Type: core [-1.08115,0.027585,]
+neighbors: 962	990	995	
+
+ID: 995 cluster ID: 0 Type: core [-1.06644,0.0294447,]
+neighbors: 946	962	990	994	
+
+ID: 996 cluster ID: 0 Type: core [-1.01782,0.0850895,]
+neighbors: 933	942	958	959	960	970	974	978	981	997	
+
+ID: 997 cluster ID: 0 Type: core [-1.04305,0.122933,]
+neighbors: 933	937	942	954	959	965	970	972	978	981	991	996	
+
+ID: 998 cluster ID: 0 Type: core [-1.02438,-0.0296317,]
+neighbors: 946	969	988	
+
+ID: 999 cluster ID: -1 Type: noise [-1.01564,-0.129249,]
+neighbors: 
+
+ID: 1000 cluster ID: 0 Type: core [-0.975234,0.00293861,]
+neighbors: 949	969	973	982	986	987	988	989	993	
+
+ID: 1001 cluster ID: 12 Type: core [0.0697423,0.387201,]
+neighbors: 1028	
+
+ID: 1002 cluster ID: 13 Type: core [-0.0658843,0.493775,]
+neighbors: 1005	1021	
+
+ID: 1003 cluster ID: 13 Type: core [0.0160255,0.471638,]
+neighbors: 1004	1007	1010	1014	1018	1025	
+
+ID: 1004 cluster ID: 13 Type: core [0.0559061,0.497807,]
+neighbors: 1003	1007	1010	
+
+ID: 1005 cluster ID: 13 Type: core [-0.111444,0.476052,]
+neighbors: 1002	
+
+ID: 1006 cluster ID: 13 Type: core [-0.0305515,0.327224,]
+neighbors: 1017	1019	
+
+ID: 1007 cluster ID: 13 Type: core [0.0259125,0.503553,]
+neighbors: 1003	1004	1010	1014	1025	
+
+ID: 1008 cluster ID: 13 Type: core [-0.000574694,0.420042,]
+neighbors: 1013	1015	1018	1023	1025	
+
+ID: 1009 cluster ID: 13 Type: core [-0.0706565,0.372157,]
+neighbors: 1013	1027	
+
+ID: 1010 cluster ID: 13 Type: core [0.0248059,0.464335,]
+neighbors: 1003	1004	1007	1014	1018	1025	
+
+ID: 1011 cluster ID: 14 Type: core [-0.0640766,0.2576,]
+neighbors: 1016	1042	1050	
+
+ID: 1012 cluster ID: 14 Type: core [0.054982,0.334741,]
+neighbors: 1037	1038	1047	
+
+ID: 1013 cluster ID: 13 Type: core [-0.0341764,0.402683,]
+neighbors: 1008	1009	1015	1018	1019	1023	1027	
+
+ID: 1014 cluster ID: 13 Type: core [-0.0105688,0.472307,]
+neighbors: 1003	1007	1010	1018	1021	1025	
+
+ID: 1015 cluster ID: 13 Type: core [-0.0197636,0.416923,]
+neighbors: 1008	1013	1018	1023	1027	
+
+ID: 1016 cluster ID: 14 Type: core [-0.0801498,0.282883,]
+neighbors: 1011	1042	1050	
+
+ID: 1017 cluster ID: 13 Type: core [-0.010186,0.344675,]
+neighbors: 1006	1019	
+
+ID: 1018 cluster ID: 13 Type: core [-0.0186789,0.450069,]
+neighbors: 1003	1008	1010	1013	1014	1015	1021	1023	1025	
+
+ID: 1019 cluster ID: 13 Type: core [-0.00579855,0.36607,]
+neighbors: 1006	1013	1017	1023	
+
+ID: 1020 cluster ID: 14 Type: core [0.0306374,0.227546,]
+neighbors: 1024	1031	1040	1041	1044	1046	1051	1054	1061	
+
+ID: 1021 cluster ID: 13 Type: core [-0.0501735,0.465332,]
+neighbors: 1002	1014	1018	
+
+ID: 1022 cluster ID: -1 Type: noise [-0.105553,0.409163,]
+neighbors: 
+
+ID: 1023 cluster ID: 13 Type: core [-0.00257538,0.404682,]
+neighbors: 1008	1013	1015	1018	1019	
+
+ID: 1024 cluster ID: 14 Type: core [-0.014736,0.234926,]
+neighbors: 1020	1031	1034	1051	
+
+ID: 1025 cluster ID: 13 Type: core [0.0224488,0.455982,]
+neighbors: 1003	1007	1008	1010	1014	1018	
+
+ID: 1026 cluster ID: 14 Type: core [0.0998197,0.282377,]
+neighbors: 1035	1038	1043	1056	
+
+ID: 1027 cluster ID: 13 Type: core [-0.0548803,0.385567,]
+neighbors: 1009	1013	1015	
+
+ID: 1028 cluster ID: 12 Type: core [0.0519341,0.414057,]
+neighbors: 1001	
+
+ID: 1029 cluster ID: -1 Type: noise [0.119534,0.428106,]
+neighbors: 
+
+ID: 1030 cluster ID: 14 Type: core [0.103228,0.231979,]
+neighbors: 1046	1049	1052	1054	1056	1061	
+
+ID: 1031 cluster ID: 14 Type: core [0.000260804,0.259275,]
+neighbors: 1020	1024	1032	1034	1041	1042	
+
+ID: 1032 cluster ID: 14 Type: core [0.0130942,0.285744,]
+neighbors: 1031	1037	1041	1047	
+
+ID: 1033 cluster ID: 14 Type: core [0.0280993,0.122501,]
+neighbors: 1045	1055	1058	1060	1066	1067	1070	1075	1076	
+
+ID: 1034 cluster ID: 14 Type: core [-0.0225043,0.219333,]
+neighbors: 1024	1031	1051	
+
+ID: 1035 cluster ID: 14 Type: core [0.12721,0.293802,]
+neighbors: 1026	1036	1048	1056	1065	
+
+ID: 1036 cluster ID: 14 Type: core [0.158699,0.317641,]
+neighbors: 1035	1048	1065	
+
+ID: 1037 cluster ID: 14 Type: core [0.0368038,0.300024,]
+neighbors: 1012	1032	1038	1041	1043	1047	
+
+ID: 1038 cluster ID: 14 Type: core [0.0698543,0.292318,]
+neighbors: 1012	1026	1037	1041	1043	1047	1054	1056	
+
+ID: 1039 cluster ID: -1 Type: noise [-0.108861,0.336313,]
+neighbors: 
+
+ID: 1040 cluster ID: 14 Type: core [0.0587808,0.189832,]
+neighbors: 1020	1044	1045	1046	1052	1061	1068	1072	
+
+ID: 1041 cluster ID: 14 Type: core [0.0437629,0.272737,]
+neighbors: 1020	1031	1032	1037	1038	1043	1046	1047	1054	1056	
+
+ID: 1042 cluster ID: 14 Type: core [-0.0422304,0.277686,]
+neighbors: 1011	1016	1031	1050	
+
+ID: 1043 cluster ID: 14 Type: core [0.0682043,0.28418,]
+neighbors: 1026	1037	1038	1041	1047	1054	1056	
+
+ID: 1044 cluster ID: 14 Type: core [0.0398528,0.2017,]
+neighbors: 1020	1040	1046	1051	1054	1061	1068	1072	
+
+ID: 1045 cluster ID: 14 Type: core [0.0419287,0.149146,]
+neighbors: 1033	1040	1058	1060	1067	1072	
+
+ID: 1046 cluster ID: 14 Type: core [0.0548285,0.229028,]
+neighbors: 1020	1030	1040	1041	1044	1054	1061	
+
+ID: 1047 cluster ID: 14 Type: core [0.0450199,0.303858,]
+neighbors: 1012	1032	1037	1038	1041	1043	
+
+ID: 1048 cluster ID: 14 Type: core [0.124359,0.34114,]
+neighbors: 1035	1036	1065	
+
+ID: 1049 cluster ID: 14 Type: core [0.108886,0.183813,]
+neighbors: 1030	1052	1053	1061	1062	1064	1068	1072	
+
+ID: 1050 cluster ID: 14 Type: core [-0.0792545,0.251483,]
+neighbors: 1011	1016	1042	
+
+ID: 1051 cluster ID: 14 Type: core [0.00166882,0.207199,]
+neighbors: 1020	1024	1034	1044	
+
+ID: 1052 cluster ID: 14 Type: core [0.103159,0.19749,]
+neighbors: 1030	1040	1049	1053	1061	1064	1068	1072	
+
+ID: 1053 cluster ID: 14 Type: core [0.125326,0.162054,]
+neighbors: 1049	1052	1057	1062	1064	1068	1069	
+
+ID: 1054 cluster ID: 14 Type: core [0.057198,0.245109,]
+neighbors: 1020	1030	1038	1041	1043	1044	1046	1056	1061	
+
+ID: 1055 cluster ID: 14 Type: core [0.0373743,0.0786568,]
+neighbors: 1033	1070	1071	1075	1076	
+
+ID: 1056 cluster ID: 14 Type: core [0.0897594,0.277442,]
+neighbors: 1026	1030	1035	1038	1041	1043	1054	
+
+ID: 1057 cluster ID: 14 Type: core [0.159167,0.145475,]
+neighbors: 1053	1062	1064	1069	
+
+ID: 1058 cluster ID: 14 Type: core [0.00630851,0.154954,]
+neighbors: 1033	1045	1060	1066	1067	
+
+ID: 1059 cluster ID: 14 Type: core [-0.000515689,0.0358068,]
+neighbors: 1071	
+
+ID: 1060 cluster ID: 14 Type: core [0.0121328,0.147459,]
+neighbors: 1033	1045	1058	1066	1067	1075	
+
+ID: 1061 cluster ID: 14 Type: core [0.0634128,0.202768,]
+neighbors: 1020	1030	1040	1044	1046	1049	1052	1054	1068	1072	
+
+ID: 1062 cluster ID: 14 Type: core [0.137903,0.16126,]
+neighbors: 1049	1053	1057	1064	1069	
+
+ID: 1063 cluster ID: 15 Type: core [0.156757,0.0683764,]
+neighbors: 1080	1087	1089	1092	
+
+ID: 1064 cluster ID: 14 Type: core [0.114417,0.162652,]
+neighbors: 1049	1052	1053	1057	1062	1068	1069	1072	
+
+ID: 1065 cluster ID: 14 Type: core [0.153989,0.322836,]
+neighbors: 1035	1036	1048	
+
+ID: 1066 cluster ID: 14 Type: core [-0.0118176,0.132911,]
+neighbors: 1033	1058	1060	1067	1075	
+
+ID: 1067 cluster ID: 14 Type: core [0.00406993,0.126302,]
+neighbors: 1033	1045	1058	1060	1066	1070	1075	1076	
+
+ID: 1068 cluster ID: 14 Type: core [0.0840194,0.184881,]
+neighbors: 1040	1044	1049	1052	1053	1061	1064	1072	
+
+ID: 1069 cluster ID: 14 Type: core [0.124678,0.125666,]
+neighbors: 1053	1057	1062	1064	
+
+ID: 1070 cluster ID: 14 Type: core [0.0400069,0.0989374,]
+neighbors: 1033	1055	1067	1071	1075	1076	
+
+ID: 1071 cluster ID: 14 Type: core [-0.000320962,0.0731722,]
+neighbors: 1055	1059	1070	1075	1076	
+
+ID: 1072 cluster ID: 14 Type: core [0.0727903,0.172265,]
+neighbors: 1040	1044	1045	1049	1052	1061	1064	1068	
+
+ID: 1073 cluster ID: 16 Type: core [0.0721105,-0.0112302,]
+neighbors: 1081	1083	1085	1095	
+
+ID: 1074 cluster ID: 15 Type: core [0.182359,-0.0658552,]
+neighbors: 1082	1090	1100	1106	1107	1109	
+
+ID: 1075 cluster ID: 14 Type: core [0.0221457,0.0990154,]
+neighbors: 1033	1055	1060	1066	1067	1070	1071	1076	
+
+ID: 1076 cluster ID: 14 Type: core [0.0261356,0.0891358,]
+neighbors: 1033	1055	1067	1070	1071	1075	
+
+ID: 1077 cluster ID: 15 Type: core [0.218624,-0.0105606,]
+neighbors: 1079	1088	1099	1100	1104	
+
+ID: 1078 cluster ID: 15 Type: core [0.117938,-0.052929,]
+neighbors: 1082	
+
+ID: 1079 cluster ID: 15 Type: core [0.239132,-0.0229307,]
+neighbors: 1077	1099	1100	1104	1126	
+
+ID: 1080 cluster ID: 15 Type: core [0.163944,0.0598007,]
+neighbors: 1063	1087	1088	1089	1092	
+
+ID: 1081 cluster ID: 16 Type: core [0.0473915,-0.0134945,]
+neighbors: 1073	1083	1085	1095	
+
+ID: 1082 cluster ID: 15 Type: core [0.145879,-0.0347898,]
+neighbors: 1074	1078	1098	
+
+ID: 1083 cluster ID: 16 Type: core [0.0477488,4.83428e-005,]
+neighbors: 1073	1081	1085	1095	
+
+ID: 1084 cluster ID: 15 Type: core [0.105705,0.0609676,]
+neighbors: 1089	1092	
+
+ID: 1085 cluster ID: 16 Type: core [0.0367297,-0.0461846,]
+neighbors: 1073	1081	1083	1095	
+
+ID: 1086 cluster ID: -1 Type: noise [-0.0284971,-0.0122328,]
+neighbors: 
+
+ID: 1087 cluster ID: 15 Type: core [0.177009,0.0500629,]
+neighbors: 1063	1080	1088	1089	
+
+ID: 1088 cluster ID: 15 Type: core [0.198799,0.0265263,]
+neighbors: 1077	1080	1087	1099	1104	
+
+ID: 1089 cluster ID: 15 Type: core [0.145115,0.0574054,]
+neighbors: 1063	1080	1084	1087	1092	
+
+ID: 1090 cluster ID: 15 Type: core [0.223216,-0.0905538,]
+neighbors: 1074	1105	1106	1107	1109	1110	1126	
+
+ID: 1091 cluster ID: 15 Type: core [0.237124,-0.209571,]
+neighbors: 1115	1116	1118	1119	1122	1123	1138	
+
+ID: 1092 cluster ID: 15 Type: core [0.127133,0.0327425,]
+neighbors: 1063	1080	1084	1089	1098	
+
+ID: 1093 cluster ID: 15 Type: core [0.155909,-0.133805,]
+neighbors: 1096	1102	1109	1113	
+
+ID: 1094 cluster ID: -1 Type: noise [0.244079,0.0838031,]
+neighbors: 
+
+ID: 1095 cluster ID: 16 Type: core [0.0488891,-0.0182457,]
+neighbors: 1073	1081	1083	1085	
+
+ID: 1096 cluster ID: 15 Type: core [0.183873,-0.128302,]
+neighbors: 1093	1102	1107	1109	1110	
+
+ID: 1097 cluster ID: 15 Type: core [0.167369,-0.194012,]
+neighbors: 1102	1114	
+
+ID: 1098 cluster ID: 15 Type: core [0.145029,0.00581006,]
+neighbors: 1082	1092	
+
+ID: 1099 cluster ID: 15 Type: core [0.197453,0.00198932,]
+neighbors: 1077	1079	1088	1100	1104	
+
+ID: 1100 cluster ID: 15 Type: core [0.202975,-0.042882,]
+neighbors: 1074	1077	1079	1099	1104	1107	1126	
+
+ID: 1101 cluster ID: 15 Type: core [0.0986338,-0.17511,]
+neighbors: 1113	
+
+ID: 1102 cluster ID: 15 Type: core [0.181489,-0.151359,]
+neighbors: 1093	1096	1097	1109	1110	1114	
+
+ID: 1103 cluster ID: 15 Type: core [0.288128,-0.0532716,]
+neighbors: 1105	1108	
+
+ID: 1104 cluster ID: 15 Type: core [0.196457,-0.00393579,]
+neighbors: 1077	1079	1088	1099	1100	
+
+ID: 1105 cluster ID: 15 Type: core [0.263801,-0.0814589,]
+neighbors: 1090	1103	1106	1126	
+
+ID: 1106 cluster ID: 15 Type: core [0.221353,-0.0940446,]
+neighbors: 1074	1090	1105	1107	1109	1110	1126	
+
+ID: 1107 cluster ID: 15 Type: core [0.184025,-0.0861521,]
+neighbors: 1074	1090	1096	1100	1106	1109	
+
+ID: 1108 cluster ID: 15 Type: core [0.295357,-0.00881172,]
+neighbors: 1103	
+
+ID: 1109 cluster ID: 15 Type: core [0.195075,-0.106426,]
+neighbors: 1074	1090	1093	1096	1102	1106	1107	1110	
+
+ID: 1110 cluster ID: 15 Type: core [0.222018,-0.136127,]
+neighbors: 1090	1096	1102	1106	1109	1115	
+
+ID: 1111 cluster ID: 15 Type: core [0.275253,-0.170515,]
+neighbors: 1115	1118	1119	1121	
+
+ID: 1112 cluster ID: -1 Type: noise [0.0528118,-0.108263,]
+neighbors: 
+
+ID: 1113 cluster ID: 15 Type: core [0.118408,-0.142147,]
+neighbors: 1093	1101	
+
+ID: 1114 cluster ID: 15 Type: core [0.152761,-0.190509,]
+neighbors: 1097	1102	
+
+ID: 1115 cluster ID: 15 Type: core [0.230292,-0.185045,]
+neighbors: 1091	1110	1111	1118	1119	1138	
+
+ID: 1116 cluster ID: 15 Type: core [0.225176,-0.236672,]
+neighbors: 1091	1123	1138	
+
+ID: 1117 cluster ID: 17 Type: core [0.248019,-0.383099,]
+neighbors: 1140	
+
+ID: 1118 cluster ID: 15 Type: core [0.264946,-0.192781,]
+neighbors: 1091	1111	1115	1119	1122	1123	
+
+ID: 1119 cluster ID: 15 Type: core [0.274679,-0.18781,]
+neighbors: 1091	1111	1115	1118	1121	1123	1128	
+
+ID: 1120 cluster ID: 15 Type: core [0.277769,-0.26604,]
+neighbors: 1122	1123	1125	1132	
+
+ID: 1121 cluster ID: 15 Type: core [0.305444,-0.163337,]
+neighbors: 1111	1119	1124	1128	1136	
+
+ID: 1122 cluster ID: 15 Type: core [0.275681,-0.24026,]
+neighbors: 1091	1118	1120	1123	1125	1132	
+
+ID: 1123 cluster ID: 15 Type: core [0.273155,-0.228047,]
+neighbors: 1091	1116	1118	1119	1120	1122	1125	1132	
+
+ID: 1124 cluster ID: 15 Type: core [0.326148,-0.156641,]
+neighbors: 1121	1128	1131	1136	1143	
+
+ID: 1125 cluster ID: 15 Type: core [0.309888,-0.246004,]
+neighbors: 1120	1122	1123	1129	1132	
+
+ID: 1126 cluster ID: 15 Type: core [0.233463,-0.0642117,]
+neighbors: 1079	1090	1100	1105	1106	
+
+ID: 1127 cluster ID: 15 Type: core [0.349271,-0.325506,]
+neighbors: 1139	1141	1144	1146	1166	
+
+ID: 1128 cluster ID: 15 Type: core [0.324074,-0.193326,]
+neighbors: 1119	1121	1124	1131	1136	1143	
+
+ID: 1129 cluster ID: 15 Type: core [0.32955,-0.246858,]
+neighbors: 1125	1132	1135	1139	1143	1144	
+
+ID: 1130 cluster ID: -1 Type: noise [0.350204,-0.0943852,]
+neighbors: 
+
+ID: 1131 cluster ID: 15 Type: core [0.351318,-0.19957,]
+neighbors: 1124	1128	1134	1136	1143	
+
+ID: 1132 cluster ID: 15 Type: core [0.305308,-0.241359,]
+neighbors: 1120	1122	1123	1125	1129	
+
+ID: 1133 cluster ID: 15 Type: core [0.401549,-0.212126,]
+neighbors: 1134	1142	1149	
+
+ID: 1134 cluster ID: 15 Type: core [0.37746,-0.212512,]
+neighbors: 1131	1133	1143	
+
+ID: 1135 cluster ID: 15 Type: core [0.363787,-0.26128,]
+neighbors: 1129	1139	1144	1147	1165	
+
+ID: 1136 cluster ID: 15 Type: core [0.341011,-0.157188,]
+neighbors: 1121	1124	1128	1131	1143	
+
+ID: 1137 cluster ID: 15 Type: core [0.403272,-0.338087,]
+neighbors: 1141	1147	1152	1153	1166	1185	
+
+ID: 1138 cluster ID: 15 Type: core [0.219995,-0.230936,]
+neighbors: 1091	1115	1116	
+
+ID: 1139 cluster ID: 15 Type: core [0.349669,-0.285078,]
+neighbors: 1127	1129	1135	1144	1147	
+
+ID: 1140 cluster ID: 17 Type: core [0.211965,-0.398019,]
+neighbors: 1117	
+
+ID: 1141 cluster ID: 15 Type: core [0.383206,-0.349824,]
+neighbors: 1127	1137	1146	1166	1185	
+
+ID: 1142 cluster ID: 15 Type: core [0.437126,-0.233593,]
+neighbors: 1133	1149	1156	
+
+ID: 1143 cluster ID: 15 Type: core [0.346445,-0.200303,]
+neighbors: 1124	1128	1129	1131	1134	1136	
+
+ID: 1144 cluster ID: 15 Type: core [0.348546,-0.281317,]
+neighbors: 1127	1129	1135	1139	1147	
+
+ID: 1145 cluster ID: 15 Type: core [0.472453,-0.305044,]
+neighbors: 1150	1162	1171	1173	
+
+ID: 1146 cluster ID: 15 Type: core [0.340966,-0.356519,]
+neighbors: 1127	1141	
+
+ID: 1147 cluster ID: 15 Type: core [0.394148,-0.297499,]
+neighbors: 1135	1137	1139	1144	1152	1153	1165	1166	
+
+ID: 1148 cluster ID: 15 Type: core [0.509898,-0.363718,]
+neighbors: 1154	1157	1167	1171	1173	1178	1180	
+
+ID: 1149 cluster ID: 15 Type: core [0.4241,-0.239428,]
+neighbors: 1133	1142	1156	1165	
+
+ID: 1150 cluster ID: 15 Type: core [0.476018,-0.298347,]
+neighbors: 1145	1162	1171	1173	
+
+ID: 1151 cluster ID: 15 Type: core [0.468374,-0.39182,]
+neighbors: 1154	1159	1160	1164	1167	1180	
+
+ID: 1152 cluster ID: 15 Type: core [0.421541,-0.31516,]
+neighbors: 1137	1147	1153	1162	1165	1166	
+
+ID: 1153 cluster ID: 15 Type: core [0.414769,-0.297886,]
+neighbors: 1137	1147	1152	1162	1165	1166	
+
+ID: 1154 cluster ID: 15 Type: core [0.461526,-0.354542,]
+neighbors: 1148	1151	1162	1171	1173	1180	
+
+ID: 1155 cluster ID: 18 Type: core [0.360378,-0.420906,]
+neighbors: 1161	
+
+ID: 1156 cluster ID: 15 Type: core [0.445861,-0.251118,]
+neighbors: 1142	1149	1165	
+
+ID: 1157 cluster ID: 15 Type: core [0.519964,-0.380991,]
+neighbors: 1148	1164	1167	1178	1180	1190	
+
+ID: 1158 cluster ID: 15 Type: core [0.516302,-0.457254,]
+neighbors: 1159	1164	1167	1168	1170	1190	
+
+ID: 1159 cluster ID: 15 Type: core [0.476967,-0.437881,]
+neighbors: 1151	1158	1160	1164	1167	1170	
+
+ID: 1160 cluster ID: 15 Type: core [0.469282,-0.406031,]
+neighbors: 1151	1159	1164	1167	1180	
+
+ID: 1161 cluster ID: 18 Type: core [0.364354,-0.461729,]
+neighbors: 1155	
+
+ID: 1162 cluster ID: 15 Type: core [0.449631,-0.319154,]
+neighbors: 1145	1150	1152	1153	1154	1171	1173	
+
+ID: 1163 cluster ID: 15 Type: core [0.597793,-0.28571,]
+neighbors: 1175	1177	
+
+ID: 1164 cluster ID: 15 Type: core [0.506067,-0.418804,]
+neighbors: 1151	1157	1158	1159	1160	1167	1190	
+
+ID: 1165 cluster ID: 15 Type: core [0.4071,-0.280507,]
+neighbors: 1135	1147	1149	1152	1153	1156	1166	
+
+ID: 1166 cluster ID: 15 Type: core [0.395017,-0.322454,]
+neighbors: 1127	1137	1141	1147	1152	1153	1165	1185	
+
+ID: 1167 cluster ID: 15 Type: core [0.512015,-0.409886,]
+neighbors: 1148	1151	1157	1158	1159	1160	1164	1178	1190	
+
+ID: 1168 cluster ID: 15 Type: core [0.560449,-0.444355,]
+neighbors: 1158	1169	1190	
+
+ID: 1169 cluster ID: 15 Type: core [0.568144,-0.461292,]
+neighbors: 1168	1183	
+
+ID: 1170 cluster ID: 15 Type: core [0.493539,-0.477247,]
+neighbors: 1158	1159	
+
+ID: 1171 cluster ID: 15 Type: core [0.475876,-0.33653,]
+neighbors: 1145	1148	1150	1154	1162	1173	1180	
+
+ID: 1172 cluster ID: 15 Type: core [0.564736,-0.329885,]
+neighbors: 1175	1182	1187	1189	
+
+ID: 1173 cluster ID: 15 Type: core [0.489792,-0.338357,]
+neighbors: 1145	1148	1150	1154	1162	1171	1180	
+
+ID: 1174 cluster ID: 15 Type: core [0.633658,-0.434707,]
+neighbors: 1186	1192	1193	1195	1201	1203	
+
+ID: 1175 cluster ID: 15 Type: core [0.582158,-0.297822,]
+neighbors: 1163	1172	
+
+ID: 1176 cluster ID: 15 Type: core [0.664973,-0.489982,]
+neighbors: 1192	1193	1197	1202	
+
+ID: 1177 cluster ID: 15 Type: core [0.625085,-0.324416,]
+neighbors: 1163	1188	
+
+ID: 1178 cluster ID: 15 Type: core [0.551047,-0.380394,]
+neighbors: 1148	1157	1167	1181	1182	1187	1189	1190	
+
+ID: 1179 cluster ID: 15 Type: core [0.592024,-0.533503,]
+neighbors: 1183	1210	1212	
+
+ID: 1180 cluster ID: 15 Type: core [0.481601,-0.360516,]
+neighbors: 1148	1151	1154	1157	1160	1171	1173	
+
+ID: 1181 cluster ID: 15 Type: core [0.594073,-0.372149,]
+neighbors: 1178	1182	1187	1189	1196	
+
+ID: 1182 cluster ID: 15 Type: core [0.559315,-0.346811,]
+neighbors: 1172	1178	1181	1187	1189	
+
+ID: 1183 cluster ID: 15 Type: core [0.56476,-0.507093,]
+neighbors: 1169	1179	1210	
+
+ID: 1184 cluster ID: 15 Type: core [0.683982,-0.418311,]
+neighbors: 1193	1194	1198	1201	1203	1204	1208	
+
+ID: 1185 cluster ID: 15 Type: core [0.394037,-0.36806,]
+neighbors: 1137	1141	1166	
+
+ID: 1186 cluster ID: 15 Type: core [0.620553,-0.440898,]
+neighbors: 1174	1192	1195	1201	
+
+ID: 1187 cluster ID: 15 Type: core [0.579561,-0.363935,]
+neighbors: 1172	1178	1181	1182	1189	
+
+ID: 1188 cluster ID: 15 Type: core [0.639936,-0.318777,]
+neighbors: 1177	
+
+ID: 1189 cluster ID: 15 Type: core [0.575186,-0.376176,]
+neighbors: 1172	1178	1181	1182	1187	
+
+ID: 1190 cluster ID: 15 Type: core [0.534171,-0.416912,]
+neighbors: 1157	1158	1164	1167	1168	1178	
+
+ID: 1191 cluster ID: 15 Type: core [0.721786,-0.46169,]
+neighbors: 1198	1200	1202	1204	1215	
+
+ID: 1192 cluster ID: 15 Type: core [0.629079,-0.478024,]
+neighbors: 1174	1176	1186	1195	1197	1212	
+
+ID: 1193 cluster ID: 15 Type: core [0.67449,-0.442247,]
+neighbors: 1174	1176	1184	1194	1195	1198	1201	1204	
+
+ID: 1194 cluster ID: 15 Type: core [0.697762,-0.40288,]
+neighbors: 1184	1193	1198	1201	1203	1204	1208	
+
+ID: 1195 cluster ID: 15 Type: core [0.628554,-0.445437,]
+neighbors: 1174	1186	1192	1193	1201	
+
+ID: 1196 cluster ID: 15 Type: core [0.636868,-0.384006,]
+neighbors: 1181	1201	1203	1208	
+
+ID: 1197 cluster ID: 15 Type: core [0.657888,-0.489671,]
+neighbors: 1176	1192	
+
+ID: 1198 cluster ID: 15 Type: core [0.684382,-0.430877,]
+neighbors: 1184	1191	1193	1194	1201	1203	1204	1208	1215	
+
+ID: 1199 cluster ID: 19 Type: core [0.689407,-0.549361,]
+neighbors: 1205	1211	
+
+ID: 1200 cluster ID: 15 Type: core [0.734277,-0.461526,]
+neighbors: 1191	1202	1204	1215	1216	1222	
+
+ID: 1201 cluster ID: 15 Type: core [0.660831,-0.415757,]
+neighbors: 1174	1184	1186	1193	1194	1195	1196	1198	1203	1208	
+
+ID: 1202 cluster ID: 15 Type: core [0.707923,-0.483785,]
+neighbors: 1176	1191	1200	1204	1215	
+
+ID: 1203 cluster ID: 15 Type: core [0.650664,-0.398006,]
+neighbors: 1174	1184	1194	1196	1198	1201	1208	
+
+ID: 1204 cluster ID: 15 Type: core [0.703542,-0.442155,]
+neighbors: 1184	1191	1193	1194	1198	1200	1202	1215	
+
+ID: 1205 cluster ID: 19 Type: core [0.654565,-0.576382,]
+neighbors: 1199	1211	
+
+ID: 1206 cluster ID: -1 Type: noise [0.807625,-0.627006,]
+neighbors: 
+
+ID: 1207 cluster ID: 15 Type: core [0.782425,-0.499169,]
+neighbors: 1214	1216	
+
+ID: 1208 cluster ID: 15 Type: core [0.673747,-0.384992,]
+neighbors: 1184	1194	1196	1198	1201	1203	
+
+ID: 1209 cluster ID: 15 Type: core [0.789207,-0.424133,]
+neighbors: 1222	1226	1234	
+
+ID: 1210 cluster ID: 15 Type: core [0.570603,-0.547291,]
+neighbors: 1179	1183	
+
+ID: 1211 cluster ID: 19 Type: core [0.691465,-0.556095,]
+neighbors: 1199	1205	
+
+ID: 1212 cluster ID: 15 Type: core [0.615152,-0.515872,]
+neighbors: 1179	1192	
+
+ID: 1213 cluster ID: -1 Type: noise [0.793569,-0.568267,]
+neighbors: 
+
+ID: 1214 cluster ID: 15 Type: core [0.81835,-0.490739,]
+neighbors: 1207	
+
+ID: 1215 cluster ID: 15 Type: core [0.728857,-0.448727,]
+neighbors: 1191	1198	1200	1202	1204	1222	
+
+ID: 1216 cluster ID: 15 Type: core [0.760444,-0.496933,]
+neighbors: 1200	1207	
+
+ID: 1217 cluster ID: 15 Type: core [0.753885,-0.346127,]
+neighbors: 1220	
+
+ID: 1218 cluster ID: 20 Type: core [0.854365,-0.443524,]
+neighbors: 1224	1240	1253	1257	
+
+ID: 1219 cluster ID: 20 Type: core [0.907287,-0.559355,]
+neighbors: 1241	1246	1251	1252	
+
+ID: 1220 cluster ID: 15 Type: core [0.786959,-0.370645,]
+neighbors: 1217	1226	
+
+ID: 1221 cluster ID: -1 Type: noise [0.773401,-0.673163,]
+neighbors: 
+
+ID: 1222 cluster ID: 15 Type: core [0.776255,-0.438327,]
+neighbors: 1200	1209	1215	1234	
+
+ID: 1223 cluster ID: 20 Type: core [0.87397,-0.517196,]
+neighbors: 1227	1233	1239	1243	1251	1252	1253	
+
+ID: 1224 cluster ID: 20 Type: core [0.896593,-0.44835,]
+neighbors: 1218	1228	1229	1232	1240	1243	1253	1257	
+
+ID: 1225 cluster ID: 20 Type: core [0.856331,-0.606057,]
+neighbors: 1246	
+
+ID: 1226 cluster ID: 15 Type: core [0.826034,-0.400575,]
+neighbors: 1209	1220	1234	
+
+ID: 1227 cluster ID: 20 Type: core [0.921184,-0.501414,]
+neighbors: 1223	1228	1230	1236	1238	1239	1240	1243	1251	1252	1257	
+
+ID: 1228 cluster ID: 20 Type: core [0.944405,-0.457846,]
+neighbors: 1224	1227	1229	1232	1235	1236	1238	1243	1249	1257	
+
+ID: 1229 cluster ID: 20 Type: core [0.908196,-0.450634,]
+neighbors: 1224	1228	1232	1235	1240	1243	1248	1253	1257	
+
+ID: 1230 cluster ID: 20 Type: core [0.92462,-0.510913,]
+neighbors: 1227	1236	1238	1239	1243	1251	1252	
+
+ID: 1231 cluster ID: 20 Type: core [1.03415,-0.470106,]
+neighbors: 1247	1250	1255	1267	1275	
+
+ID: 1232 cluster ID: 20 Type: core [0.918989,-0.425334,]
+neighbors: 1224	1228	1229	1235	1240	1248	1257	
+
+ID: 1233 cluster ID: 20 Type: core [0.856119,-0.527917,]
+neighbors: 1223	1239	
+
+ID: 1234 cluster ID: 15 Type: core [0.781382,-0.42059,]
+neighbors: 1209	1222	1226	
+
+ID: 1235 cluster ID: 20 Type: core [0.947554,-0.436479,]
+neighbors: 1228	1229	1232	1236	1238	1248	1249	
+
+ID: 1236 cluster ID: 20 Type: core [0.96518,-0.482523,]
+neighbors: 1227	1228	1230	1235	1238	1275	
+
+ID: 1237 cluster ID: -1 Type: noise [0.885407,-0.345658,]
+neighbors: 
+
+ID: 1238 cluster ID: 20 Type: core [0.958836,-0.477253,]
+neighbors: 1227	1228	1230	1235	1236	1243	1275	
+
+ID: 1239 cluster ID: 20 Type: core [0.892242,-0.510107,]
+neighbors: 1223	1227	1230	1233	1240	1243	1251	1252	1253	
+
+ID: 1240 cluster ID: 20 Type: core [0.892025,-0.46462,]
+neighbors: 1218	1224	1227	1229	1232	1239	1243	1253	1257	
+
+ID: 1241 cluster ID: 20 Type: core [0.937031,-0.589773,]
+neighbors: 1219	1245	
+
+ID: 1242 cluster ID: -1 Type: noise [0.971889,-0.331781,]
+neighbors: 
+
+ID: 1243 cluster ID: 20 Type: core [0.913065,-0.494121,]
+neighbors: 1223	1224	1227	1228	1229	1230	1238	1239	1240	1251	1253	1257	
+
+ID: 1244 cluster ID: 20 Type: core [1.05656,-0.541796,]
+neighbors: 1256	1260	1273	
+
+ID: 1245 cluster ID: 20 Type: core [0.972993,-0.57437,]
+neighbors: 1241	
+
+ID: 1246 cluster ID: 20 Type: core [0.886219,-0.570044,]
+neighbors: 1219	1225	1252	
+
+ID: 1247 cluster ID: 20 Type: core [1.01989,-0.486161,]
+neighbors: 1231	1250	1255	1256	1267	1275	1281	
+
+ID: 1248 cluster ID: 20 Type: core [0.929481,-0.40929,]
+neighbors: 1229	1232	1235	1249	
+
+ID: 1249 cluster ID: 20 Type: core [0.97382,-0.42186,]
+neighbors: 1228	1235	1248	1262	
+
+ID: 1250 cluster ID: 20 Type: core [1.03783,-0.473567,]
+neighbors: 1231	1247	1255	1261	1267	1275	
+
+ID: 1251 cluster ID: 20 Type: core [0.917763,-0.513704,]
+neighbors: 1219	1223	1227	1230	1239	1243	1252	
+
+ID: 1252 cluster ID: 20 Type: core [0.908,-0.548392,]
+neighbors: 1219	1223	1227	1230	1239	1246	1251	
+
+ID: 1253 cluster ID: 20 Type: core [0.876515,-0.476695,]
+neighbors: 1218	1223	1224	1229	1239	1240	1243	1257	
+
+ID: 1254 cluster ID: 20 Type: core [1.03221,-0.361661,]
+neighbors: 1262	
+
+ID: 1255 cluster ID: 20 Type: core [1.02102,-0.469862,]
+neighbors: 1231	1247	1250	1267	1275	
+
+ID: 1256 cluster ID: 20 Type: core [1.0198,-0.525355,]
+neighbors: 1244	1247	1260	1275	1281	
+
+ID: 1257 cluster ID: 20 Type: core [0.897176,-0.457601,]
+neighbors: 1218	1224	1227	1228	1229	1232	1240	1243	1253	
+
+ID: 1258 cluster ID: 20 Type: core [1.03281,-0.586272,]
+neighbors: 1260	1264	
+
+ID: 1259 cluster ID: -1 Type: noise [1.11576,-0.606608,]
+neighbors: 
+
+ID: 1260 cluster ID: 20 Type: core [1.04761,-0.55281,]
+neighbors: 1244	1256	1258	1273	
+
+ID: 1261 cluster ID: 20 Type: core [1.08422,-0.467577,]
+neighbors: 1250	1267	1271	1282	
+
+ID: 1262 cluster ID: 20 Type: core [1.00011,-0.399836,]
+neighbors: 1249	1254	
+
+ID: 1263 cluster ID: 20 Type: core [1.1925,-0.410807,]
+neighbors: 1272	1277	
+
+ID: 1264 cluster ID: 20 Type: core [1.03686,-0.60474,]
+neighbors: 1258	
+
+ID: 1265 cluster ID: 20 Type: core [1.15049,-0.443543,]
+neighbors: 1268	1270	1277	1295	
+
+ID: 1266 cluster ID: 20 Type: core [1.11531,-0.508487,]
+neighbors: 1269	1271	1279	1282	1292	
+
+ID: 1267 cluster ID: 20 Type: core [1.0483,-0.446891,]
+neighbors: 1231	1247	1250	1255	1261	
+
+ID: 1268 cluster ID: 20 Type: core [1.12014,-0.408674,]
+neighbors: 1265	1270	1278	1287	
+
+ID: 1269 cluster ID: 20 Type: core [1.13314,-0.527198,]
+neighbors: 1266	1279	1282	1292	
+
+ID: 1270 cluster ID: 20 Type: core [1.1247,-0.436256,]
+neighbors: 1265	1268	1295	
+
+ID: 1271 cluster ID: 20 Type: core [1.09359,-0.492368,]
+neighbors: 1261	1266	1273	1282	
+
+ID: 1272 cluster ID: 20 Type: core [1.2059,-0.428457,]
+neighbors: 1263	1277	1283	
+
+ID: 1273 cluster ID: 20 Type: core [1.07081,-0.532578,]
+neighbors: 1244	1260	1271	1282	
+
+ID: 1274 cluster ID: 21 Type: core [1.2163,-0.537359,]
+neighbors: 1285	1291	
+
+ID: 1275 cluster ID: 20 Type: core [1.00172,-0.486294,]
+neighbors: 1231	1236	1238	1247	1250	1255	1256	1281	
+
+ID: 1276 cluster ID: 20 Type: core [1.24088,-0.485474,]
+neighbors: 1284	1290	
+
+ID: 1277 cluster ID: 20 Type: core [1.191,-0.455715,]
+neighbors: 1263	1265	1272	1295	
+
+ID: 1278 cluster ID: 20 Type: core [1.08247,-0.386161,]
+neighbors: 1268	
+
+ID: 1279 cluster ID: 20 Type: core [1.15262,-0.495517,]
+neighbors: 1266	1269	1292	1295	
+
+ID: 1280 cluster ID: 20 Type: core [1.30036,-0.439936,]
+neighbors: 1297	1298	1301	1309	1315	
+
+ID: 1281 cluster ID: 20 Type: core [0.997275,-0.521231,]
+neighbors: 1247	1256	1275	
+
+ID: 1282 cluster ID: 20 Type: core [1.09328,-0.500125,]
+neighbors: 1261	1266	1269	1271	1273	
+
+ID: 1283 cluster ID: 20 Type: core [1.24085,-0.42916,]
+neighbors: 1272	1294	1297	
+
+ID: 1284 cluster ID: 20 Type: core [1.25328,-0.485726,]
+neighbors: 1276	1290	1297	
+
+ID: 1285 cluster ID: 21 Type: core [1.19433,-0.538525,]
+neighbors: 1274	1296	
+
+ID: 1286 cluster ID: 20 Type: core [1.14817,-0.333576,]
+neighbors: 1287	
+
+ID: 1287 cluster ID: 20 Type: core [1.13254,-0.368458,]
+neighbors: 1268	1286	
+
+ID: 1288 cluster ID: 20 Type: core [1.38457,-0.458598,]
+neighbors: 1306	1317	
+
+ID: 1289 cluster ID: 21 Type: core [1.31157,-0.622064,]
+neighbors: 1300	
+
+ID: 1290 cluster ID: 20 Type: core [1.27486,-0.486336,]
+neighbors: 1276	1284	1297	1299	1301	1309	
+
+ID: 1291 cluster ID: 21 Type: core [1.24402,-0.568504,]
+neighbors: 1274	1320	
+
+ID: 1292 cluster ID: 20 Type: core [1.15703,-0.494415,]
+neighbors: 1266	1269	1279	1295	
+
+ID: 1293 cluster ID: 20 Type: core [1.33814,-0.499264,]
+neighbors: 1299	1304	1305	1309	1317	
+
+ID: 1294 cluster ID: 20 Type: core [1.26982,-0.398647,]
+neighbors: 1283	1303	1308	1315	
+
+ID: 1295 cluster ID: 20 Type: core [1.15781,-0.468801,]
+neighbors: 1265	1270	1277	1279	1292	
+
+ID: 1296 cluster ID: 21 Type: core [1.19553,-0.58331,]
+neighbors: 1285	
+
+ID: 1297 cluster ID: 20 Type: core [1.27569,-0.449394,]
+neighbors: 1280	1283	1284	1290	1301	1315	
+
+ID: 1298 cluster ID: 20 Type: core [1.32982,-0.418863,]
+neighbors: 1280	1301	1308	1315	1317	1318	
+
+ID: 1299 cluster ID: 20 Type: core [1.31801,-0.502914,]
+neighbors: 1290	1293	1304	1305	1309	
+
+ID: 1300 cluster ID: 21 Type: core [1.32149,-0.57417,]
+neighbors: 1289	1320	
+
+ID: 1301 cluster ID: 20 Type: core [1.29788,-0.450651,]
+neighbors: 1280	1290	1297	1298	1309	1315	
+
+ID: 1302 cluster ID: 20 Type: core [1.37902,-0.349078,]
+neighbors: 1311	1325	1333	
+
+ID: 1303 cluster ID: 20 Type: core [1.2833,-0.364505,]
+neighbors: 1294	1308	
+
+ID: 1304 cluster ID: 20 Type: core [1.32714,-0.509083,]
+neighbors: 1293	1299	1305	1309	
+
+ID: 1305 cluster ID: 20 Type: core [1.34627,-0.524113,]
+neighbors: 1293	1299	1304	
+
+ID: 1306 cluster ID: 20 Type: core [1.42509,-0.486347,]
+neighbors: 1288	1307	1319	
+
+ID: 1307 cluster ID: 20 Type: core [1.46546,-0.494858,]
+neighbors: 1306	1319	1353	
+
+ID: 1308 cluster ID: 20 Type: core [1.31516,-0.379965,]
+neighbors: 1294	1298	1303	1315	
+
+ID: 1309 cluster ID: 20 Type: core [1.3171,-0.479701,]
+neighbors: 1280	1290	1293	1299	1301	1304	1317	
+
+ID: 1310 cluster ID: 20 Type: core [1.49712,-0.284084,]
+neighbors: 1324	1331	1338	
+
+ID: 1311 cluster ID: 20 Type: core [1.34445,-0.336413,]
+neighbors: 1302	1325	
+
+ID: 1312 cluster ID: 20 Type: core [1.45872,-0.399459,]
+neighbors: 1314	1316	1321	1323	1330	1334	1336	1348	
+
+ID: 1313 cluster ID: -1 Type: noise [1.425,-0.57234,]
+neighbors: 
+
+ID: 1314 cluster ID: 20 Type: core [1.50176,-0.389698,]
+neighbors: 1312	1321	1323	1330	1332	1334	1335	1336	1340	1348	
+
+ID: 1315 cluster ID: 20 Type: core [1.30891,-0.413506,]
+neighbors: 1280	1294	1297	1298	1301	1308	1318	
+
+ID: 1316 cluster ID: 20 Type: core [1.41887,-0.41936,]
+neighbors: 1312	1321	1326	
+
+ID: 1317 cluster ID: 20 Type: core [1.35802,-0.456773,]
+neighbors: 1288	1293	1298	1309	1318	
+
+ID: 1318 cluster ID: 20 Type: core [1.35267,-0.413834,]
+neighbors: 1298	1315	1317	1326	
+
+ID: 1319 cluster ID: 20 Type: core [1.43046,-0.489499,]
+neighbors: 1306	1307	
+
+ID: 1320 cluster ID: 21 Type: core [1.2853,-0.55792,]
+neighbors: 1291	1300	
+
+ID: 1321 cluster ID: 20 Type: core [1.45645,-0.398254,]
+neighbors: 1312	1314	1316	1323	1330	1334	1336	1348	
+
+ID: 1322 cluster ID: 20 Type: core [1.59162,-0.343244,]
+neighbors: 1328	1343	1351	1357	
+
+ID: 1323 cluster ID: 20 Type: core [1.47328,-0.404487,]
+neighbors: 1312	1314	1321	1330	1332	1334	1335	1336	1348	1353	
+
+ID: 1324 cluster ID: 20 Type: core [1.52741,-0.29519,]
+neighbors: 1310	1329	1331	1350	
+
+ID: 1325 cluster ID: 20 Type: core [1.38178,-0.363043,]
+neighbors: 1302	1311	1326	
+
+ID: 1326 cluster ID: 20 Type: core [1.38781,-0.402526,]
+neighbors: 1316	1318	1325	
+
+ID: 1327 cluster ID: 20 Type: core [1.58,-0.443914,]
+neighbors: 1337	1339	
+
+ID: 1328 cluster ID: 20 Type: core [1.56657,-0.353207,]
+neighbors: 1322	1340	1343	1351	
+
+ID: 1329 cluster ID: 20 Type: core [1.56143,-0.292161,]
+neighbors: 1324	1346	1350	1363	
+
+ID: 1330 cluster ID: 20 Type: core [1.47073,-0.390446,]
+neighbors: 1312	1314	1321	1323	1332	1334	1335	1336	1348	
+
+ID: 1331 cluster ID: 20 Type: core [1.51101,-0.326672,]
+neighbors: 1310	1324	1335	1340	
+
+ID: 1332 cluster ID: 20 Type: core [1.50267,-0.425194,]
+neighbors: 1314	1323	1330	1334	1339	1353	
+
+ID: 1333 cluster ID: 20 Type: core [1.40561,-0.310755,]
+neighbors: 1302	1344	
+
+ID: 1334 cluster ID: 20 Type: core [1.4769,-0.423017,]
+neighbors: 1312	1314	1321	1323	1330	1332	1336	1353	
+
+ID: 1335 cluster ID: 20 Type: core [1.50315,-0.369633,]
+neighbors: 1314	1323	1330	1331	1336	1340	1348	
+
+ID: 1336 cluster ID: 20 Type: core [1.4707,-0.382931,]
+neighbors: 1312	1314	1321	1323	1330	1334	1335	1348	
+
+ID: 1337 cluster ID: 20 Type: core [1.58435,-0.41982,]
+neighbors: 1327	1339	1351	
+
+ID: 1338 cluster ID: 20 Type: core [1.45751,-0.281064,]
+neighbors: 1310	1344	
+
+ID: 1339 cluster ID: 20 Type: core [1.54528,-0.423296,]
+neighbors: 1327	1332	1337	
+
+ID: 1340 cluster ID: 20 Type: core [1.52477,-0.360895,]
+neighbors: 1314	1328	1331	1335	
+
+ID: 1341 cluster ID: 20 Type: core [1.60179,-0.221415,]
+neighbors: 1346	1349	1355	1356	1376	
+
+ID: 1342 cluster ID: -1 Type: noise [1.62782,-0.487889,]
+neighbors: 
+
+ID: 1343 cluster ID: 20 Type: core [1.59375,-0.337675,]
+neighbors: 1322	1328	1351	1357	
+
+ID: 1344 cluster ID: 20 Type: core [1.43107,-0.32073,]
+neighbors: 1333	1338	
+
+ID: 1345 cluster ID: 20 Type: core [1.63608,-0.376828,]
+neighbors: 1351	1354	
+
+ID: 1346 cluster ID: 20 Type: core [1.59892,-0.265333,]
+neighbors: 1329	1341	1350	1356	1363	1372	1376	1380	
+
+ID: 1347 cluster ID: 20 Type: core [1.65709,-0.321215,]
+neighbors: 1354	1357	1362	1371	1391	
+
+ID: 1348 cluster ID: 20 Type: core [1.46564,-0.361688,]
+neighbors: 1312	1314	1321	1323	1330	1335	1336	
+
+ID: 1349 cluster ID: 20 Type: core [1.58272,-0.196913,]
+neighbors: 1341	1359	1360	
+
+ID: 1350 cluster ID: 20 Type: core [1.55562,-0.273403,]
+neighbors: 1324	1329	1346	1363	
+
+ID: 1351 cluster ID: 20 Type: core [1.59188,-0.372301,]
+neighbors: 1322	1328	1337	1343	1345	
+
+ID: 1352 cluster ID: 22 Type: core [1.72973,-0.350857,]
+neighbors: 1365	1374	
+
+ID: 1353 cluster ID: 20 Type: core [1.4678,-0.451042,]
+neighbors: 1307	1323	1332	1334	
+
+ID: 1354 cluster ID: 20 Type: core [1.6618,-0.33837,]
+neighbors: 1345	1347	1357	1362	
+
+ID: 1355 cluster ID: 20 Type: core [1.64702,-0.227732,]
+neighbors: 1341	1356	1358	1361	1366	1372	1373	1376	1380	1391	
+
+ID: 1356 cluster ID: 20 Type: core [1.60883,-0.252337,]
+neighbors: 1341	1346	1355	1363	1372	1376	1380	
+
+ID: 1357 cluster ID: 20 Type: core [1.62799,-0.309196,]
+neighbors: 1322	1343	1347	1354	1362	1363	1372	1376	1380	1391	
+
+ID: 1358 cluster ID: 20 Type: core [1.677,-0.230418,]
+neighbors: 1355	1361	1366	1372	1373	1380	1391	
+
+ID: 1359 cluster ID: 20 Type: core [1.60468,-0.162242,]
+neighbors: 1349	1360	
+
+ID: 1360 cluster ID: 20 Type: core [1.57322,-0.14901,]
+neighbors: 1349	1359	
+
+ID: 1361 cluster ID: 20 Type: core [1.66818,-0.195708,]
+neighbors: 1355	1358	1366	1373	
+
+ID: 1362 cluster ID: 20 Type: core [1.6742,-0.307781,]
+neighbors: 1347	1354	1357	1371	1391	
+
+ID: 1363 cluster ID: 20 Type: core [1.59457,-0.284721,]
+neighbors: 1329	1346	1350	1356	1357	1376	
+
+ID: 1364 cluster ID: -1 Type: noise [1.52627,-0.0886804,]
+neighbors: 
+
+ID: 1365 cluster ID: 22 Type: core [1.75772,-0.317619,]
+neighbors: 1352	1377	
+
+ID: 1366 cluster ID: 20 Type: core [1.66203,-0.219748,]
+neighbors: 1355	1358	1361	1372	1373	1380	
+
+ID: 1367 cluster ID: 22 Type: core [1.73048,-0.266033,]
+neighbors: 1370	1375	1377	
+
+ID: 1368 cluster ID: 23 Type: core [1.66133,-0.14018,]
+neighbors: 1393	1424	
+
+ID: 1369 cluster ID: 20 Type: core [1.72117,-0.180486,]
+neighbors: 1382	1386	
+
+ID: 1370 cluster ID: 22 Type: core [1.75087,-0.24046,]
+neighbors: 1367	1375	1377	1390	
+
+ID: 1371 cluster ID: 20 Type: core [1.67551,-0.287591,]
+neighbors: 1347	1362	1372	1380	1391	
+
+ID: 1372 cluster ID: 20 Type: core [1.64081,-0.264245,]
+neighbors: 1346	1355	1356	1357	1358	1366	1371	1376	1380	1391	
+
+ID: 1373 cluster ID: 20 Type: core [1.68519,-0.21608,]
+neighbors: 1355	1358	1361	1366	1382	
+
+ID: 1374 cluster ID: 22 Type: core [1.71916,-0.360107,]
+neighbors: 1352	
+
+ID: 1375 cluster ID: 22 Type: core [1.72964,-0.249951,]
+neighbors: 1367	1370	1377	1390	
+
+ID: 1376 cluster ID: 20 Type: core [1.62132,-0.260765,]
+neighbors: 1341	1346	1355	1356	1357	1363	1372	1380	1391	
+
+ID: 1377 cluster ID: 22 Type: core [1.75887,-0.268889,]
+neighbors: 1365	1367	1370	1375	1390	
+
+ID: 1378 cluster ID: -1 Type: noise [1.66046,-0.0601607,]
+neighbors: 
+
+ID: 1379 cluster ID: 20 Type: core [1.78326,-0.0545822,]
+neighbors: 1383	1385	1388	1404	1406	1408	1409	1417	
+
+ID: 1380 cluster ID: 20 Type: core [1.64568,-0.266085,]
+neighbors: 1346	1355	1356	1357	1358	1366	1371	1372	1376	1391	
+
+ID: 1381 cluster ID: 20 Type: core [1.8449,-0.155465,]
+neighbors: 1395	1400	1402	1414	
+
+ID: 1382 cluster ID: 20 Type: core [1.72892,-0.19379,]
+neighbors: 1369	1373	1386	
+
+ID: 1383 cluster ID: 20 Type: core [1.74922,-0.082448,]
+neighbors: 1379	1384	1385	1387	1388	1392	1396	1401	1406	
+
+ID: 1384 cluster ID: 20 Type: core [1.77988,-0.111538,]
+neighbors: 1383	1387	1388	1396	1400	1401	1403	1406	1409	1414	
+
+ID: 1385 cluster ID: 20 Type: core [1.7856,-0.0588201,]
+neighbors: 1379	1383	1388	1404	1406	1408	1409	1410	1417	
+
+ID: 1386 cluster ID: 20 Type: core [1.74368,-0.147531,]
+neighbors: 1369	1382	1387	1396	1401	1403	
+
+ID: 1387 cluster ID: 20 Type: core [1.75193,-0.104621,]
+neighbors: 1383	1384	1386	1388	1396	1401	1403	1406	1409	
+
+ID: 1388 cluster ID: 20 Type: core [1.79036,-0.0853723,]
+neighbors: 1379	1383	1384	1385	1387	1396	1400	1401	1403	1406	1408	1409	1410	1417	
+
+ID: 1389 cluster ID: 20 Type: core [1.80389,-0.18825,]
+neighbors: 1395	1399	1414	
+
+ID: 1390 cluster ID: 22 Type: core [1.77234,-0.230017,]
+neighbors: 1370	1375	1377	
+
+ID: 1391 cluster ID: 20 Type: core [1.66135,-0.273294,]
+neighbors: 1347	1355	1357	1358	1362	1371	1372	1376	1380	
+
+ID: 1392 cluster ID: 20 Type: core [1.73363,-0.0360485,]
+neighbors: 1383	
+
+ID: 1393 cluster ID: 23 Type: core [1.67673,-0.143378,]
+neighbors: 1368	1424	
+
+ID: 1394 cluster ID: -1 Type: noise [1.72277,0.0258014,]
+neighbors: 
+
+ID: 1395 cluster ID: 20 Type: core [1.84003,-0.191547,]
+neighbors: 1381	1389	1399	
+
+ID: 1396 cluster ID: 20 Type: core [1.76828,-0.117808,]
+neighbors: 1383	1384	1386	1387	1388	1400	1401	1403	1406	1409	
+
+ID: 1397 cluster ID: 20 Type: core [1.88426,-0.0215107,]
+neighbors: 1407	1411	1413	1415	1426	1429	
+
+ID: 1398 cluster ID: 20 Type: core [1.93168,-0.0837311,]
+neighbors: 1411	1412	1431	
+
+ID: 1399 cluster ID: 20 Type: core [1.80581,-0.19259,]
+neighbors: 1389	1395	
+
+ID: 1400 cluster ID: 20 Type: core [1.81359,-0.128431,]
+neighbors: 1381	1384	1388	1396	1403	1408	1409	1414	
+
+ID: 1401 cluster ID: 20 Type: core [1.76394,-0.115315,]
+neighbors: 1383	1384	1386	1387	1388	1396	1403	1406	1409	
+
+ID: 1402 cluster ID: 20 Type: core [1.86651,-0.132066,]
+neighbors: 1381	1414	
+
+ID: 1403 cluster ID: 20 Type: core [1.77278,-0.127665,]
+neighbors: 1384	1386	1387	1388	1396	1400	1401	1409	1414	
+
+ID: 1404 cluster ID: 20 Type: core [1.81869,-0.0297757,]
+neighbors: 1379	1385	1410	1413	1415	1417	1419	1433	
+
+ID: 1405 cluster ID: 24 Type: core [1.83262,0.0591553,]
+neighbors: 1421	1422	1427	1440	1444	1446	1452	
+
+ID: 1406 cluster ID: 20 Type: core [1.78765,-0.0746742,]
+neighbors: 1379	1383	1384	1385	1387	1388	1396	1401	1408	1409	1410	1417	
+
+ID: 1407 cluster ID: 20 Type: core [1.87621,-0.0688737,]
+neighbors: 1397	1410	1411	1413	1415	
+
+ID: 1408 cluster ID: 20 Type: core [1.81994,-0.0815663,]
+neighbors: 1379	1385	1388	1400	1406	1409	1410	1415	1417	
+
+ID: 1409 cluster ID: 20 Type: core [1.79806,-0.100752,]
+neighbors: 1379	1384	1385	1387	1388	1396	1400	1401	1403	1406	1408	1410	1414	1417	
+
+ID: 1410 cluster ID: 20 Type: core [1.83251,-0.0687295,]
+neighbors: 1385	1388	1404	1406	1407	1408	1409	1413	1415	1417	
+
+ID: 1411 cluster ID: 20 Type: core [1.90888,-0.0485622,]
+neighbors: 1397	1398	1407	1412	1426	1429	1431	
+
+ID: 1412 cluster ID: 20 Type: core [1.9506,-0.0439358,]
+neighbors: 1398	1411	1426	1429	1431	
+
+ID: 1413 cluster ID: 20 Type: core [1.85668,-0.039044,]
+neighbors: 1397	1404	1407	1410	1415	
+
+ID: 1414 cluster ID: 20 Type: core [1.81818,-0.143546,]
+neighbors: 1381	1384	1389	1400	1402	1403	1409	
+
+ID: 1415 cluster ID: 20 Type: core [1.84863,-0.0530211,]
+neighbors: 1397	1404	1407	1408	1410	1413	1417	
+
+ID: 1416 cluster ID: 24 Type: core [1.90074,0.044238,]
+neighbors: 1421	1423	1427	1432	1434	1457	
+
+ID: 1417 cluster ID: 20 Type: core [1.82115,-0.0787364,]
+neighbors: 1379	1385	1388	1404	1406	1408	1409	1410	1415	
+
+ID: 1418 cluster ID: 24 Type: core [1.97777,0.0773017,]
+neighbors: 1430	1432	1438	1441	1450	1455	
+
+ID: 1419 cluster ID: 20 Type: core [1.7947,-0.00163918,]
+neighbors: 1404	1433	
+
+ID: 1420 cluster ID: 25 Type: core [1.7282,0.127801,]
+neighbors: 1428	
+
+ID: 1421 cluster ID: 24 Type: core [1.86648,0.0684968,]
+neighbors: 1405	1416	1422	1423	1425	1427	1434	1439	1446	1452	1457	
+
+ID: 1422 cluster ID: 24 Type: core [1.83064,0.0937402,]
+neighbors: 1405	1421	1425	1427	1440	1444	1446	1452	
+
+ID: 1423 cluster ID: 24 Type: core [1.89163,0.0781768,]
+neighbors: 1416	1421	1427	1434	1439	1446	1452	1457	
+
+ID: 1424 cluster ID: 23 Type: core [1.69872,-0.12215,]
+neighbors: 1368	1393	
+
+ID: 1425 cluster ID: 24 Type: core [1.85061,0.114164,]
+neighbors: 1421	1422	1439	1444	1446	1452	
+
+ID: 1426 cluster ID: 20 Type: core [1.92865,-0.00962436,]
+neighbors: 1397	1411	1412	1429	
+
+ID: 1427 cluster ID: 24 Type: core [1.85591,0.0622728,]
+neighbors: 1405	1416	1421	1422	1423	1434	1440	1446	1452	
+
+ID: 1428 cluster ID: 25 Type: core [1.75195,0.0981635,]
+neighbors: 1420	
+
+ID: 1429 cluster ID: 20 Type: core [1.92946,-0.0155206,]
+neighbors: 1397	1411	1412	1426	
+
+ID: 1430 cluster ID: 24 Type: core [1.95837,0.0721895,]
+neighbors: 1418	1432	1457	
+
+ID: 1431 cluster ID: 20 Type: core [1.94369,-0.0769352,]
+neighbors: 1398	1411	1412	
+
+ID: 1432 cluster ID: 24 Type: core [1.94038,0.0535758,]
+neighbors: 1416	1418	1430	1434	1457	
+
+ID: 1433 cluster ID: 20 Type: core [1.77598,-0.00398772,]
+neighbors: 1404	1419	
+
+ID: 1434 cluster ID: 24 Type: core [1.8946,0.0678864,]
+neighbors: 1416	1421	1423	1427	1432	1439	1446	1452	1457	
+
+ID: 1435 cluster ID: 26 Type: core [1.94154,0.158602,]
+neighbors: 1436	1471	1475	
+
+ID: 1436 cluster ID: 26 Type: core [1.89521,0.157388,]
+neighbors: 1435	1449	
+
+ID: 1437 cluster ID: 24 Type: core [1.99528,0.125711,]
+neighbors: 1441	1450	1455	
+
+ID: 1438 cluster ID: 24 Type: core [2.01961,0.0585597,]
+neighbors: 1418	1441	1450	
+
+ID: 1439 cluster ID: 24 Type: core [1.89041,0.103321,]
+neighbors: 1421	1423	1425	1434	1446	1452	1457	
+
+ID: 1440 cluster ID: 24 Type: core [1.81291,0.0596262,]
+neighbors: 1405	1422	1427	1444	
+
+ID: 1441 cluster ID: 24 Type: core [2.00846,0.0852299,]
+neighbors: 1418	1437	1438	1450	1455	
+
+ID: 1442 cluster ID: 26 Type: core [1.86992,0.20373,]
+neighbors: 1448	1449	1456	
+
+ID: 1443 cluster ID: 27 Type: core [1.81095,0.152826,]
+neighbors: 1459	
+
+ID: 1444 cluster ID: 24 Type: core [1.81721,0.101865,]
+neighbors: 1405	1422	1425	1440	1452	
+
+ID: 1445 cluster ID: -1 Type: noise [2.08576,0.136134,]
+neighbors: 
+
+ID: 1446 cluster ID: 24 Type: core [1.86851,0.091835,]
+neighbors: 1405	1421	1422	1423	1425	1427	1434	1439	1452	1457	
+
+ID: 1447 cluster ID: 26 Type: core [1.89468,0.249071,]
+neighbors: 1448	1456	
+
+ID: 1448 cluster ID: 26 Type: core [1.85317,0.246807,]
+neighbors: 1442	1447	
+
+ID: 1449 cluster ID: 26 Type: core [1.91044,0.200378,]
+neighbors: 1436	1442	1456	1471	
+
+ID: 1450 cluster ID: 24 Type: core [2.00934,0.0953907,]
+neighbors: 1418	1437	1438	1441	1455	
+
+ID: 1451 cluster ID: -1 Type: noise [1.98881,0.00606015,]
+neighbors: 
+
+ID: 1452 cluster ID: 24 Type: core [1.85479,0.0935067,]
+neighbors: 1405	1421	1422	1423	1425	1427	1434	1439	1444	1446	
+
+ID: 1453 cluster ID: -1 Type: noise [1.82145,0.301871,]
+neighbors: 
+
+ID: 1454 cluster ID: 28 Type: core [1.94734,0.250931,]
+neighbors: 1461	1464	1470	
+
+ID: 1455 cluster ID: 24 Type: core [1.98991,0.120685,]
+neighbors: 1418	1437	1441	1450	
+
+ID: 1456 cluster ID: 26 Type: core [1.9048,0.214086,]
+neighbors: 1442	1447	1449	1471	
+
+ID: 1457 cluster ID: 24 Type: core [1.90989,0.069339,]
+neighbors: 1416	1421	1423	1430	1432	1434	1439	1446	
+
+ID: 1458 cluster ID: 29 Type: core [2.0909,0.256452,]
+neighbors: 1462	1463	1466	1473	
+
+ID: 1459 cluster ID: 27 Type: core [1.81285,0.19297,]
+neighbors: 1443	
+
+ID: 1460 cluster ID: 29 Type: core [2.06079,0.18376,]
+neighbors: 1462	1466	
+
+ID: 1461 cluster ID: 28 Type: core [1.94253,0.295804,]
+neighbors: 1454	1464	1470	1485	
+
+ID: 1462 cluster ID: 29 Type: core [2.05439,0.224328,]
+neighbors: 1458	1460	1466	
+
+ID: 1463 cluster ID: 29 Type: core [2.1016,0.293381,]
+neighbors: 1458	1473	
+
+ID: 1464 cluster ID: 28 Type: core [1.94349,0.260252,]
+neighbors: 1454	1461	1470	
+
+ID: 1465 cluster ID: 28 Type: core [2.01749,0.279733,]
+neighbors: 1469	1470	
+
+ID: 1466 cluster ID: 29 Type: core [2.06706,0.228707,]
+neighbors: 1458	1460	1462	
+
+ID: 1467 cluster ID: 28 Type: core [1.94952,0.392331,]
+neighbors: 1474	1476	1477	1478	1483	1489	
+
+ID: 1468 cluster ID: -1 Type: noise [2.07366,0.375895,]
+neighbors: 
+
+ID: 1469 cluster ID: 28 Type: core [2.00627,0.326936,]
+neighbors: 1465	1474	1479	1481	1489	
+
+ID: 1470 cluster ID: 28 Type: core [1.98202,0.267758,]
+neighbors: 1454	1461	1464	1465	
+
+ID: 1471 cluster ID: 26 Type: core [1.92985,0.194275,]
+neighbors: 1435	1449	1456	1475	
+
+ID: 1472 cluster ID: 28 Type: core [2.05141,0.474906,]
+neighbors: 1482	1493	1495	1496	
+
+ID: 1473 cluster ID: 29 Type: core [2.10243,0.266943,]
+neighbors: 1458	1463	
+
+ID: 1474 cluster ID: 28 Type: core [1.9691,0.349177,]
+neighbors: 1467	1469	1477	1479	1483	1485	1489	
+
+ID: 1475 cluster ID: 26 Type: core [1.96172,0.200755,]
+neighbors: 1435	1471	
+
+ID: 1476 cluster ID: 28 Type: core [1.95676,0.436261,]
+neighbors: 1467	1491	
+
+ID: 1477 cluster ID: 28 Type: core [1.93727,0.351795,]
+neighbors: 1467	1474	1483	1485	1489	
+
+ID: 1478 cluster ID: 28 Type: core [1.90897,0.409848,]
+neighbors: 1467	
+
+ID: 1479 cluster ID: 28 Type: core [1.99388,0.366872,]
+neighbors: 1469	1474	1481	1489	1501	
+
+ID: 1480 cluster ID: 30 Type: core [1.82041,0.394482,]
+neighbors: 1500	
+
+ID: 1481 cluster ID: 28 Type: core [2.02175,0.362197,]
+neighbors: 1469	1479	1489	1501	
+
+ID: 1482 cluster ID: 28 Type: core [2.02117,0.436301,]
+neighbors: 1472	1493	1496	
+
+ID: 1483 cluster ID: 28 Type: core [1.94248,0.346658,]
+neighbors: 1467	1474	1477	1485	1489	
+
+ID: 1484 cluster ID: -1 Type: noise [2.17926,0.321654,]
+neighbors: 
+
+ID: 1485 cluster ID: 28 Type: core [1.93749,0.341138,]
+neighbors: 1461	1474	1477	1483	
+
+ID: 1486 cluster ID: 28 Type: core [2.00365,0.514903,]
+neighbors: 1492	1494	1496	1498	
+
+ID: 1487 cluster ID: -1 Type: noise [1.88029,0.551032,]
+neighbors: 
+
+ID: 1488 cluster ID: 30 Type: core [1.86283,0.359297,]
+neighbors: 1500	
+
+ID: 1489 cluster ID: 28 Type: core [1.98334,0.365439,]
+neighbors: 1467	1469	1474	1477	1479	1481	1483	1501	
+
+ID: 1490 cluster ID: -1 Type: noise [2.11326,0.569056,]
+neighbors: 
+
+ID: 1491 cluster ID: 28 Type: core [1.94906,0.482371,]
+neighbors: 1476	1494	1498	
+
+ID: 1492 cluster ID: 28 Type: core [1.96628,0.544918,]
+neighbors: 1486	1494	1498	
+
+ID: 1493 cluster ID: 28 Type: core [2.0433,0.464318,]
+neighbors: 1472	1482	1495	1496	
+
+ID: 1494 cluster ID: 28 Type: core [1.96376,0.498681,]
+neighbors: 1486	1491	1492	1498	
+
+ID: 1495 cluster ID: 28 Type: core [2.08311,0.449639,]
+neighbors: 1472	1493	1497	
+
+ID: 1496 cluster ID: 28 Type: core [2.01939,0.483526,]
+neighbors: 1472	1482	1486	1493	
+
+ID: 1497 cluster ID: 28 Type: core [2.09574,0.439864,]
+neighbors: 1495	
+
+ID: 1498 cluster ID: 28 Type: core [1.9664,0.502397,]
+neighbors: 1486	1491	1492	1494	
+
+ID: 1499 cluster ID: -1 Type: noise [1.928,0.684744,]
+neighbors: 
+
+ID: 1500 cluster ID: 30 Type: core [1.85087,0.363675,]
+neighbors: 1480	1488	
+
+ID: 1501 cluster ID: 28 Type: core [2.01276,0.385054,]
+neighbors: 1479	1481	1489	
+
