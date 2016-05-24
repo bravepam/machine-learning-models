@@ -41,7 +41,7 @@ int main()
 	}
 	printf(")\n");*/
 	//test knn
-	vector<vector<double>> knn;
+	/*vector<vector<double>> knn;
 	vector<double> dist;
 	kdt.kNN(s,3,knn,dist);
 	for (int i = 0; i != knn.size(); ++i)
@@ -54,6 +54,21 @@ int main()
 				printf(",");
 		}
 		printf(") %lf\n",dist[i]);
+	}*/
+	//test knn-in-radius
+	vector<vector<double>> knn_in_radius;
+	vector<double> dists;
+	kdt.kNNInRadius(s, 2.5, knn_in_radius, dists);
+	for (int i = 0; i != knn_in_radius.size(); ++i)
+	{
+		printf("(");
+		for (int j = 0; j != knn_in_radius[i].size(); ++j)
+		{
+			printf("%lf", knn_in_radius[i][j]);
+			if (j != knn_in_radius[i].size() - 1)
+				printf(",");
+		}
+		printf(") %lf\n", dists[i]);
 	}
 	getchar();
 	return 0;

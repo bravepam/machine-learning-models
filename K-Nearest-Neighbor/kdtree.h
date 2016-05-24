@@ -74,6 +74,8 @@ private:
 	void searchToLeaf(node*, const vector<double>&, stack<node*>&)const;
 	//递归查询knn
 	void kNN(node*, multimap<double, node*>&, double&, const vector<double>&, int)const;
+	//递归查询以查询点为圆心，一定半径内的所有点
+	void kNNInRadius(node*, vector<vector<double>>&, vector<double>&, const vector<double>&, double)const;
 public:
 	KDTree(int _d) :D(_d), root(nullptr){}
 	void create(vector<vector<double>> &dots, vector<int> &category)
@@ -102,6 +104,10 @@ public:
 			knns.emplace_back(it->second->pf->x);
 			dists.emplace_back(it->first);
 		}
+	}
+	void kNNInRadius(const vector<double>& dot, double radius, vector<vector<double>>& knns, vector<double>& dists)const
+	{
+		kNNInRadius(root, knns, dists, dot, radius);
 	}
 	void clear(){ clear(root); }
 	~KDTree()
@@ -249,6 +255,31 @@ void KDTree::kNN(node* r, multimap<double, node*>& mknn, double& maxdist, const 
 				kNN(curr->right, mknn, maxdist, dot, k);
 			if (dot[curr->split_dim] >= curr->pf->x[curr->split_dim] && curr->left)
 				kNN(curr->left, mknn, maxdist, dot, k);
+		}
+	}
+}
+
+void KDTree::kNNInRadius(node* r, vector<vector<double>>& knns, vector<double>& dists, const vector<double>& dot, double radius)const
+{
+	stack<node*> path;
+	searchToLeaf(r, dot, path);
+	node* curr = nullptr;
+	while (!path.empty())
+	{
+		curr = path.top();
+		path.pop();
+		const double dist = curr->pf->distance(dot);
+		if (dist < radius)
+		{
+			knns.emplace_back(curr->pf->x);
+			dists.emplace_back(dist);
+		}
+		if (abs(curr->pf->x[curr->split_dim] - dot[curr->split_dim]) < radius)
+		{
+			if (dot[curr->split_dim] < curr->pf->x[curr->split_dim] && curr->right)
+				kNNInRadius(curr->right, knns, dists, dot, radius);
+			if (dot[curr->split_dim] >= curr->pf->x[curr->split_dim] && curr->left)
+				kNNInRadius(curr->left, knns, dists, dot, radius);
 		}
 	}
 }
