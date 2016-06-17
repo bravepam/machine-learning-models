@@ -13,7 +13,8 @@
   * [Gaussian Mixture Model] (/GMM_ExpectationMaximization)
   * [Hidden Markov Model] (/HiddenMarkovModel)
   * [FP-Growth] (/FPGrowth)
-  * [DBSCAN聚类] (/DBSCAN)
+  * [DBSCAN] (/DBSCAN)
+  * [RandomForest] (/RandomForest)
   
 2.Python
   * [Logistic] (/Logistic)
