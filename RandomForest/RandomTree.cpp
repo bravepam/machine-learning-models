@@ -18,7 +18,7 @@ struct RandomTree::node
 std::vector<size_t> RandomTree::randomSelectFeatures(size_t slt_num, size_t feat_num)
 {
 	std::vector<size_t> features;
-	randomVectorEngine(slt_num, feat_num, features);
+	samplingNoReplacement(slt_num, feat_num, features);
 	return std::move(features);
 }
 
@@ -34,10 +34,11 @@ void RandomTree::create(std::vector<size_t>& data_id, node*& r)
 
 	++height;
 	//四个条件终止继续生成子树：1、数据集为同一类别；2、数据集太小；3、熵值太小，即
-	//基本上位同一类别；4、树已经足够深
-	if (ret.first || data_id.size() <= prf->tc.num || 
-		ig.entropyAux(cls_count, data_id.size()) <= prf->tc.eps ||
-		height >= prf->depth)
+	//基本上位同一类别；4、树已经足够深，即够茂盛
+	if (ret.first || 
+		(prf->tc.num > 0 && data_id.size() <= prf->tc.num) ||
+		(prf->tc.eps > 0.0 && ig.entropyAux(cls_count, data_id.size()) <= prf->tc.eps) ||
+		(prf->tc.depth > 0 && height >= prf->tc.depth))
 	{
 		r = new node(ret.second, 0.0, true); //以占比最大的类别作为该叶子的类别值
 		return;
@@ -46,6 +47,7 @@ void RandomTree::create(std::vector<size_t>& data_id, node*& r)
 	std::vector<std::vector<size_t>> splited_data_id(2);
 	//否则，按照信息增益准则选取最佳分割。返回值{{最佳分割特征，最佳分割点值}，分割后的两个数据集}
 	std::pair<size_t, double> slt = ig.select(splited_data_id);
+	used_features[slt.first] = true;
 	r = new node(slt.first, slt.second);
 	//继续构建树
 	create(splited_data_id[0], r->less);
@@ -75,8 +77,10 @@ int RandomTree::predict(const sample& s)const
 	return cur->fte_id_or_cls;
 }
 
-void RandomTree::computeOobErr()
+double RandomTree::oobError()
 {
+	if (oob_err > 0.0)
+		return oob_err;
 	const auto& raw_data = prf->train_set;
 	size_t err = 0;
 	for (size_t i = 0; i != tree_data.oob.size(); ++i)
@@ -85,9 +89,10 @@ void RandomTree::computeOobErr()
 		err += static_cast<size_t>(pred != raw_data[tree_data.oob[i]].y);
 	}
 	oob_err = err * 1.0 / tree_data.oob.size();
+	return oob_err;
 }
 
-void RandomTree::permuteFeature(size_t which)
+double RandomTree::permutedOobError(size_t which)
 {
 	const auto& raw_data = prf->train_set;
 	const size_t size = tree_data.oob.size();
@@ -121,5 +126,6 @@ void RandomTree::permuteFeature(size_t which)
 		}
 		err += static_cast<size_t>(raw_data[tree_data.oob[i]].y != cur->fte_id_or_cls);
 	}
-	oob_permuted_err = err * 1.0 / size;
+	const double oob_permuted_err = err * 1.0 / size;
+	return oob_permuted_err;
 }

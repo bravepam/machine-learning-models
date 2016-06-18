@@ -2,17 +2,21 @@
 #include<ctime>
 #include<algorithm>
 
-void randomVectorEngine(size_t num, size_t max, std::vector<size_t>& vec)
+lce getLce()
 {
-	//采用线性同余获得随机数，X(i+1) = {X(i) * A + C} mod B,此处A = 16807,C = 0,B = 2147483647(2^31 - 1)
-	using lce = std::linear_congruential_engine < unsigned long, 16807, 0, 2147483647 >;
 	time_t t;
 	time(&t);
 	srand(static_cast<unsigned int>(t));
 	unsigned int seed = 0;
 	while (seed == 0)
-		seed = rand();
+		seed = rand(); //获得一个随机非0种子
 	lce rnd(seed);
+	return rnd;
+}
+
+void samplingWithReplacement(size_t num, size_t max, std::vector<size_t>& vec)
+{
+	lce rnd = getLce();
 	vec.reserve(num);
 	for (size_t i = 0; i != max; ++i)
 	{
@@ -20,12 +24,44 @@ void randomVectorEngine(size_t num, size_t max, std::vector<size_t>& vec)
 	}
 }
 
-void TreeDataSet::bagging(size_t data_size)
+void samplingNoReplacement(size_t num, size_t max, std::vector<size_t>& vec)
 {
-	randomVectorEngine(data_size, data_size, train_data);
+	lce rnd = getLce();
+	vec.reserve(num);
+	std::vector<bool> selected(max, false);
+	size_t count = 0;
+	while (count < num)
+	{
+		size_t temp = rnd() % max;
+		if (!selected[temp]) //如果未选取了该数据
+		{
+			vec.push_back(temp);
+			selected[temp] = true;
+			++count;
+		}
+	}
 }
 
-const std::vector<size_t>& TreeDataSet::getOobData()
+RFParams* newRFParams(const std::vector<sample>& train,
+	const std::vector<sample>& test,
+	size_t cn, size_t d, size_t f, size_t n,
+	const Termcriteria& tc,
+	bool cvi)
+{
+	return new RFParams(
+		std::move(train),
+		std::move(test),
+		d, cn, f, n, cvi,
+		tc
+		);
+}
+
+void TreeDataSet::bagging(size_t data_size)
+{
+	samplingWithReplacement(data_size, data_size, train_data);
+}
+
+const std::vector<size_t>& TreeDataSet::oobData()
 {
 	const size_t data_size = train_data.size();
 	sort(train_data.begin(), train_data.end());
@@ -48,4 +84,10 @@ const std::vector<size_t>& TreeDataSet::getOobData()
 		oob.push_back(i);
 	oob.resize(oob.size());
 	return oob;
+}
+
+bool TreeDataSet::contains(size_t sample_id)const
+{
+	auto iter = std::find(train_data.begin(), train_data.end(), sample_id);
+	return (iter != train_data.end());
 }
