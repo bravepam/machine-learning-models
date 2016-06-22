@@ -11,6 +11,7 @@ void InfoGain::setFeaturesAndData(std::vector<size_t>& fs, std::vector<size_t>& 
 	data.resize(features.size());
 	getSplits(); 
 }
+
 void InfoGain::clear()
 {
 	features.clear();
@@ -21,7 +22,7 @@ void InfoGain::clear()
 
 std::pair<bool, size_t> InfoGain::checkData(std::hash_map<int, size_t>& cls_count)const
 {
-	cls_count = countingClass(-1, 0, data.size()); //统计该树节点所用数据集的类别数
+	cls_count = countingClass(-1, 0, data_id.size()); //统计该树节点所用数据集的类别数
 	size_t cls_value = UINT_MAX, count = 0;
 	for (auto iter = cls_count.begin(); iter != cls_count.end(); ++iter)
 	{//找出哪个类别占数最大
@@ -31,7 +32,7 @@ std::pair<bool, size_t> InfoGain::checkData(std::hash_map<int, size_t>& cls_coun
 			cls_value = iter->first;
 		}
 	}
-	return{ count == data.size(), cls_value }; //返回值为是否为同一类别，占数最大的类别
+	return{ count == data_id.size(), cls_value }; //返回值为是否为同一类别，占数最大的类别
 }
 
 std::hash_map<int, size_t> InfoGain::countingClass(int which, size_t first, size_t last)const
@@ -99,6 +100,7 @@ void InfoGain::getSplits()
 				//获得分割点值
 				const double temp = (data[i][j - 1].feat_value + data[i][j].feat_value) / 2.0;
 				splits[i].emplace_back(j, temp); //{分割点索引，分割点值}
+				cls = data[i][j].cls;
 			}
 		}
 	}
@@ -108,7 +110,7 @@ std::pair<size_t, double> InfoGain::select(std::vector<std::vector<size_t>>& spl
 {
 	assert(!features.empty() && !splits.empty() && !data_id.empty());
 	size_t split_feat_id_id = UINT_MAX;
-	const double cur_epy = entropy(-1, 0, data_id.size()); //当前数据集的熵
+	//const double cur_epy = entropy(-1, 0, data_id.size()); //当前数据集的熵
 	double min_cdl_epy = INT_MAX;
 	split best_split(0, 0.0);
 	for (size_t i = 0; i != features.size(); ++i)
@@ -133,7 +135,7 @@ std::pair<size_t, double> InfoGain::select(std::vector<std::vector<size_t>>& spl
 	for (size_t i = 0; i != best_split.index; ++i)
 		splited_data_id[0].push_back(data[split_feat_id_id][i].sample_id);
 	//比分割点值大的数据集id集合
-	for (size_t i = best_split.index; i != data.size(); ++i)
+	for (size_t i = best_split.index; i != data[split_feat_id_id].size(); ++i)
 		splited_data_id[1].push_back(data[split_feat_id_id][i].sample_id);
 
 	//返回值{最佳分割特征ID，最佳分割点值}

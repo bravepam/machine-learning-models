@@ -56,6 +56,10 @@ private:
 	void getSplits();
 public:
 	InfoGain(const TreeDataSet* const p) :pdata(p){}
+	size_t size()const
+	{
+		return data_id.size();
+	}
 
 	//设置每次树节点分割时所需要的随机选择的特征和数据集id集合
 	void setFeaturesAndData(std::vector<size_t>&, std::vector<size_t>&);

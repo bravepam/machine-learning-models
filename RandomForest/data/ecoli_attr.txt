@@ -1,0 +1,17 @@
+ mcg: McGeoch's method for signal sequence recognition.
+ gvh: von Heijne's method for signal sequence recognition.
+ lip: von Heijne's Signal Peptidase II consensus sequence score.Binary attribute.
+ chg: Presence of charge on N-terminus of predicted lipoproteins .Binary attribute.
+ aac: score of discriminant analysis of the amino acid content of outer membrane and periplasmic proteins.
+ alm1: score of the ALOM membrane spanning region prediction program.
+ alm2: score of ALOM program after excluding putative cleavable signal regions from the sequence.
+
+
+cp  (cytoplasm)                                    0
+im  (inner membrane without signal sequence)       1
+pp  (perisplasm)                                   2
+imU (inner membrane, uncleavable signal sequence)  3
+om  (outer membrane)                               4
+omL (outer membrane lipoprotein)                   5
+imL (inner membrane lipoprotein)                   6
+imS (inner membrane, cleavable signal sequence)    7

@@ -18,7 +18,7 @@ private:
 	double oob_err = 0.0; //Ëæ»úÊ÷µÄ·º»¯Îó²î
 public:
 	RandomForest() :rf(), datasets(){}
-	inline void setParams(const RFParams*);
+	void setParams(std::shared_ptr<RFParams>&);
 	void train();
 	int predict(const sample&)const;
 	double testError();

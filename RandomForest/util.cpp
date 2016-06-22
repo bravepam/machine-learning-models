@@ -26,13 +26,17 @@ void samplingWithReplacement(size_t num, size_t max, std::vector<size_t>& vec)
 
 void samplingNoReplacement(size_t num, size_t max, std::vector<size_t>& vec)
 {
-	lce rnd = getLce();
+	//lce rnd = getLce();
+	//如果去掉这一句，那么对于max为质数的情况下，第一个随机总是能够整除max
+	//当然还可以有其他避免方法
+	//rnd();
 	vec.reserve(num);
 	std::vector<bool> selected(max, false);
 	size_t count = 0;
 	while (count < num)
 	{
-		size_t temp = rnd() % max;
+		lce rnd = getLce();
+		size_t temp = (rnd() + rnd()) % max;
 		if (!selected[temp]) //如果未选取了该数据
 		{
 			vec.push_back(temp);
@@ -42,13 +46,13 @@ void samplingNoReplacement(size_t num, size_t max, std::vector<size_t>& vec)
 	}
 }
 
-RFParams* newRFParams(const std::vector<sample>& train,
+std::shared_ptr<RFParams> newRFParams(const std::vector<sample>& train,
 	const std::vector<sample>& test,
 	size_t cn, size_t d, size_t f, size_t n,
 	const Termcriteria& tc,
 	bool cvi)
 {
-	return new RFParams(
+	return std::make_shared<RFParams>(
 		std::move(train),
 		std::move(test),
 		d, cn, f, n, cvi,
@@ -88,6 +92,6 @@ const std::vector<size_t>& TreeDataSet::oobData()
 
 bool TreeDataSet::contains(size_t sample_id)const
 {
-	auto iter = std::find(train_data.begin(), train_data.end(), sample_id);
-	return (iter != train_data.end());
+	auto iter = std::find(oob.begin(), oob.end(), sample_id);
+	return (iter == oob.end());
 }

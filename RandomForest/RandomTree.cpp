@@ -4,6 +4,7 @@
 #include<utility>
 #include<cassert>
 #include<algorithm>
+#include<iostream>
 
 struct RandomTree::node
 {
@@ -22,7 +23,7 @@ std::vector<size_t> RandomTree::randomSelectFeatures(size_t slt_num, size_t feat
 	return std::move(features);
 }
 
-void RandomTree::create(std::vector<size_t>& data_id, node*& r)
+void RandomTree::create(std::vector<size_t>& data_id, node*& r, size_t height)
 {
 	ig.clear(); //清空前一次create残留的数据信息
 	//获得随机特征集合
@@ -32,13 +33,17 @@ void RandomTree::create(std::vector<size_t>& data_id, node*& r)
 	//检查当前所用数据集，返回值{{是否同一类别，占比最大的类别}，类别统计信息}
 	std::pair<bool, size_t> ret = ig.checkData(cls_count);
 
-	++height;
 	//四个条件终止继续生成子树：1、数据集为同一类别；2、数据集太小；3、熵值太小，即
 	//基本上位同一类别；4、树已经足够深，即够茂盛
-	if (ret.first || 
-		(prf->tc.num > 0 && data_id.size() <= prf->tc.num) ||
-		(prf->tc.eps > 0.0 && ig.entropyAux(cls_count, data_id.size()) <= prf->tc.eps) ||
-		(prf->tc.depth > 0 && height >= prf->tc.depth))
+	bool terminate = ret.first;
+	terminate |= prf->tc.num > 0 && ig.size() <= prf->tc.num;
+	terminate |= prf->tc.eps > 0.0 && ig.entropyAux(cls_count, ig.size()) <= prf->tc.eps;
+	terminate |= prf->tc.depth > 0 && height >= prf->tc.depth;
+	/*if (ret.first || 
+		(prf->tc.num > 0 && ig.size() <= prf->tc.num) ||
+		(prf->tc.eps > 0.0 && ig.entropyAux(cls_count, ig.size()) <= prf->tc.eps) ||
+		(prf->tc.depth > 0 && height >= prf->tc.depth))*/
+	if (terminate)
 	{
 		r = new node(ret.second, 0.0, true); //以占比最大的类别作为该叶子的类别值
 		return;
@@ -49,9 +54,11 @@ void RandomTree::create(std::vector<size_t>& data_id, node*& r)
 	std::pair<size_t, double> slt = ig.select(splited_data_id);
 	used_features[slt.first] = true;
 	r = new node(slt.first, slt.second);
+	printf("select %d, epy: %lf, less: %d\tgreater: %d, height: %d\n", slt.first, slt.second, 
+		splited_data_id[0].size(), splited_data_id[1].size(), height);
 	//继续构建树
-	create(splited_data_id[0], r->less);
-	create(splited_data_id[1], r->greater);
+	create(splited_data_id[0], r->less, height + 1);
+	create(splited_data_id[1], r->greater, height + 1);
 }
 
 void RandomTree::clear(node* r)

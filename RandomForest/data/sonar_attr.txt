@@ -1,0 +1,7 @@
+60 attributes
+
+classification:
+(M)Mines 0
+(R)Rocks 1
+
+208 instances

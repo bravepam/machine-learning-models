@@ -5,11 +5,12 @@
 #include<cassert>
 #include<string>
 #include<fstream>
+#include<iostream>
 
-void RandomForest::setParams(const RFParams* p)
+void RandomForest::setParams(std::shared_ptr<RFParams>& p)
 {
 	assert(p);
-	prf.reset(p);
+	prf = p;
 	rf.reserve(p->N);
 	datasets.reserve(p->N);
 	fis.reserve(p->D);
@@ -26,6 +27,8 @@ void RandomForest::train()
 		const TreeDataSet* ptds = prt->create();
 		rf.emplace_back(prt); //将树添加到集合
 		datasets.push_back(ptds); //数据集也是
+		printf("finish %d tree, oob error: %lf, height: %d"
+			"----------------------------------------\n",i, prt->oob_err);
 	}
 	if (prf->calc_fte_importance) //如果需要计算特征重要性
 		FeatureImportance();
@@ -52,7 +55,9 @@ int RandomForest::predict(const sample& s)const
 
 double RandomForest::testError()
 {
-	assert(!prf->test_set.empty());
+	//assert(!prf->test_set.empty());
+	if (prf->test_set.empty())
+		return -INT_MAX;
 	if (test_err > 0.0) //已计算，则直接返回，下同
 		return test_err;
 	size_t error = 0;
@@ -70,7 +75,7 @@ double RandomForest::generalizationError()
 {
 	if (gen_err > 0.0)
 		return gen_err;
-	std::vector<double> oob_errors; //记录每个样本的误差
+	std::vector<double> oob_errors; //记录每个样本的误差，可不必要
 	double sum_error = 0.0;
 	const std::vector<sample>& train = prf->train_set;
 	oob_errors.reserve(train.size());
@@ -86,7 +91,7 @@ double RandomForest::generalizationError()
 				++howmany_trees;
 			}
 		}
-		const double temp = error * 1.0 / howmany_trees; //该样本误差率
+		const double temp = (howmany_trees != 0 ? error * 1.0 / howmany_trees: 0.0); //该样本误差率
 		sum_error += temp; //总误差率
 		oob_errors.push_back(temp);
 	}

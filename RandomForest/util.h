@@ -36,9 +36,9 @@ struct TreeDataSet
 struct Termcriteria
 {
 	const double eps; //熵阈值
-	const size_t iter; //迭代次数阈值
 	const size_t num; //数据集大小阈值
 	const size_t depth; //树最大深度
+	const size_t iter; //迭代次数阈值
 	Termcriteria(double e, size_t n, size_t d, size_t i) :
 		eps(e), num(n), depth(d), iter(i){}
 };
@@ -73,7 +73,7 @@ extern void samplingNoReplacement(size_t, size_t, std::vector<size_t>&);
 
 //参数依次为训练集，测试集，类别数目，数据维度，构造树节点时可选取的特征数，树的总数，
 //训练终止条件，是否计算特征重要性
-extern RFParams* newRFParams
+extern std::shared_ptr<RFParams> newRFParams
 (	const std::vector<sample>&,
 	const std::vector<sample>&,
 	size_t, size_t, size_t, size_t,

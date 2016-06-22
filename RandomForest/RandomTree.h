@@ -11,19 +11,19 @@ class RandomTree
 {
 private:
 	struct node;
-private:
+//private:
+public:
 	node* root;
 	TreeDataSet tree_data; //所用数据集
 	double oob_err = 0.0; //袋外误差
 	//double oob_permuted_err = 0.0; //随机排列某一特征所有值后的袋外误差
-	size_t height = 0;
 	InfoGain ig;
 	const std::shared_ptr<const RFParams> prf;
 	std::vector<bool> used_features;
 private:
 	//随机选取特征
 	static std::vector<size_t> randomSelectFeatures(size_t, size_t);
-	void create(std::vector<size_t>&, node*&);
+	void create(std::vector<size_t>&, node*&, size_t);
 	void clear(node*);
 public:
 	RandomTree(const std::shared_ptr<const RFParams>& p) :root(nullptr), tree_data(p), ig(&tree_data),
@@ -32,7 +32,7 @@ public:
 	{
 		tree_data.bagging(prf->train_set.size());
 		tree_data.oobData();
-		create(tree_data.train_data, root);
+		create(tree_data.train_data, root, 0);
 		oobError();
 		return &tree_data;
 	}
