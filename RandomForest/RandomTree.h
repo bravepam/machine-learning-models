@@ -11,7 +11,7 @@ class RandomTree
 {
 private:
 	struct node;
-//private:
+	//private:
 public:
 	node* root;
 	TreeDataSet tree_data; //所用数据集
@@ -51,6 +51,10 @@ public:
 	bool usedFeature(size_t fte_id)const
 	{
 		return used_features[fte_id];
+	}
+	~RandomTree()
+	{
+		clear();
 	}
 	int predict(const sample&)const;
 	double oobError();

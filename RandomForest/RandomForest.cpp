@@ -5,7 +5,6 @@
 #include<cassert>
 #include<string>
 #include<fstream>
-#include<iostream>
 
 void RandomForest::setParams(std::shared_ptr<RFParams>& p)
 {
@@ -27,11 +26,11 @@ void RandomForest::train()
 		const TreeDataSet* ptds = prt->create();
 		rf.emplace_back(prt); //将树添加到集合
 		datasets.push_back(ptds); //数据集也是
-		printf("finish %d tree, oob error: %lf, height: %d"
-			"----------------------------------------\n",i, prt->oob_err);
+		printf("finish %d tree, oob error: %lf"
+			"----------------------------------------\n\n",i, prt->oob_err);
 	}
 	if (prf->calc_fte_importance) //如果需要计算特征重要性
-		FeatureImportance();
+		featureImportance();
 }
 
 int RandomForest::predict(const sample& s)const
@@ -85,7 +84,7 @@ double RandomForest::generalizationError()
 		for (size_t j = 0; j != rf.size(); ++j)
 		{//在所有的随机树中搜寻
 			if (!datasets[j]->contains(i))
-			{//如果该树所用的训练集中没有它，即该样本是该树的带外数据
+			{//如果该树所用的训练集中没有它，即该样本是该树的袋外数据
 				const int pred = rf[j]->predict(train[i]); //那么将进行预测
 				error += static_cast<size_t>(pred != train[i].y);
 				++howmany_trees;
@@ -115,7 +114,7 @@ double RandomForest::avgOobErrorOfTree()
 //特征f的重要性度量按照如下方式计算：对于每棵使用了特征f的随机树，随机排列（也可以加噪声）
 //扰乱该树所用训练数据集中特征f的值，然后再计算袋外误差，接着减去正常情况下的袋外误差，即
 //该树中特征f的重要性度量，求得所有这样的树中特征f重要性的均值即为其最终重要性
-const std::vector<std::pair<size_t, double>>& RandomForest::FeatureImportance()
+const std::vector<std::pair<size_t, double>>& RandomForest::featureImportance()
 {
 	assert(prf->calc_fte_importance);
 	if (!fis.empty())
@@ -124,21 +123,25 @@ const std::vector<std::pair<size_t, double>>& RandomForest::FeatureImportance()
 	{
 		double sum_ooberror_of_trees_used_fte_i = 0.0,
 			sum_pererror_of_trees_used_fte_i = 0.0;
+		size_t howmany_trees = 0;
 		for (size_t j = 0; j != rf.size(); ++j)
 		{
-			if (rf[i]->usedFeature(i)) //如果该随机树建树过程中使用了该特征
+			if (rf[j]->usedFeature(i)) //如果该随机树建树过程中使用了该特征
 			{
-				sum_ooberror_of_trees_used_fte_i += rf[i]->oobError();
-				sum_pererror_of_trees_used_fte_i += rf[i]->permutedOobError(i);
+				sum_ooberror_of_trees_used_fte_i += rf[j]->oobError();
+				sum_pererror_of_trees_used_fte_i += rf[j]->permutedOobError(i);
+				++howmany_trees;
 			}
 		}
-		fis.emplace_back(i, sum_pererror_of_trees_used_fte_i - sum_ooberror_of_trees_used_fte_i);
+		const double temp = (howmany_trees != 0 ? (sum_pererror_of_trees_used_fte_i - 
+			sum_ooberror_of_trees_used_fte_i) / howmany_trees : 0.0); //特征重要性
+		fis.emplace_back(i, temp);
 	}
 	//按照特征重要性非升序排列
 	std::sort(fis.begin(), fis.end(), [](const std::pair<size_t, double>& lhs,
 		const std::pair<size_t, double>& rhs)->bool
 	{
-		return lhs.second > rhs.second;
+		return abs(lhs.second) > abs(rhs.second); //不分正负
 	});
 	return fis;
 }

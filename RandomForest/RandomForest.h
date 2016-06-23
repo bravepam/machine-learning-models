@@ -25,7 +25,7 @@ public:
 	double generalizationError();
 	//随机树的带外误差均值
 	double avgOobErrorOfTree();
-	const std::vector<std::pair<size_t, double>>& FeatureImportance();
+	const std::vector<std::pair<size_t, double>>& featureImportance();
 	static std::vector<sample> loadData(const std::string&, size_t, size_t&);
 };
 

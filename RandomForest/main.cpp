@@ -1,6 +1,8 @@
 #include"RandomForest.h"
 #include<iostream>
 
+#define PREFIX R"(E:\Github\machine-learning-models\RandomForest\data\)"
+
 using namespace std;
 
 void testTreeDataSet()
@@ -19,10 +21,10 @@ void testTreeDataSet()
 void testRandomForestWithEcoli()
 {
 	RandomForest rf;
-	Termcriteria tc(0.1, 5, 0, 0);
+	Termcriteria tc(0.8, 5, 0, 0);
 	size_t train_size = 336;
 	std::shared_ptr<RFParams> rfp = newRFParams(
-		RandomForest::loadData("ecoli_train.txt", 7, train_size), //训练集
+		RandomForest::loadData(PREFIX"ecoli_train.txt", 7, train_size), //训练集
 		//RandomForest::loadData("test.txt", 8, test_size), //测试集
 		vector<sample>(), //空表示无测试集
 		8, //类别数
@@ -34,11 +36,12 @@ void testRandomForestWithEcoli()
 		);
 	rf.setParams(rfp);
 	rf.train();
+	cout << "size: " << train_size << endl;
 	const double avg_oob_error = rf.avgOobErrorOfTree();
 	cout << "average OOB error of all Random Trees: " << avg_oob_error << endl;
 	const double gen_error = rf.generalizationError();
 	cout << "generalization error: " << gen_error << endl;
-	auto fi = rf.FeatureImportance();
+	auto fi = rf.featureImportance();
 	for (size_t i = 0; i != fi.size(); ++i)
 	{
 		cout << "Feature ID: " << fi[i].first << " Importance: " << fi[i].second << endl;
@@ -48,15 +51,15 @@ void testRandomForestWithEcoli()
 void testRandomForestWithSonar()
 {
 	RandomForest rf;
-	Termcriteria tc(0.1, 5, 0, 0);
+	Termcriteria tc(0.1, 4, 0, 0);
 	size_t train_size = 208;
 	std::shared_ptr<RFParams> rfp = newRFParams(
-		RandomForest::loadData("sonar_train.txt", 60, train_size),
+		RandomForest::loadData(PREFIX"sonar_train.txt", 60, train_size),
 		//RandomForest::loadData("test.txt", 8, test_size),
 		vector<sample>(),
 		2,
 		60,
-		5,
+		8,
 		100,
 		tc,
 		true
@@ -68,10 +71,10 @@ void testRandomForestWithSonar()
 	cout << "average OOB error of all Random Trees: " << avg_oob_error << endl;
 	const double gen_error = rf.generalizationError();
 	cout << "generalization error: " << gen_error << endl;
-	auto fi = rf.FeatureImportance();
+	auto fi = rf.featureImportance();
 	for (size_t i = 0; i != fi.size(); ++i)
 	{
-		cout << "Importance: " << fi[i].first << "Feature ID: " << fi[i].second << endl;
+		cout << "Feature ID: " << fi[i].first << " Importance: " << fi[i].second << endl;
 	}
 }
 
@@ -79,6 +82,7 @@ int main()
 {
 	//testTreeDataSet();
 	testRandomForestWithEcoli();
+	//testRandomForestWithSonar();
 	getchar();
 	return 0;
 }

@@ -92,7 +92,7 @@ void InfoGain::getSplits()
 	{//对每个特征下的data数据集进行扫描
 		sort(data[i].begin(), data[i].end()); //先将FeatCls对象集合data[i]非降序排序
 		int cls = data[i][0].cls;
-		splits[i].reserve(10);
+		splits[i].reserve(100);
 		for (size_t j = 1; j != data[i].size(); ++j)
 		{//该集合中的扫描每一个对象
 			if (data[i][j].cls != cls)
@@ -127,6 +127,7 @@ std::pair<size_t, double> InfoGain::select(std::vector<std::vector<size_t>>& spl
 			}
 		}
 	}
+	printf("epy: %lf\t", min_cdl_epy);
 	//根据最大分割点分割数据集
 	assert(splited_data_id.size() >= 2);
 	splited_data_id[0].reserve(best_split.index);

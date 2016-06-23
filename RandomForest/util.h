@@ -60,10 +60,11 @@ struct RFParams
 		cls_num(cn), D(d), F(f), N(n), tc(t), calc_fte_importance(c){}
 };
 
+extern unsigned int prev_seed;
 //采用线性同余获得随机数，X(i+1) = {X(i) * A + C} mod B,此处A = 16807,C = 0,B = 2147483647(2^31 - 1)
 using lce = std::linear_congruential_engine < unsigned long, 16807, 0, 2147483647 >;
 
-extern lce getLce(); //获得线性同余随机数发生器，用随机种子初始化
+extern std::mt19937 getMt19937(); //获得线性同余随机数发生器，用随机种子初始化
 
 //有放回方式随机构造一个向量
 extern void samplingWithReplacement(size_t, size_t, std::vector<size_t>&);

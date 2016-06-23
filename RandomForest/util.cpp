@@ -1,42 +1,44 @@
 #include"util.h"
-#include<ctime>
+#include<Windows.h>
 #include<algorithm>
+#include<iostream>
 
-lce getLce()
+unsigned int prev_seed = 0;
+
+std::mt19937 getMt19937()
 {
-	time_t t;
-	time(&t);
-	srand(static_cast<unsigned int>(t));
+	srand(GetTickCount()); //用系统毫秒时间做种子
 	unsigned int seed = 0;
-	while (seed == 0)
+	while (seed == prev_seed || seed == 0)
+	{
 		seed = rand(); //获得一个随机非0种子
-	lce rnd(seed);
-	return rnd;
+		//printf("in loop, seed = %u\n", seed);
+	}
+	prev_seed = seed;
+	//printf("seed = %u---------------\n", seed);
+	std::mt19937 mt(seed);
+	return mt;
 }
 
 void samplingWithReplacement(size_t num, size_t max, std::vector<size_t>& vec)
 {
-	lce rnd = getLce();
+	std::mt19937 mt = getMt19937();
 	vec.reserve(num);
 	for (size_t i = 0; i != max; ++i)
 	{
-		vec.push_back(rnd() % max);
+		vec.push_back(mt() % max);
 	}
 }
 
 void samplingNoReplacement(size_t num, size_t max, std::vector<size_t>& vec)
 {
-	//lce rnd = getLce();
-	//如果去掉这一句，那么对于max为质数的情况下，第一个随机总是能够整除max
-	//当然还可以有其他避免方法
-	//rnd();
+	std::mt19937 mt = getMt19937();
 	vec.reserve(num);
 	std::vector<bool> selected(max, false);
 	size_t count = 0;
 	while (count < num)
 	{
-		lce rnd = getLce();
-		size_t temp = (rnd() + rnd()) % max;
+		size_t temp = mt() % max;
 		if (!selected[temp]) //如果未选取了该数据
 		{
 			vec.push_back(temp);

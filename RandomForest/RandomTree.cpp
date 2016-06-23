@@ -4,7 +4,6 @@
 #include<utility>
 #include<cassert>
 #include<algorithm>
-#include<iostream>
 
 struct RandomTree::node
 {
@@ -54,7 +53,7 @@ void RandomTree::create(std::vector<size_t>& data_id, node*& r, size_t height)
 	std::pair<size_t, double> slt = ig.select(splited_data_id);
 	used_features[slt.first] = true;
 	r = new node(slt.first, slt.second);
-	printf("select %d, epy: %lf, less: %d\tgreater: %d, height: %d\n", slt.first, slt.second, 
+	printf("select %d\tless: %-4d\tgreater: %-4d\theight: %d\n", slt.first,
 		splited_data_id[0].size(), splited_data_id[1].size(), height);
 	//¼ÌÐø¹¹½¨Ê÷
 	create(splited_data_id[0], r->less, height + 1);
